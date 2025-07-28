@@ -6,13 +6,15 @@ Masteries are special non-object player functions and are typically granted by v
 2. Cards interacting with certain masteries may have symbols and icons related to that mastery on the card.
 3. Cards that track and represent masteries cannot be placed or used in any decks (Main, Material) and only serve to visually reflect the active Mastery.
 
+
+
+
+
 List of Masteries:
-
-
 
 #### Servile Possessions
 
-1. Servile Possessions designates cards in the banishment with Omen counters on them as Omens. The mastery and any cards that refer to the number or Omens or characteristics among Omens will refer to those cards in banishment.
+1. Servile Possessions designates cards in the banishment with Omen counters on them as Omens. The mastery and any cards that refer to the number of Omens or characteristics among Omens will refer to those cards in banishment.
 2.  Servile Possessions has a modal modifier for champion attacks depending on the number of Omens in banishment:
 
     1. 1 or 2 Omens - Attacks get +1 power.

@@ -4,8 +4,6 @@ Some subtypes of cards are functional. That is, they might have specific rules t
 
 
 
-
-
 #### Functional Domains
 
 1. Siegeable
@@ -25,7 +23,12 @@ Some subtypes of cards are functional. That is, they might have specific rules t
 
 1. Bullet / Arrow
    1. Bullet and Arrow are functional item subtypes with a power stat.
-2. Aethercharge
+
+
+
+#### Functional Actions
+
+1. Aethercharge
    1. Aethercharge is a functional spell subtype with a power stat.
 
 
@@ -37,7 +40,7 @@ Some subtypes of cards are functional. That is, they might have specific rules t
    2. Attacks can’t be declared with weapons of these types in conjunction with attack cards.
 
 {% hint style="info" %}
-See [Loaded Cards](../../game-mechanics/game-mechanics-game-zones/game-zones-object-specific-zones.md#loaded-cards); an object that has been Loaded will put all of its Loaded Cards into the Intent when it is used during attack declarations.)
+See [Loaded Cards](../../game-mechanics/game-mechanics-game-zones/game-zones-object-specific-zones.md#loaded-cards); an object that has been Loaded will put all of its Loaded Cards into the Intent when it is used during attack declarations.
 {% endhint %}
 
 \

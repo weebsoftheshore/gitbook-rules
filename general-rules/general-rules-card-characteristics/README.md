@@ -1,6 +1,8 @@
 # General Rules - Card Characteristics
 
-A characteristic of a card or object is any part of the card that can be referenced by effect text or the game. Characteristics can include:
+General Rules:
+
+1. A characteristic of a card or object is any part of the card that can be referenced by effect text or the game. Characteristics can include:
 
 * Element
 * Cost
@@ -10,7 +12,7 @@ A characteristic of a card or object is any part of the card that can be referen
 * Speed (fast, slow)
 * Name
 
-Characteristics do not include [properties or states](../../game-mechanics/game-mechanics-miscellaneous-topics/properties-and-states.md).
+2. Characteristics do not include [properties or states](../../game-mechanics/game-mechanics-properties-and-states.md).
 
 #### Type-Overwriting and Type-setting
 
@@ -18,7 +20,7 @@ Characteristics do not include [properties or states](../../game-mechanics/game-
 2. If the specified overwriting sets the card type, it will also lose its supertypes. Supertypes must be redefined whenever a card’s type is set or overridden.
 
 {% hint style="info" %}
-E.g. Triskit, Angel of Guidance loses the original Unique Ally typing if a player accepts the On Enter ability and will instead become a Unique Champion. Subtyping is conserved and Triskit will still be a Warrior Angel.
+E.g., Triskit, Angel of Guidance, loses the original Unique Ally typing if a player accepts the On Enter ability and will instead become a Unique Champion. Subtyping is conserved, and Triskit will still be a Warrior Angel.
 
 ![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/triskit-guidance-angel-doa-alter.jpg)
 {% endhint %}

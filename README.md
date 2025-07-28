@@ -11,17 +11,32 @@ IMPORTANT LINKS:
 To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~gitbook/pdf?limit=150).\
 
 
+July 28th, 2025
+
+* Fixy things
+  * Further amendment to abilities operating from the intent; properly includes static abilities (was missing)
+  * Added missing TOC links and reorganized the hierarchy of sections within game mechanics
+  * Added Load as a gamer term. Split "Negated" from Negate as a game term; they are now listed as separate terms in the Glossary
+  * Added section on simultaneous selection rules
+* Will start to reorganize rules such that each entry, if it is not a general description within a section, will be itemized under subchapter headings to give better indexing of rules. E.g., A chapter flow should read starting with a broad description (if applicable), followed by General Rules, and then subsequent specific subchapters delineating specific areas of those rules. This reformatting will be trialed and prone to feedback. The first section to undergo this change is General Rulesm, which has also received reorganization and clarification changes in each section
+* Consolidated Durability, Life, Power, and Speed under [Stats](general-rules/general-rules-parts-of-a-card/parts-of-a-card-stats.md) section
+* Revamped [Object and Targeting](game-mechanics/game-mechanics-objects-and-targeting.md) section
+* Other various changes (have fun)
+* Integrated with GitHub via GitSync. Now any changes will be reflected on GitHub, along with diffs of the changes. This patch will troubleshoot this feature
+
+
+
 July 18th, 2025
 
 * Rulebook update in anticipation of DTR:
   * Aethercharge/Aetherwing is described under functional subtypes
     * Aetherwings are loaded with Aethercharge cards in the same way Guns are loaded with Bullets or Bows are loaded with Arrows. Aethercharge cards are Spells with power stats that allow the player to load them into an Aetherwing as they resolve
-    * [Aethercalling](glossary/keywords-and-abilitie.md#aethercalling) Added to keywords
+    * [Aethercalling](glossary/keywords-and-abilities.md#aethercalling) Added to keywords
   * [Cardistry](glossary/game-terms.md#label-keywords) added as a label keyword
   * Section on special continuous effects added, which includes [time distortion](game-mechanics/game-mechanics-types-of-effects/types-of-effects-continuous-effects/special-continuous-effects.md)
-  * [Ephemerate](glossary/keywords-and-abilitie.md#ephemerate) and [On Charge](glossary/keywords-and-abilitie.md#on-charge-n) added to keywords
+  * [Ephemerate](glossary/keywords-and-abilities.md#ephemerate) and [On Charge](glossary/keywords-and-abilities.md#on-charge-n) added to keywords
     * [Ephemeral](glossary/game-terms.md#ephemeral) added as a property
-  * [Exalted element](game-mechanics/game-mechanics-miscellaneous-topics/special-elements.md#exalted) added
+  * [Exalted element](game-mechanics/game-mechanics-special-elements.md#exalted) added
   * [Servile Possessions](game-mechanics/game-mechanics-mastery.md) mastery added
 * Amended conditions for attacker roles in combat. Previously, the attacker's role ended simultaneously with the loss of all defending units. The attacker role will be preserved until the end of combat, and its attack target can be redirected or reselected from a legal/null target/no target to a valid target
 * [Amended rules for ability activations from the intent](game-mechanics/game-mechanics-abilities/). Cards in the intent can activate abilities as if they were objects, with the exception of costs such as resting and sacrificing (since you can't rest or sacrifice an intent, you can only do these actions with objects)
@@ -42,7 +57,7 @@ June 25th, 2025
 May 29th, 2025&#x20;
 
 * Rulebook revisions for MRC Alter
-  * Added [Command](glossary/keywords-and-abilitie.md#command) as a keyword ability of attacks
+  * Added [Command](glossary/keywords-and-abilities.md#command) as a keyword ability of attacks
 * Continued to clarify language in public vs private section.
 * Wording fixed for On Kill
 * Searching and Finding section updated for clarity on instructions to Put or move cards across zones (e.g., Incarnate Majesty, Slime King)
@@ -113,11 +128,11 @@ October 17th, 2024
 October 8th, 2024
 
 * Updated rulebook for Mortal Ambition release
-  * Added keywords [Empower](glossary/keywords-and-abilitie.md#empower), and [Retort](glossary/keywords-and-abilitie.md#retort-n)
+  * Added keywords [Empower](glossary/keywords-and-abilities.md#empower), and [Retort](glossary/keywords-and-abilities.md#retort-n)
   * Equestrian is added as a [Label Keyword](glossary/game-terms.md#label-keywords)
   * Added [Mastery](game-mechanics/game-mechanics-mastery.md)
 * Clarified rules for information across zones and last-known information
-  * Expanded section and added in dedicated page to detailing tracking of card and object information across zones: [Card and Object Information](game-mechanics/game-mechanics-miscellaneous-topics/card-and-object-information.md)
+  * Expanded section and added in dedicated page to detailing tracking of card and object information across zones: [Card and Object Information](game-mechanics/game-mechanics-card-and-object-information.md)
   * Functional change to Dusklight Communion (now the effect will apply and persist even if Dusklight Communion leaves the field)
 
 
@@ -157,9 +172,9 @@ August 22nd, 2024
 * Modified [negation](glossary/game-terms.md#negate) rules (negating will send things to the graveyard by default, but if the resolution of a negated card were to change the zone it would be placed in, negating will send it to the same place it would have gone upon resolution)
 * Cleaned up section on [Searching and Finding](game-mechanics/game-mechanics-miscellaneous-topics/searching-and-finding.md) with respect to failure to find among public cards
 * Reconciled language on Enlighten counters across various sections on the rulebook
-* Fixed [On Hit ](glossary/keywords-and-abilitie.md#on-hit)being unclear with regards to combat damage sources (applies to retaliation as well)
+* Fixed [On Hit ](glossary/keywords-and-abilities.md#on-hit)being unclear with regards to combat damage sources (applies to retaliation as well)
 * Adjusted negative [LV](glossary/game-terms.md#lv) rules (split cases for when negative values don't apply.)
-* Clarified [Brew](glossary/keywords-and-abilitie.md#brew) ruling for additional activation costs
+* Clarified [Brew](glossary/keywords-and-abilities.md#brew) ruling for additional activation costs
 * Cleaned up [Ending the Game](general-rules/general-rules-ending-the-game.md) section
 
 \
@@ -197,7 +212,7 @@ May 31st, 2024
 
 May 17th, 2024 (MRC Launch)
 
-* Added entries for [Imbue](glossary/keywords-and-abilitie.md#imbue-n), [Ambush](glossary/keywords-and-abilitie.md#ambush), [Debuff Counters](game-mechanics/game-mechanics-counters.md#debuff-counter), [Agility](glossary/keywords-and-abilitie.md#agility-n), [Unblockable](glossary/keywords-and-abilitie.md#unblockable)
+* Added entries for [Imbue](glossary/keywords-and-abilities.md#imbue-n), [Ambush](glossary/keywords-and-abilities.md#ambush), [Debuff Counters](game-mechanics/game-mechanics-counters.md#debuff-counter), [Agility](glossary/keywords-and-abilities.md#agility-n), [Unblockable](glossary/keywords-and-abilities.md#unblockable)
 * Added entries for [Redirect](glossary/game-terms.md#redirect), [Have/Gain/Get/Are](glossary/game-terms.md#have-gain-get-become-are), [Reflexive Triggers](glossary/game-terms.md#reflexive-trigger)
 * Reorganized and realphabetized Glossary and Game Terms
 * Broadened language around discarding (any zone can be discarded from, the hand is default)
@@ -205,7 +220,7 @@ May 17th, 2024 (MRC Launch)
 * Reworked section on Properties and States to be more explicit/straightforward
 * Added note on copying object activations
 * Fixed card types only specifying activation at slow speed (playing at slow speed is default)
-* [Vigor](glossary/keywords-and-abilitie.md#vigor) is now a triggered ability instead of being part of the turn-based actions during End Step procedures, in line with the intended triggered effect of Agility. This also means that Vigor is no longer redundant. [End Phase](game-mechanics/game-mechanics-turn-order/turn-order-end-phase.md) steps have been adjusted accordingly
+* [Vigor](glossary/keywords-and-abilities.md#vigor) is now a triggered ability instead of being part of the turn-based actions during End Step procedures, in line with the intended triggered effect of Agility. This also means that Vigor is no longer redundant. [End Phase](game-mechanics/game-mechanics-turn-order/turn-order-end-phase.md) steps have been adjusted accordingly
 * Updated [Sideboard](general-rules/general-rules-format-conventions.md) rules.
 
 April 28th, 2024

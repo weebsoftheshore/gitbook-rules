@@ -79,15 +79,15 @@ Banishment as a result of a destruction effect does not allow effects dependent 
 
 #### Died/Dies and Kills/Killed <a href="#dies" id="dies"></a>
 
-1. Dies is a term used to denote when a unit on the field would enter the graveyard. Units on the field die when they are either destroyed directly by a sourced effect (e.g. tied to an object) or by state-based effects, such as having 0 or less life.
+1. Dies is a term used to denote when a unit on the field would enter the graveyard. Units on the field die when they are either destroyed directly by an effect or by state-based effects, such as having 0 or less life.
    1. A sacrificed unit is considered to have died and been destroyed.
-   2. Non-units do not die but they are still considered destroyed and can be killed.
+   2. Non-units do not die but they are still considered destroyed.
 
 {% hint style="warning" %}
 E.g., A destruction or destroy effect kills an ally and that ally is considered to have died. A siegeable domain being destroyed as a result of falling to 0 durability counters does not die. This means effects like On Kill will not trigger when it comes to non-units.
 {% endhint %}
 
-2. An unit is only considered to have died or to have been killed if and only if it enters the graveyard directly from play.
+2. A unit is only considered to have died or to have been killed if and only if it enters the graveyard directly from play.
 
 {% hint style="danger" %}
 If it would be banished instead of being sent to the graveyard, the card is, by definition, not considered to have died.
@@ -195,10 +195,10 @@ If it would be banished instead of being sent to the graveyard, the card is, by 
 
 #### Have, Gain, Get, Become/Are
 
-1. Have and Gain: Have/Has and Gain/Gains are used when an effect grants an ability or an effect to a set of described cards or objects) This effect is [static](../game-mechanics/game-mechanics-types-of-effects/types-of-effects-continuous-effects/#static-effects) for all cards or objects within the set that fit the described criteria. This will extend to any cards or objects that can be added to the described set of cards after the effect initially begins. If a card or object did not have the granted ability or effect before, it is considered to have gained it. Have does not specify a specific time when that characteristic was granted while gain confers an ability at a specific point in time.
-2. Get: Get and Gets is used when an effect grants a stat modification to a set of described cards or objects. This effect is applied statically to all cards or objects within the set that fit the described criteria under the effect and lasts as long as the continuous effect persists. For [one-shot  effects](../game-mechanics/game-mechanics-types-of-effects/types-of-effects-continuous-effects/), this effect only considered the set present when the effect was resolved. Otherwise, conditionally static effects that use words like "as long as \[condition]" apply the effect only if the condition is fulfilled.
-3. Become: Become and Are are used when an effect specifies a change of characteristics, such as typing, or properties to a set of cards or objects. All cards or objects within the described set become or are set to a property statically. Becomes is used for setting a property to a given state at a certain time while are sets the default property of the described cards/objects to that mode, but without a specific starting point.
-   1. A state of a property is only considered changed if the state before and after a property for a card or object are different. If a card or object in a given state becomes the same state or is/are the same state, it will not be considered as a change of state.
+1. "Have" and "Gain" : "Have"/"Has" and "Gain"/"Gains" are used when an effect grants an ability or an effect to a set of described cards or objects. This effect is [static](../game-mechanics/game-mechanics-types-of-effects/types-of-effects-continuous-effects/#static-effects) for all cards or objects within the set that fit the described criteria. This will extend to any cards or objects that can be added to the described set of cards after the effect initially begins. If a card or object did not "have" the granted ability or effect before, it is considered to have gained it. "Have" does not specify a specific time when that characteristic was granted,, while "gain" confers an ability at a specific point in time.
+2. "Get" : "Get" and "Gets" are used when an effect grants a stat modification to a set of described cards or objects. This effect is applied statically to all cards or objects within the set that fit the described criteria and lasts as long as the continuous effect persists. For [one-shot effects](../game-mechanics/game-mechanics-types-of-effects/types-of-effects-continuous-effects/), this effect only considered the set present when the effect would resolve. Otherwise, conditionally static effects that use words like "as long as \[condition]" apply the effect only if the condition is fulfilled.
+3. "Become" and "Are" : "Become" and "Are" are used when an effect specifies a change of characteristics (such as typing) or properties to a set of cards or objects. All cards or objects within the described set "become" or "are" set to a property statically. "Becomes" is used for setting a property to a given state at a certain time, while "are" sets the default property of the described cards/objects to that mode, but without a specific starting point.
+   1. A state of a property is only considered changed if the state before and after a property for a card or object are different. If a card or object in a given state becomes the same state or is/are the same state, it will not be considered a change of state.
 
 
 
@@ -221,6 +221,13 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 
 
+#### Inner Lineage
+
+1. The inner lineage of a champion is all cards in a champion's lineage other than the top-most card, i.e., the champion itself.
+2. The inner lineage can contain any cards and a card must be in the inner lineage to be able to use a Lineage Release ability.
+
+
+
 #### Label Keywords
 
 1. Label keywords exist as bolded and italicized text followed by a long hyphen on cards that does not function as a normal keyword. Rather, they will refer to a broad class of similar mechanics with individual cards differing in the wording or conditions of the keyword.
@@ -236,7 +243,7 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 
 
-#### [Last-known Information](../game-mechanics/game-mechanics-miscellaneous-topics/card-and-object-information.md)
+#### [Last-known Information](../game-mechanics/game-mechanics-card-and-object-information.md)
 
 1. Last–known information is information such as status, characteristics, or stats of an object or card that is tracked when that card changes zones.
 2. Some effects are reliant on information while a card or object was in a specific zone and will use the information as if that card was still in that zone for determination of effects.
@@ -278,6 +285,10 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 
 
+#### Load
+
+1. "Load" is a playerthaton that means to take a card from the zone it is currently in and move it underneath another card. The card on top is considered "loaded" with that card and the card that is being put underneath becomes part of the "loaded cards" underneath that card.&#x20;
+
 #### Loaded
 
 1. Loaded is a property of objects.
@@ -288,7 +299,7 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 #### LV
 
-1. LV refers to the level of your champion as a sum of the level denoted on your champion card in addition to level modifying effects in the game.
+1. "LV" refers to the level of your champion as a sum of the level denoted on your champion card in addition to level modifying effects in the game.
 2. LV is generally used for effects or rules text requiring a calculation or a referential variable.
 3. LV can take on negative values. If being used to calculate cost reductions (such as with Efficiency), a negative LV value will increase costs. When being used to count or select cards, counters, or objects, a negative LV is considered 0 (you can't select negative amounts of cards or objects).
 
@@ -302,11 +313,16 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 #### Negate
 
-1. Some effects may specify to negate a certain card, game action, or effect.
-2. If something is negated, it is immediately removed from the effects stack and does not resolve (it does not happen) and any effects that would otherwise have occurred as a result of the resolution of the negated card/action/effect do not occur.
-3. Any triggers dependent upon activation of the negated card still occur.
-4. Paid costs are not refunded when something is negated.
-5. If a card is negated, the default zone for negated cards to be sent is the graveyard. However, if the card had rules text to modify where that card would have gone during resolution, or the destination zone were changed due to a replacement effect or other ability, the destination zone is carried over during its negation and it will not go to the graveyard. This is also true for rules set by supertypes such as Regalia.
+1.  Some effects may specify to "negate" a certain card, game action, or effect. "Negate" is a player action which means to remove a card from the effects stack and put it in the graveyard. The removed card is considered "negated." It does not resolve; it does not happen. Any effects that would otherwise have occurred as a result of the resolution of the negated card/action/effect do not occur.
+
+    1. Paid costs are not refunded when something is negated.
+
+
+
+#### Negated&#x20;
+
+1. If a card is negated, the default zone for negated cards to be sent is the graveyard. However, if the card had rules text to modify where that card would have gone during resolution, or the destination zone were changed due to a replacement effect or other ability, the destination zone is carried over during its negation and it will not go to the graveyard. This is also true for rules set by supertypes such as Regalia.
+   1. Any triggers dependent upon activation of the negated card still occur.
 
 {% hint style="info" %}
 <img src="https://ga-index-public.s3.us-west-2.amazonaws.com/cards/crux-sight-doa-alter.jpg" alt="" data-size="original">
@@ -369,10 +385,8 @@ A negated Crux sight for which the additional 2 was paid will cause it to be ban
    2. A player can’t remove more than the number of damage counters present on a champion, e.g. if a champion has two damage counters and the player recovers 3, only 2 damage counters are removed.
 
 {% hint style="warning" %}
-E.g. For a card that says, "As an additional cost to activate this card, Recover 10," a player activating that card must have a champion with at least 10 damage counters that must be removed."
+E.g. For a card that says, "As an additional cost to activate this card, Recover 10," a player activating that card must have a champion with at least 10 damage counters that must be removed.
 {% endhint %}
-
-
 
 
 
@@ -391,7 +405,7 @@ E.g. For a card that says, "As an additional cost to activate this card, Recover
 {% hint style="info" %}
 ![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/umbra-sight-alc.jpg)\
 \
-E.g. Umbra Sight optionally allows a player to draw a card into their memory and put Umbra Sight on the bottom of their champion's lineage. The remainder of the text from "When you do,..." is a reflexive trigger; It is a triggered ability that is put onto the effects stack after Umbra Sight  resolves and the second card is optionally drawn with Umbra Sight put on the bottom of the champion's lineage.
+E.g., Umbra Sight optionally allows a player to draw a card into their memory and put Umbra Sight on the bottom of their champion's lineage. The remainder of the text from "When you do, ..." is a reflexive trigger; It is a triggered ability that is put onto the effects stack after Umbra Sight  resolves and the second card is optionally drawn with Umbra Sight put on the bottom of the champion's lineage.
 {% endhint %}
 
 
@@ -420,8 +434,8 @@ E.g. Umbra Sight optionally allows a player to draw a card into their memory and
 3. A retaliating unit will deal damage according to its power against the attacking unit during the damage step.
 4. When retaliation is declared, the retaliating unit causes the attacking unit to become the retaliation target, which is maintained even if the attacking unit stops attacking during the combat phase.
 5. Units without a power stat or have a power of 0 cannot retaliate.
-6. Retaliation is the act of a defending unit resting in order to deal damage according to its power against a unit attacking it.
-7. A unit can only retaliate if it was an object on the field “before retaliation.” (See Retaliation Step of combat.)
+6. Retaliation is the act of a defending unit resting to deal damage according to its power against a unit attacking it.
+7. A unit can only retaliate if it was an object on the field “before retaliation” (See Retaliation Step of combat).
 8. A unit that gains stealth after being declared as retaliating during the combat phase will still retaliate against its attacker during the damage step and deal damage accordingly.
 
 

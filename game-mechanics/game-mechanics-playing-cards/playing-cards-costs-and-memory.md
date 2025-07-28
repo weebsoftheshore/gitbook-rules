@@ -18,4 +18,4 @@ Cards without specified reserve costs can’t be paid for by reserving 0 cards; 
 
 
 
-See [floating memory](../../glossary/keywords-and-abilitie.md#floating-memory) for additional information on cost payment methods.
+See [floating memory](../../glossary/keywords-and-abilities.md#floating-memory) for additional information on cost payment methods.

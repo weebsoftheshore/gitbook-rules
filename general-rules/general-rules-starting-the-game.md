@@ -26,6 +26,5 @@ Step 6: The first player takes their first turn.
 
 ### Turn One
 
-Each player’s first turn follows a modified turn order: The turn player skips their Wake Up, Materialize, and Recollection phases, and places a Level 0 champion from the Material Deck onto the field.
-
-In a two-player game, the first turn player also skips their Draw Phase.
+1. Each player’s first turn follows a modified turn order: The turn player skips their Wake Up, Materialize, and Recollection phases, and places a Level 0 champion from the Material Deck onto the field.
+2. In a two-player game, the first turn player also skips their Draw Phase.

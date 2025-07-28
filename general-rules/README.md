@@ -9,3 +9,4 @@ These topics are discussed in the following sections:
 * [Format Conventions](general-rules-format-conventions.md)
 * [Parts of a Card](general-rules-parts-of-a-card/)
 * [Card Types](general-rules-card-types/)
+* [Card Characteristics](general-rules-card-characteristics/)

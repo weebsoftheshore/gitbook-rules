@@ -1,7 +1,8 @@
 # Card Types - Phantasia
 
-Phantasias is also an object type.
+General Rules:
 
-Phantasias will go to the graveyard if they are destroyed.
+1. Phantasias is also an object type; After a phantasia resolves, it will enter the field as a phantasia object.
+2. Phantasias may only be played at slow speed.
+3. Phantasias will go to the graveyard if they are destroyed.
 
-Phantasias may only be played at slow speed.

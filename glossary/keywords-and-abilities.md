@@ -1,4 +1,4 @@
-# Keywords and Abilitie
+# Keywords and Abilities
 
 In this section, \[CARDNAME] refers to the implied name of the card itself.
 
@@ -8,7 +8,7 @@ Redundant keyworded abilities will ignore any mentions of that ability on a card
 
 #### Aethercalling
 
-1. Aethercalling is a static ability of cards, which means “As you’re looking at this card while glimpsing, you may load it into an Aetherwing weapon you control."
+1. Aethercalling is a static ability of cards, which means "As you’re looking at this card while glimpsing, you may load it into an Aetherwing weapon you control."
 2. Loading a card with Aethercalling is performed as a special game action and does not use the Effects stack.
 
 
@@ -126,7 +126,7 @@ ability
 
 #### Empower N
 
-1. Empower is a static ability which means "The next Spell card you activate this turn activates and resolves as if your champion got +N level(s)"
+1. Empower is a static ability which means "The next Spell card you activate this turn activates and resolves as if your champion got +N level(s)."
    1. Empower must take a value greater than 0 to happen; a spell will not be empowered if an effect gave Empower 0.
 2. Empower is granted to the player that controls the card or effect granting Empower. It is applied as a continuous effect that is used and applied as soon as the Empowered player activates their next Spell card.
    1. Empower is not applied as an effect to the activated card, but the card can check if it is being empowered by the player.
@@ -137,7 +137,7 @@ ability
 #### Ephemerate
 
 1. Ephemerate is a static ability which means "You may activate this card from the graveyard by paying its ephemerate cost."
-   1. The ephemerate cost is separated by a "—". Any modifiers to this cost or ability are listed after this cost.
+   1. The ephemerate cost is separated by an "—". Any modifiers to this cost or ability are listed after this cost.
 2. Allies played using the this ability become Ephemeral as they enter the field.
    1. Ephemeral objects are banished whenever they would leave the field.
 
@@ -154,7 +154,7 @@ ability
 #### Fast Activation
 
 1. Fast Activation is a static ability which means “You may activate this card at fast speed.”
-2. &#x20;Fast Activation is redundant.
+2. Fast Activation is redundant.
 
 
 
@@ -190,7 +190,7 @@ ability
    2. Immortal objects can’t be destroyed (including via sacrifice).
 2. If a player controls multiple Immortal objects that are unique and have the same name, a player will still be forced to put one of those objects into their graveyard as a state-based effect as a result of breaking the Unique rule.
    1. This counts as dying or being destroyed.
-3. &#x20;Immortality is redundant.
+3. Immortality is redundant.
 
 
 
@@ -207,7 +207,7 @@ ability
    1. The ally must still be a valid target for the attack to be redirected.
 2. If an ally with intercept does not obey a player, the resolution of the intercept ability will fail and that ally will not be able to intercept. The trigger still occurs and Opportunity is presented if a player has any effects that might cause that ally to obey the controlling player.
    1. Intercept will trigger, but will not allow the player to make that ally intercept if that ally does not obey that player.
-3. &#x20;Intercept is redundant.
+3. Intercept is redundant.
 
 
 
@@ -240,8 +240,8 @@ E.g., Lorraine, Wandering Warrior is a Lorraine champion and would be a valid co
 #### Lineage Release
 
 1. Lineage Release is an activated ability that says “activate this ability by banishing this card from your champion’s inner lineage.”
-2. Lineage Release abilities on one card do not allow a player to banish another card with a Lineage Release ability for the cost of the written ability; only the effect of the ability of the card banished will be put onto the Effects Stack awaiting resolution.&#x20;
-3. These abilities can only be activated if the card with Lineage Release is in the Inner Lineage (i.e. it is not the player’s champion).
+2. Lineage Release abilities on one card do not allow a player to banish another card with a Lineage Release ability for the cost of the written ability; only the effect of the ability of the card banished will be put onto the Effects Stack awaiting resolution.
+3. These abilities can only be activated if the card with Lineage Release is in the Inner Lineage (i.e., it is not the player’s champion).
 
 
 
@@ -253,11 +253,11 @@ E.g., Lorraine, Wandering Warrior is a Lorraine champion and would be a valid co
    2. If the activation or materialization of the card with the Link ability has no legal targets, it will fizzle. If the object with the Link ability enters the field from a zone other than the effects stack and has no legal choices to Link to, it will be sacrificed (See points 6 and 7).
 
 {% hint style="info" %}
-&#x20;E.g. Champion Link, Ally Link. The target object of the Link is the Linked object (and can be described as Linked ally, Linked champion, etc.).
+E.g., Champion Link, Ally Link. The target object of the Link is the Linked object (and can be described as Linked ally, Linked champion, etc.).
 {% endhint %}
 
 3. Cards with Link abilities must specify the Link target when they are put onto the Effects Stack. If that object is no longer legal, it will fizzle.
-4. A Link ability is broken when either the object with the Link ability or the Linked object leaves the field.&#x20;
+4. A Link ability is broken when either the object with the Link ability or the Linked object leaves the field. The Link is also broken if it becomes illegal at any time, such as through type-changing or type-setting.
 5. If the Link is destroyed as a result of the Linked object leaving the field in any way, the object with the Link ability is sacrificed as a state-based action (players must sacrifice it before any Opportunity is passed and any further player actions are taken).
 6. An object can be under the effect of any number of Link abilities.
 7. A Link only exists when at least one of the Linked objects has a legal Link.
@@ -282,22 +282,22 @@ E.g., Lorraine, Wandering Warrior is a Lorraine champion and would be a valid co
 
 1. Omnishroud is a static ability of objects which means “This can’t be targeted by activations, materializations, or triggered abilities.”
    1. Activations includes card and ability activations.
-2. If an object receives Spellshroud while being targeted by an activation, materialization, or triggered ability, that target would be considered illegal.
+2. If an object receives Omnishroud while being targeted by an activation, materialization, or triggered ability, that target would be considered illegal.
    1. If that target was the only specified necessary target for the spell, the spell will fizzle.
 3. Omnishroud is redundant.
    1. Spellshroud may still be applied to objects with Omnishroud, but will defer targeting permissions to those set by Omnishroud since Omnishroud is more restrictive.
 
 #### On Banish
 
-1. On Banish is a triggered ability condition that means "When this is banished"
-2. The uint is only considered to be banished if it goes directly to banishment when it dies; On Banish will not trigger if the unit is sent anywhere else as a result of a replacement effect.
+1. On Banish is a triggered ability condition that means "When this is banished."
+2. The unit is only considered to be banished if it goes directly to banishment when it dies; On Banish will not trigger if the unit is sent anywhere else as a result of a replacement effect.
 3. On Banish triggers from the field and considers the source of the ability as the object that was banished, not the card itself that is placed in banishment.
 
 
 
 #### On Charge N
 
-1. On Charge is a triggered ability condition, which means "the first time this object has N charge counters on it"
+1. On Charge is a triggered ability condition, which means "the first time this object has N charge counters on it."
    1. The triggered ability will only trigger once, the first time it has N charge counters. It will not trigger again regardless of whether the charge counters are removed and it regains charge counters in some way.
 2. At the beginning of a player's recollection step as a turn-based action (TBA), that player puts a charge counter on each of their objects with an untriggered On Charge ability.
 
@@ -305,7 +305,7 @@ E.g., Lorraine, Wandering Warrior is a Lorraine champion and would be a valid co
 
 #### On Death
 
-1. On Death is a triggered ability condition that means “When this dies”
+1. On Death is a triggered ability condition that means “When this dies.”
    1. Only units can die. Non-units are still considered destroyed, but are not considered to have died.
 2. The unit is only considered to have died if it goes directly to the graveyard when it dies; On Death will not trigger if the unit is sent to banishment as a replacement for being sent to the graveyard.
 3. On Death triggers from the field and considers the source of the ability as the object that died, not the card itself that is placed in the graveyard.
@@ -328,9 +328,9 @@ E.g., Lorraine, Wandering Warrior is a Lorraine champion and would be a valid co
 #### On Hit
 
 1. On Hit is a triggered ability condition.
-2. On units, On Hit means “When this deals combat damage to an attackable object”
+2. On units, On Hit means “When this deals combat damage to an attackable object.”
    1. On Hit will trigger off of hitting a Siegeable domain with damage dealt in the form of loss of durability counters from that domain.
-3. On intents and weapons, On Hit means “When an attack or retaliation using this deals combat damage to an attackble object”
+3. On intents and weapons, On Hit means “When an attack or retaliation using this deals combat damage to an attackable object”
 
 {% hint style="info" %}
 E.g. On Hit triggers on any unit being dealt combat damage, typically through attacks or retaliations. On Ally Hit triggers only when the combat damage is dealt to an ally unit. On Champion Hit triggers only when the combat damage is dealt to a champion unit.
@@ -346,14 +346,14 @@ E.g. On Hit triggers on any unit being dealt combat damage, typically through at
 1. On Kill is a triggered ability condition when attacked units are killed by an attack.
    1. Units are killed as a result of having 0 or less life as a state-based effect.
    2. Siegeable domains are destroyed as a result of having 0 or less durability as a state-based effect but will not trigger On Kill as they are not considered units.
-2. On units, On Kill means “When a unit is killed as a result of being dealt combat damage by this”
+2. On units, On Kill means “When a unit is killed as a result of being dealt combat damage by this.”
 3. On intents and weapons, On Kill means “When a unit is killed as a result of being dealt combat damage in an attack using this.”
 
 
 
 #### On Leave
 
-1. On Leave is a triggered ability condition that means “When this leaves the field”
+1. On Leave is a triggered ability condition that means “When this leaves the field.”
 2. On Leave triggers from the field and considers the source of the ability as the object that left play, not the card itself that is moved to another zone.
 
 
@@ -361,13 +361,13 @@ E.g. On Hit triggers on any unit being dealt combat damage, typically through at
 #### Prepare N <a href="#prepare" id="prepare"></a>
 
 1. Prepare is an optional cost-modifying static ability of some cards which means, “As an additional cost to activate \[CARDNAME], you may remove N Preparation counters from your champion. If you do, \[CARDNAME] becomes prepared as it’s activated.”
-2. If the Prepare cost was paid, the card becomes “prepared.”&#x20;
+2. If the Prepare cost was paid, the card becomes “prepared.”
 
 
 
 #### Preserve/Preserved <a href="#preserve" id="preserve"></a>
 
-1. Preserve on objects means, “When \[CARDNAME] is destroyed, put it into its owner’s material deck revealed and Preserved. You may return a Preserved card from your material deck to your hand instead of materializing when you would materialize.” Objects with Preserve will have a trigger when they are destroyed which will cause the object’s card to be sent from the graveyard to the material deck “Preserved.”&#x20;
+1. Preserve on objects means, “When \[CARDNAME] is destroyed, put it into its owner’s material deck revealed and Preserved. You may return a Preserved card from your material deck to your hand instead of materializing when you would materialize.” Objects with Preserve will have a trigger when they are destroyed which will cause the object’s card to be sent from the graveyard to the material deck “Preserved.”
 2. Preserve on non-objects means, “As \[CARDNAME] resolves and would be placed into the graveyard, instead put it into its owner’s material deck revealed and Preserved. You may return a Preserved card from your material deck to your hand instead of materializing when you would materialize.” Non-objects will have a replacement effect generated which will send the card to the material deck “Preserved” as it resolves rather than entering the graveyard.
    1. If a non-object card with Preserve would be banished instead of going to the graveyard as it resolves, the card’s controller may choose whether the card is Preserved or is banished.
 3. Every card that is Preserved is added to the material deck face-up and remains face-up until it moves to the hand, memory, or other zone considered as private information.
@@ -406,7 +406,7 @@ E.g. On Hit triggers on any unit being dealt combat damage, typically through at
 
 1. Reservable is a static ability of objects which means “while paying for a reserve cost, you may rest this object to pay for 1 of that cost.”
 2. Reservable can pay for any costs that require a reserve cost, including activation costs, added or extra reserve costs, or taxed reserve costs.
-3. &#x20;Reservable is redundant.
+3. Reservable is redundant.
 
 
 
@@ -422,7 +422,7 @@ E.g. On Hit triggers on any unit being dealt combat damage, typically through at
    1. Triggers generated by a Spell object are themselves of the Spell subtype and therefore cannot target objects with Spellshroud.
 2. If an object receives Spellshroud while being targeted by a spell, that target would be considered illegal.
    1. If that target was the only specified necessary target for the spell, the spell will fizzle.
-3. &#x20;Spellshroud is redundant.
+3. Spellshroud is redundant.
 
 
 
@@ -469,7 +469,7 @@ E.g. On Hit triggers on any unit being dealt combat damage, typically through at
 1. True Sight is a static ability.
    1. On units, True Sight means "This unit's attacks can target objects with stealth."
    2. On weapons, True Sight means "Attacks using this weapon can target objects with stealth."
-2. &#x20;True Sight is redundant.
+2. True Sight is redundant.
 
 
 
@@ -483,5 +483,5 @@ E.g. On Hit triggers on any unit being dealt combat damage, typically through at
 
 #### Vigor
 
-1. Vigor is a triggered ability of units which means "This unit wakes up at the beginning of your end step."
-2. &#x20;Multiple instances of Vigor will create separate triggers during the end step.
+1. Vigor is a triggered ability of units, which means "This unit wakes up at the beginning of your end step."
+2. Multiple instances of Vigor will create separate triggers during the end step.

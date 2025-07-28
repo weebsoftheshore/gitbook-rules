@@ -5,11 +5,11 @@ Abilities are characteristics of cards and objects that affect the game and eith
 Abilities can be either Activated abilities, Triggered abilities, or Static abilities, and some abilities (or functional rules) can be bound by Restriction abilities.
 
 1. Abilities intrinsic to the card are considered characteristics of the card and apply globally inside and outside of the game in all zones.&#x20;
-   1. Keywords are an example of an intrinsic card characteristic
-   2. If the keyword is tied to a restriction, if an effect asks the game to check for the keyword, it will do so during resolution to determine the effect or action legality. Failing the check would cause the game to act as if the checked characteristic is absent.
+   1. Keywords are an example of intrinsic card characteristics
+   2. If the keyword is tied to a restriction, if an effect asks the game to check for the keyword, it will do so during resolution to determine the effect or action's legality. Failing the check would cause the game to act as if the checked characteristic is absent.
 
 {% hint style="info" %}
-Abilities tied to objects generally only function from the field, however, cards may specify zones in which that ability functions.
+Abilities tied to objects generally only function from the field; however, cards may specify zones in which that ability functions.
 {% endhint %}
 
 2. Abilities specifying a zone or zones in which they function may not function in any other zones.
@@ -17,7 +17,8 @@ Abilities tied to objects generally only function from the field, however, cards
    1. Abilities of action cards generally only function in the Effects Stacks.
    2. Abilities of attack cards generally only function while they are in the intent.
    3. Abilities of non-action, non-attack cards generally only function while they exist on the field as objects.
-4. Cards in the intent can activate and trigger their abilities as if they were objects, with the exception of any abilities that require resting, sacrificing, or performing any object-related ability as a cost. This means any abilities a card would have been able to trigger or activate when it would have been an object may be triggered or activated from the intent.
+4. Cards in the intent can activate and trigger their abilities as if they were objects, with the exception of any abilities that require resting, sacrificing, or performing any object-related ability as a cost. This means any abilities a card would have been able to trigger or activate when it would have been an object may be triggered or activated from the intent. Cards in the intent will also apply any static abilities as if they were objects.
+   1. A card's static abilities, other than those that modify a card's characteristics, such as alternative play methods or abilities that grant special activation permissions. These abilities would reference the card as opposed to the object by name, as is by ability conventions.
 
 Abilities can specify zones from where an effect may take place or from where that ability may be activated that are not their default functional zone (Effects Stack for action cards, the field for non-action card objects).
 
@@ -31,7 +32,7 @@ Multiple instances of the same ability are taken into account only if that abili
 5. Redundant abilities and keywords will only consider the first instance of that ability or keyword for counting purposes.
 
 {% hint style="info" %}
-E.g. If an ally has three instances of vigor, other cards and effects would see that ally as having only one ability. [Keywords](../../glossary/keywords-and-abilitie.md) contains information on ability redundancy.
+E.g. If an ally has three instances of vigor, other cards and effects would see that ally as having only one ability. [Keywords](../../glossary/keywords-and-abilities.md) contains information on ability redundancy.
 {% endhint %}
 
 Abilities consider the source of the ability as the object or card that generated the ability and are controlled by the player who controlled that object or card that generated the ability, whether triggered or activated. If any ability refers to its source’s characteristics, the last known information regarding the source is used.

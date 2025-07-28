@@ -14,6 +14,7 @@ Materializing a card follows the same initial steps as listed in Card Activation
    4. Fourth, effects that remove memory costs are applied. This would cause reserve cost to become 0. Effects can’t cause the memory cost to be less than 0.
 8. **Paying Costs**: Next, the player pays the memory cost and any additional or alternative costs of the card. If the costs cannot be paid, then the materialization is illegal and the game state is reversed before materialization was initiated.
    1. Costs may be paid through replacement effects.
+   2. Unlike Activation, Materialization costs have to follow some order. If any [Floating Memory](../../glossary/keywords-and-abilities.md#floating-memory) abilities are used to pay for a memory cost, those must be used first before any other costs.
 9. **Materialization**: Then, the card is considered materialized, and the player who materialized the card gains opportunity.
 
 Cards that enter the Effects Stack as a result of that card having been materialized will cause that card to be considered a materialization while it is in the Effects Stack.

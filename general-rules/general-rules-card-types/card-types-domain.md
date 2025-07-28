@@ -1,7 +1,8 @@
 # Card Types - Domain
 
-Domain is also an object type.
+General Rules
 
-Domains will go to the graveyard if they are destroyed.
+1. Domain is also an object type; After a domain resolves, it will enter the field as a domain object.
+2. Domains may only be played at slow speed.
+3. Domains will go to their owner's graveyard if they are destroyed.
 
-Domains may only be played at slow speed.
