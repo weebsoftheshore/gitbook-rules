@@ -8,7 +8,9 @@ IMPORTANT LINKS:
 * [Judge Handbook](https://jh.gatcg.com)
 
 \
-To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~gitbook/pdf?limit=150).\
+To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~gitbook/pdf?limit=150).
+
+To check out the rulebook and the full list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).\
 
 
 July 28th, 2025
@@ -22,7 +24,7 @@ July 28th, 2025
 * Consolidated Durability, Life, Power, and Speed under [Stats](general-rules/general-rules-parts-of-a-card/parts-of-a-card-stats.md) section
 * Revamped [Object and Targeting](game-mechanics/game-mechanics-objects-and-targeting.md) section
 * Other various changes (have fun)
-* Integrated with GitHub via GitSync. Now any changes will be reflected on GitHub, along with diffs of the changes. This patch will troubleshoot this feature
+* Integrated with [GitHub](https://github.com/weebsoftheshore/gitbook-rules) via GitSync. Now any changes will be reflected on GitHub, along with diffs of the changes. This patch will troubleshoot this feature
 
 
 
