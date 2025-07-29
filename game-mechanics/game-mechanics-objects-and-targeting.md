@@ -1,5 +1,7 @@
 # Game Mechanics - Objects and Targeting
 
+When effects of cards or abilities use a card type or subtype descriptor and do not refer to a 'card', 'activation', 'materialization', or 'source', these effects will mean the object with the described type or subtype on the field.
+
 #### Objects
 
 1. Objects are defined as instanced representations of cards on the field, which include champions, allies, weapons, items, domains, phantasias, as well as any tokens.
@@ -60,5 +62,3 @@ E.g., the card Creative Shock instructs the player to choose a unit and deal 2 d
 
 ![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/creative-shock-doa-alter.jpg)
 {% endhint %}
-
-5. When effects of cards or abilities use a card type or subtype descriptor and do not refer to a card, activation, materialization, or source, these effects will mean the object with the described type or subtype on the field.
