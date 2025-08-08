@@ -4,13 +4,13 @@ The basic cost of the card is denoted on the top left corner of a card.&#x20;
 
 General Rules:
 
-1. Costs are either reserve costs or memory costs; Reserve costs are represented with a yellow color while Memory costs are represented with a blue color.&#x20;
+1. Costs are either reserve costs or memory costs; reserve costs are represented with a yellow color while Memory costs are represented with a blue color.&#x20;
 
 {% hint style="success" %}
-The “cost” of a card when referred to in its rules text refers to the cost type reflected in that card. A champion’s memory cost is located beneath its printed level.
+The “cost” of a card,when referred to in its rules text, refers to the cost type reflected in that card. A champion’s memory cost is located beneath its printed level.
 {% endhint %}
 
-2. If the number is a reserve cost, it represents the number of cards that must be placed into the [memory zone](../../game-mechanics/game-mechanics-game-zones/game-zones-memory.md) (AKA Memory) face-down from that player’s hand and [reserved](../../glossary/game-terms.md#reserve) until the next recollection as payment for that cost.
+2. If the number is a reserve cost, it represents the number of cards that must be placed into the [memory zone](../../game-mechanics/game-mechanics-game-zones/game-zones-memory.md) (also known as Memory) face-down from that player’s hand and [reserved](../../glossary/game-terms.md#reserve) until the next recollection as payment for that cost.
    1. No Opportunity is given to players, and no player actions may be taken between the time cards are chosen for payment of a reserve cost and the time at which those cards are placed face-down in memory.
 
 {% hint style="warning" %}
@@ -18,10 +18,10 @@ To pay for a reserve cost, select X other cards from your hand where X is the co
 {% endhint %}
 
 3. If the number is a memory cost, the cost must be paid by banishing randomly selected cards from the [Memory zone](../../game-mechanics/game-mechanics-game-zones/game-zones-memory.md).
-   1. To pay for a Memory cost, X cards are randomly selected from the Memory zone where X is the Memory cost to materialize the desired card.&#x20;
+   1. To pay for a Memory cost, X cards are randomly selected from the Memory zone, where X is the Memory cost to materialize the desired card.&#x20;
       1. Non-random forms of payment for a given cost are paid before random costs are paid.
    2. No Opportunity is given to players and no player actions may be taken between the time cards are chosen for payment of a memory cost and the time at which those cards are banished.
-4. If there are any additional costs for the activation or the materialization of cards or for activating abilities, these must be paid at the same time the normal costs are paid before the card or effect enters the Effects Stack.
+4. If there are any additional costs for the activation or materialization of cards or for activating abilities, they must be paid at the same time the normal costs are paid, before the card or effect enters the Effects Stack.
 5. If a card or effect would specify a cost as a result of the card resolving, payment of these costs follows the rules text and timing therein.
 
 {% hint style="danger" %}

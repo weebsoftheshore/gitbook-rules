@@ -16,7 +16,7 @@ E.g., If a Warrior champion attacks with Warrior's Longsword and the sword were 
 
 #### Non-Objects
 
-1. Non-objects exist largely as cards in their respective zones, i.e., a card in the hand, graveyard, deck, memory, or banishment.  They are treated as cards rather than objects and can't exist as an object representation on the field. This includes any activations, triggered abilities, or materializations
+1. Non-objects exist largely as cards in their respective zones, i.e., a card in the hand, graveyard, deck, memory, or banishment.  They are treated as cards rather than objects and can't exist as an object representation on the field. This includes any activations, triggered abilities, or materializations.
    1. Activations are either cards or abilities that have been activated and are in the Effects Stack.
       1. Activations are interactable by effects that specify a target or chosen activation.
    2. Materializations are cards that have been materialized and are in the Effects Stack.
@@ -28,8 +28,8 @@ E.g., If a Warrior champion attacks with Warrior's Longsword and the sword were 
 
 #### Target
 
-1. A "target" is a selected choice for the direction of an effect or action; the target is what those act upon. Whenever a target is specified, it can filter for a specify any of the aforementioned objects or non-objects card types.&#x20;
-2. An effect, action, activation, attack, etc., can only choose or target cards and/or objects of the specified types. E.g., If an effect specifies a specific object type as a target, it can only target that object.&#x20;
+1. A "target" is a selected choice for the direction of an effect or action; the target is what those act upon. Whenever a target is specified, it can filter for and specify any of the aforementioned objects or non-object card types.&#x20;
+2. An effect, action, activation, attack, etc., can only choose or target cards and/or objects of the specified types. I.e., If an effect specifies a specific object type as a target, it can only target objects of that type.&#x20;
    1. If an effect specifies objects by exclusion, it can target any objects that are not excluded.
    2. If an effect specifies or targets one or more cards in a certain zone, it may only affect cards in that zone.
 
@@ -47,7 +47,7 @@ E.g., “Target ally” can only target allies. “Target non-champion object”
 E.g., A token ally can be targeted by any effect that can target an ally or a token.
 {% endhint %}
 
-4. Special cases with targeting involve an effect specifying that something is chosen rather than targeted. This usually occurs during the resolution of the effects in situations where targets can't be anticipated or specified during the activation process.&#x20;
+4. Special cases with targeting involve effects that specify something is chosen rather than targeted. This usually occurs during the resolution of the effects in situations where targets can't be anticipated or specified during the activation process.&#x20;
 
 {% hint style="info" %}
 E.g., the card Creative Shock instructs the player to choose a unit and deal 2 damage to it if a Fire card is discarded during the resolution of the spell. This only has a chosen unit after the spell has resolved and can't be specified before as the card to be discarded is yet unknown.
@@ -55,4 +55,4 @@ E.g., the card Creative Shock instructs the player to choose a unit and deal 2 d
 ![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/creative-shock-doa-alter.jpg)
 {% endhint %}
 
-5. When effects of cards or abilities use a card type or subtype descriptor and do not refer to a card, activation, materialization, or source, these effects will mean the object with the described type or subtype on the field.
+5. When effects of cards or abilities use a card type or subtype descriptor and do not refer to a card, activation, materialization, or source, these effects refer to the object with the described type or subtype on the field.

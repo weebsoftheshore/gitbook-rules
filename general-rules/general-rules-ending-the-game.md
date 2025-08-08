@@ -11,7 +11,7 @@ General Rules:
 * All opponents’ champions die
 * All opponents do not control a champion when a player receives Opportunity and those players previously controlled a champion
 * All of the player’s opponents have lost the game
-* An effect states that the player has won the game.
+* An effect states that the player has won the game
 
 
 
@@ -22,7 +22,7 @@ General Rules:
 * That player attempts to draw a card from an empty deck
 * An effect states that the player has lost the game
 * They concede
-* They would win and lose simultaneously.
+* They would win and lose simultaneously
 
 
 
@@ -43,6 +43,5 @@ E.g. If that object has an “On Leave” ability or would trigger an ability of
 
 
 
-After a game, all cards and objects owned are then returned to their respective owners.&#x20;
-
-If playing a game within a match structure, main deck and material deck cards are reshuffled in their respective decks, and tokens are set aside.
+6. After a game, all cards and objects owned are then returned to their respective owners.&#x20;
+7. If playing a game within a match structure, main deck and material deck cards are reshuffled in their respective decks, and tokens are set aside.

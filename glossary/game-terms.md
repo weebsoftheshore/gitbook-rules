@@ -64,11 +64,11 @@
 
 1. Destroy is an effect that can affect any object(s) on the field.
 2. To destroy an object, move that object from the field to its owner’s Graveyard. If that card is a token, it will be removed from the game.
-   1. Destroyed units are considered as having died when they go to the graveyard. They are not considered to have died if they would be banished, put on top/bottom of the deck, or put into the hand, instead.
-3. An object is destroyed if and only if it is specified to have been destroyed by an effect that specifies to destroy it, if it is destroyed as a result of state-based effects, or if it has been sacrificed. Cards entering the graveyard or being placed into the graveyard for any other reason does not mean it has been destroyed.
-4. A non-regalia weapon is considered destroyed as a result of state-based effects if the number of durability counters on that weapon is 0, either by combat or other means.
+   1. Destroyed units are considered to have died when they go to the graveyard. They are not considered to have died if they would be banished, put on top/bottom of the deck, or put into the hand instead.
+3. An object is destroyed if and only if: it is destroyed by an effect that specifically instructs to destroy it, if it is destroyed as a result of state-based effects, or if it has been sacrificed. A card entering the graveyard or being placed into the graveyard for any other reason does not mean it has been destroyed.
+4. A non-regalia weapon is considered destroyed as from the state-based effects if the number of durability counters on that weapon is 0, either by combat or other means.
 5. A unit is destroyed from the state-based effect of having 0 or less life or from having damage marked (temporary or via damage counters) equal to or greater than its life.
-6. A siegeable domains is destroyed from the state-based effect of the number of durability counters on it reaching 0.
+6. A siegeable domain is destroyed from the state-based effect of the number of durability counters on it reaching 0.
 7. An effect or card that specifies an object to be destroyed only causes that object to die if and only if that card immediately enters the graveyard upon resolution of effects.
 
 {% hint style="warning" %}
@@ -87,7 +87,7 @@ Banishment as a result of a destruction effect does not allow effects dependent 
 E.g., A destruction or destroy effect kills an ally and that ally is considered to have died. A siegeable domain being destroyed as a result of falling to 0 durability counters does not die. This means effects like On Kill will not trigger when it comes to non-units.
 {% endhint %}
 
-2. A unit is only considered to have died or to have been killed if and only if it enters the graveyard directly from play.
+2. A unit is only considered to have died or to have been killed if, and only if, it enters the graveyard directly from play.
 
 {% hint style="danger" %}
 If it would be banished instead of being sent to the graveyard, the card is, by definition, not considered to have died.
@@ -140,7 +140,8 @@ If it would be banished instead of being sent to the graveyard, the card is, by 
 
 #### Ephemeral
 
-1. Ephemeral is a property that modifies objects on the field. Ephemeral objects will be banished if they were to leave the field.
+1. Ephemeral is a property that can modify objects on the field.
+   1. Ephemeral objects will be banished if they were to leave the field.
 
 
 
@@ -243,9 +244,9 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 
 
-#### [Last-known Information](../game-mechanics/game-mechanics-card-and-object-information.md)
+#### Last-Known Information
 
-1. Last–known information is information such as status, characteristics, or stats of an object or card that is tracked when that card changes zones.
+1. [Last-known information](../game-mechanics/game-mechanics-card-and-object-information.md) is information such as status, characteristics, or stats of an object or card that is tracked when that card changes zones.
 2. Some effects are reliant on information while a card or object was in a specific zone and will use the information as if that card was still in that zone for determination of effects.
 3. Last-known information only considers the last zone change that happened and not any information carried from zone changes prior to that.
 
@@ -287,7 +288,7 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 #### Load
 
-1. "Load" is a playerthaton that means to take a card from the zone it is currently in and move it underneath another card. The card on top is considered "loaded" with that card and the card that is being put underneath becomes part of the "loaded cards" underneath that card.&#x20;
+1. "Load" is a player action that means to take a card from the zone it is currently in and move it underneath another card. The card on top is considered "loaded" with that card and the card that is being put underneath becomes part of the "loaded cards" underneath that card.&#x20;
 
 #### Loaded
 

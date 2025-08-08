@@ -1,12 +1,13 @@
 # Game Mechanics - Abilities
 
-Abilities are characteristics of cards and objects that affect the game and either produce an instanced effect or a continuous effect for a specified duration (E.g. “until end of turn.”)
+#### General Rules.
 
-Abilities can be either Activated abilities, Triggered abilities, or Static abilities, and some abilities (or functional rules) can be bound by Restriction abilities.
-
-1. Abilities intrinsic to the card are considered characteristics of the card and apply globally inside and outside of the game in all zones.&#x20;
-   1. Keywords are an example of intrinsic card characteristics
-   2. If the keyword is tied to a restriction, if an effect asks the game to check for the keyword, it will do so during resolution to determine the effect or action's legality. Failing the check would cause the game to act as if the checked characteristic is absent.
+1. Abilities are characteristics of cards and objects that affect the game and either produce an instanced effect or a continuous effect for a specified duration (E.g. “until end of turn”).
+2. Abilities can be either Activated abilities, Triggered abilities, or Static abilities, and some abilities (or functional rules) can be bound by Restriction abilities.
+3. Abilities are rules text and, therefore, are considered characteristics of the card.
+   1. Some abilities can be considered "intrinsic." An intrinsic ability is any ability that is coded in a way where its ability is keyworded or categorized. This considers [Keyword abilities](../../glossary/keywords-and-abilities.md) as well as [Label Keyword](../../glossary/game-terms.md#label-keywords) abilities.
+      1. If the keyword is tied to a restriction and an effect asks the game to check for the keyword, it will do so during resolution to determine the effect or action's legality. Failing the check would cause the game to act as if the checked characteristic is absent.
+      2. Effects that instruct a player to search for or specify a card can do so by defining an intrinsic ability as a filter. E.g., if an effect would instruct a player to search for "a card with Floating Memory" from the deck, they may find any card with Floating Memory in its rules text (provided it's unrestricted), even though the ability only functions from the Graveyard.
 
 {% hint style="info" %}
 Abilities tied to objects generally only function from the field; however, cards may specify zones in which that ability functions.

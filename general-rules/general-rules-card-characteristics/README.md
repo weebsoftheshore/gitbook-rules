@@ -27,7 +27,7 @@ E.g., Triskit, Angel of Guidance, loses the original Unique Ally typing if a pla
 
 #### Type-Acting
 
-1. If an effect states that an object may perform an action “as though it were \[object type],” it will not set not overwrite its own type to match that as the type it is acting as.
+1. If an effect states that an object may perform an action “as though it were \[object type],” it will not set nor overwrite its own type to match that as the type it is acting as.
 2. These effects may allow objects to behave as other object types but will not innately change their own type nor the targeting, damage, timing, and other attributes specific to its own type.
 3. Card effects will generally specify what behavior is granted in the effect text.
 

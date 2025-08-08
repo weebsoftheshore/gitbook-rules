@@ -8,7 +8,7 @@ Redundant keyworded abilities will ignore any mentions of that ability on a card
 
 #### Aethercalling
 
-1. Aethercalling is a static ability of cards, which means "As you’re looking at this card while glimpsing, you may load it into an Aetherwing weapon you control."
+1. Aethercalling is a static ability of cards which means "As you’re looking at this card while glimpsing, you may load it into an Aetherwing weapon you control."
 2. Loading a card with Aethercalling is performed as a special game action and does not use the Effects stack.
 
 
@@ -91,7 +91,7 @@ E.g. A player chosen for a Cleave attack activates and resolves Blanche, Shelter
 #### Command
 
 1. Command is a static ability on Command Attacks that invokes an additional cost and modifies the attack card so that it is performed through an ally rather than a champion.
-   1. Commands have an alternative cost of resting an ally (it must be awake). The command ability may include a subtype that specifies which ally type must be rested.
+   1. Commands have an alternative additional cost of resting an ally (it must be awake). The command ability may include a subtype that specifies which ally type must be rested. This replaces the additional cost of resting a champion to activate an attack card.
    2. You do not rest your champion to activate attacks with the command ability.
 2. After an attack with command resolves, a combat phase will begin with the rested ally as the attacker rather than a chosen champion. The attack card added to the rested ally's intent for the combat phase.
    1. Commands that resolve without a valid target will not create a combat phase; the rested ally will not enter combat.
@@ -138,8 +138,14 @@ ability
 
 1. Ephemerate is a static ability which means "You may activate this card from the graveyard by paying its ephemerate cost."
    1. The ephemerate cost is separated by an "—". Any modifiers to this cost or ability are listed after this cost.
+   2. As ephemerate coutns as an alternative activation that is not given any special permissions or timing windows (unlike Starcalling), the activation must follow the default speed of the card.
 2. Allies played using the this ability become Ephemeral as they enter the field.
-   1. Ephemeral objects are banished whenever they would leave the field.
+   1. Ephemeral is a property which specifies that ephemeral objects are banished whenever they would leave the field.
+   2. Ephemeral as a propety applied to objects will not be applied to the card that object represents. If the card would move zones, the card does not retain "ephemeral" any subsequent objects represented by that card (unless otherwise specified) would not be ephemeral.
+
+{% hint style="success" %}
+If an effect would banish an ephemeral card, that card will still be able to track that object as the destination has not changed. E.g., any form of temporary banishing and then returning to the field, such as suppressing, would allow the card to return to the field. If it is returned this way, it is considered a new object and will not "remember" that it was ephemeral; the new object is not ephemeral.
+{% endhint %}
 
 
 
@@ -189,7 +195,8 @@ ability
    1. Immortal objects do not die; they do not go to the graveyard as a result of having 0 or less life.
    2. Immortal objects can’t be destroyed (including via sacrifice).
 2. If a player controls multiple Immortal objects that are unique and have the same name, a player will still be forced to put one of those objects into their graveyard as a state-based effect as a result of breaking the Unique rule.
-   1. This counts as dying or being destroyed.
+   1. Rule 2 takes precedence over Rule 1 and allows Rule 1 to be ignored in these cases.
+   2. This counts as dying or being destroyed.
 3. Immortality is redundant.
 
 
@@ -297,7 +304,7 @@ E.g., Champion Link, Ally Link. The target object of the Link is the Linked obje
 
 #### On Charge N
 
-1. On Charge is a triggered ability condition, which means "the first time this object has N charge counters on it."
+1. On Charge is a triggered ability condition which means "the first time this object has N charge counters on it."
    1. The triggered ability will only trigger once, the first time it has N charge counters. It will not trigger again regardless of whether the charge counters are removed and it regains charge counters in some way.
 2. At the beginning of a player's recollection step as a turn-based action (TBA), that player puts a charge counter on each of their objects with an untriggered On Charge ability.
 
@@ -348,6 +355,10 @@ E.g. On Hit triggers on any unit being dealt combat damage, typically through at
    2. Siegeable domains are destroyed as a result of having 0 or less durability as a state-based effect but will not trigger On Kill as they are not considered units.
 2. On units, On Kill means “When a unit is killed as a result of being dealt combat damage by this.”
 3. On intents and weapons, On Kill means “When a unit is killed as a result of being dealt combat damage in an attack using this.”
+
+{% hint style="success" %}
+See [killed](game-terms.md#dies): "A unit is only considered to... have been killed if and only if it enters the graveyard directly from play." This means that On Kill will only trigger if the unit went to the graveyard directly due to the combat damage dealt, and not through any secondary effects, such as On Hit abilities that then would kill the unit.
+{% endhint %}
 
 
 
@@ -418,7 +429,7 @@ E.g. On Hit triggers on any unit being dealt combat damage, typically through at
 
 #### Spellshroud
 
-1. Spellshroud is a static ability of objects which means “This can’t be targeted by Spells.” where Spells are cards, effects, or sources that have or are granted the Spell subtype.
+1. Spellshroud is a static ability which means “This object can't be targeted by spells,” where Spells are cards, effects, or sources that have or are granted the Spell subtype.
    1. Triggers generated by a Spell object are themselves of the Spell subtype and therefore cannot target objects with Spellshroud.
 2. If an object receives Spellshroud while being targeted by a spell, that target would be considered illegal.
    1. If that target was the only specified necessary target for the spell, the spell will fizzle.
@@ -483,5 +494,5 @@ E.g. On Hit triggers on any unit being dealt combat damage, typically through at
 
 #### Vigor
 
-1. Vigor is a triggered ability of units, which means "This unit wakes up at the beginning of your end step."
+1. Vigor is a triggered ability of units which means "This unit wakes up at the beginning of your end step."
 2. Multiple instances of Vigor will create separate triggers during the end step.

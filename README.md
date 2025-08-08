@@ -13,6 +13,16 @@ To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~
 To check out the rulebook and the full list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).\
 
 
+August 8th, 2025
+
+* Fixed inconsistency in rules with Ciel's mastery. Matches Index entry now. This isn't a functional change but rather fixing entry errors in the rules.
+* Readability/Syntax improvements
+* Slightly more clarity to ephemerate, added additional clarity support to On Kill, Immortality, Spellshroud
+* Added definition of intrinsic ability explicitly, reworded how "instrinsic abilities" are referenced in ability rules
+* Reminder to check the GitHub commit history for exact changes
+
+
+
 July 28th, 2025
 
 * Fixy things

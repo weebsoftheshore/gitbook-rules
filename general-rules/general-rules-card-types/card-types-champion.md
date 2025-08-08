@@ -2,14 +2,14 @@
 
 General Rules:
 
-1. Champion is also an object type; A champion is placed on the field as a champion object. A champion object is also an champion unit.
+1. Champion is also an object type; a champion is placed on the field as a champion object. A champion object is also an champion unit.
 2. Champion cards start in the material deck.
 3. A Level 0 Spirit champion card must be put onto the field on each player’s first turn. This is treated as a special game action and cannot be responded to.
    1. Players may not materialize Level 0 champions.
 4. Champions can attack only through attack cards or by using weapons. Most champions do not inherently have a power stat and, therefore, can't inherently attack or retaliate against attacks.
    1. Attacking rests a champion as a cost, either from activation of an attack card or by an attack declaration through a weapon.
    2. Attack declarations made as a result of an attack card entering the Intent do not rest as a cost.
-   3. Champions with power stats may declare an attack without an attack card or weapon, just as units can.
+   3. Champions with a power stat may declare an attack without an attack card or weapon, just as allies can.
 5. Champions statically enable non-norm elements for the controlling player. Champion cards in a lineage will grant a player access to all elements included among their element types.
 6. Champion names for lineages will typically be considered without prefixes, suffixes, titles, epithets, or any other naming ornamentation for the card.
 7. If a Champion card would be put into a graveyard from anywhere, it is instead banished.

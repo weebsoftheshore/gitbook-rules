@@ -2,26 +2,34 @@
 
 Masteries are special non-object player functions and are typically granted by various effects. Players can only have one mastery at a time.
 
+
+
+#### General Rules
+
 1. If you get another mastery, it replaces your current mastery.
 2. Cards interacting with certain masteries may have symbols and icons related to that mastery on the card.
-3. Cards that track and represent masteries cannot be placed or used in any decks (Main, Material) and only serve to visually reflect the active Mastery.
+3. Cards that track and represent masteries cannot be placed or used in any decks (Main, Material, Sideboard) and only serve to visually reflect the active Mastery.
 
 
 
 
 
-List of Masteries:
+Table of Masteries:
 
 #### Servile Possessions
 
-1. Servile Possessions designates cards in the banishment with Omen counters on them as Omens. The mastery and any cards that refer to the number of Omens or characteristics among Omens will refer to those cards in banishment.
-2.  Servile Possessions has a modal modifier for champion attacks depending on the number of Omens in banishment:
+<figure><img src="https://api.gatcg.com/cards/images/servile-possessions-dtrsd.jpg" alt=""><figcaption></figcaption></figure>
 
-    1. 1 or 2 Omens - Attacks get +1 power.
-    2. 3 or 4 Omens - Attacks get +2 power.
-    3. 5 or more Omens - Attacks get +3 power and "On Attack: Draw a card."
-    4. These modes are mutually exclusive and not additive.
-    5. The modes are statically applied to attacks; they are not added to an attack via any trigger or triggered ability.
+1. Servile Possessions designates cards in the banishment with Omen counters on them as Omens. The mastery and any cards that refer to the number of Omens or characteristics among Omens will refer to those cards in banishment.
+2. Servile Possessions has a modal trigger whenever your champion attacks depending on the number of Omens in banishment, listed below.
+   1. These modes are mutually exclusive and not additive.
+   2. The modes are statically applied to attacks; they are not added to an attack via any trigger or triggered ability.
+
+* 1 or 2 Omens — That attack gets +1 power.
+* 3 or 4 Omens — That attack gets +2 power.
+* 5 or more Omens — That attack gets +3 power. Draw a card into your memory.
+
+
 
 
 
