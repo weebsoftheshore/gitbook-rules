@@ -4,6 +4,10 @@ In this section, \[CARDNAME] refers to the implied name of the card itself.
 
 Redundant keyworded abilities will ignore any mentions of that ability on a card or effect beyond the first.
 
+{% hint style="warning" %}
+Reminder text for abilities on card printings may not exactly reflect the entry of the rules text within the comprehensive rules. Reminder text is used for the convenience of short-handing rules for clarity and the player experience. Modifications of reminder text may be done in card printings to trim unnecessary rules text for broader abilities. Please refer to this section for exact rules.
+{% endhint %}
+
 
 
 #### Aethercalling
@@ -61,20 +65,20 @@ E.g., Merlin, Memory Thief banishing a Flame-Rune Swordsman from the graveyard o
 
 #### Cleave
 
-1. Cleave is a static ability of attacks, weapons, and units that allows them to attack all attackable objects a chosen opponent controls.
+1. Cleave is a static ability of attacks, weapons, and units which means "Attack all attackable objects a chosen player controls. This attack can't be intercepted."
    1. Attackable objects include Siegeable domains.
+   2. Rather than selecting an attack target during declarations, an attack with Cleave is declared by selecting a player. Defending objects are assigned based on all legal, attackable objects controlled by the chosen player. Any units that enter the field under the defending player’s control will not be designated as defenders and will not be involved in combat as defenders.
 2. Cleave attacks can’t be intercepted.
-3. Attacks with cleave involve only one combat step; damage is done simultaneously to each defending unit and retaliation is selected for each defending unit during the retaliation step of that combat.
-4. Defending allies for a combat step initiated by a Cleave attack are designated during attack declaration. Any units that enter the field under the defending player’s control will not be designated as defenders and will not be involved in combat as defenders.
 
 {% hint style="info" %}
-E.g. A player chosen for a Cleave attack activates and resolves Blanche, Sheltering Saint at the beginning of the retaliation step of combat. Blanche would not be considered a defending unit and would not be able to retaliate nor would be dealt damage during the damage step.
+E.g., For 1.b., a player chosen for a Cleave attack activates and resolves Blanche, Sheltering Saint at the beginning of the retaliation step of combat. Blanche would not be considered a defending unit and would not be able to retaliate nor would be dealt damage during the damage step.
 
 ![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/blanche-sheltering-saint-ftc.jpg)![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/hurricane-sweep-sp1.jpg)
 {% endhint %}
 
-5. An attack with Cleave may be retaliated against by each defending unit.
-6. Each damage calculation is done independently but damage resolution happens simultaneously.
+5. An attack with Cleave may be retaliated against by each defending unit.&#x20;
+6. Attacks with cleave involve only one combat step; damage is done simultaneously to each assigned defending unit.
+   1. Each damage calculation is done independently.
 7. Damage done as a result of an attack with Cleave only causes the loss of one durability counter on a weapon if that weapon is used with the attack.
 8. Multiple instances of Cleave are redundant.
 
@@ -90,8 +94,8 @@ E.g. A player chosen for a Cleave attack activates and resolves Blanche, Shelter
 
 #### Command
 
-1. Command is a static ability on Command Attacks that invokes an additional cost and modifies the attack card so that it is performed through an ally rather than a champion.
-   1. Commands have an alternative additional cost of resting an ally (it must be awake). The command ability may include a subtype that specifies which ally type must be rested. This replaces the additional cost of resting a champion to activate an attack card.
+1. Command is a static ability on Command Attacks which means "An ally you control performs this attack."
+   1. Commands have a replaced additional cost of resting an awake ally rather than a champion. The command ability may include a subtype that specifies which ally type must be rested. This replacement cost removes the cost of resting a champion to activate an attack card.
    2. You do not rest your champion to activate attacks with the command ability.
 2. After an attack with command resolves, a combat phase will begin with the rested ally as the attacker rather than a chosen champion. The attack card added to the rested ally's intent for the combat phase.
    1. Commands that resolve without a valid target will not create a combat phase; the rested ally will not enter combat.
@@ -103,6 +107,11 @@ Damage will be dealt by a unit according to its damage stat and the damage stats
 {% endhint %}
 
 
+
+#### Commanded Will N
+
+1. Commanded Will is a static ability of Chessman units which means "As long as this unit is attacking using a Command card, it gets +N power."
+   1. The ability's condition is fullfilled if there is a Command attack card in its Intent zone.
 
 #### Divine Relic
 
@@ -130,7 +139,7 @@ ability
    1. Empower must take a value greater than 0 to happen; a spell will not be empowered if an effect gave Empower 0.
 2. Empower is granted to the player that controls the card or effect granting Empower. It is applied as a continuous effect that is used and applied as soon as the Empowered player activates their next Spell card.
    1. Empower is not applied as an effect to the activated card, but the card can check if it is being empowered by the player.
-3. Multiple instances of empower stack additively.
+3. Multiple instances of Empower stack additively.
 
 
 
@@ -138,13 +147,13 @@ ability
 
 1. Ephemerate is a static ability which means "You may activate this card from the graveyard by paying its ephemerate cost."
    1. The ephemerate cost is separated by an "—". Any modifiers to this cost or ability are listed after this cost.
-   2. As ephemerate coutns as an alternative activation that is not given any special permissions or timing windows (unlike Starcalling), the activation must follow the default speed of the card.
+   2. As ephemerate counts as an alternative activation that is not given any special permissions or timing windows (unlike Starcalling), the activation must follow the default speed of the card.
 2. Allies played using the this ability become Ephemeral as they enter the field.
    1. Ephemeral is a property which specifies that ephemeral objects are banished whenever they would leave the field.
-   2. Ephemeral as a propety applied to objects will not be applied to the card that object represents. If the card would move zones, the card does not retain "ephemeral" any subsequent objects represented by that card (unless otherwise specified) would not be ephemeral.
+   2. Ephemeral (as a property applied to objects) will not be applied to the card that object represents. If the card would move zones, the card does not retain "ephemeral" and any subsequent objects represented by that card (unless otherwise specified) will not be ephemeral.
 
 {% hint style="success" %}
-If an effect would banish an ephemeral card, that card will still be able to track that object as the destination has not changed. E.g., any form of temporary banishing and then returning to the field, such as suppressing, would allow the card to return to the field. If it is returned this way, it is considered a new object and will not "remember" that it was ephemeral; the new object is not ephemeral.
+If an effect would banish an ephemeral card, that card will still be able to track that object as its destination has not changed. E.g., any form of temporary banishing and then returning to the field, such as suppressing, would allow the card to return to the field. If it is returned this way, it is considered a new object and will not "remember" that it was ephemeral; the new object is not ephemeral.
 {% endhint %}
 
 
@@ -220,7 +229,7 @@ If an effect would banish an ephemeral card, that card will still be able to tra
 
 #### Kindle N
 
-1. Kindle is a static ability which means "you may banish up to N fire element cards fromyour graveyard as you activate this card. Each one pays for 1 reserve of this card's cost."
+1. Kindle is a static ability which means "You may banish up to N fire element cards fromyour graveyard as you activate this card. Each one pays for 1 reserve of this card's cost."
 2. Kindle does not modify a card's cost characteristics regardless of how its payment is opted for.
 
 
@@ -246,7 +255,7 @@ E.g., Lorraine, Wandering Warrior is a Lorraine champion and would be a valid co
 
 #### Lineage Release
 
-1. Lineage Release is an activated ability that says “activate this ability by banishing this card from your champion’s inner lineage.”
+1. Lineage Release is an activated ability that says “Activate this ability by banishing this card from your champion’s inner lineage.”
 2. Lineage Release abilities on one card do not allow a player to banish another card with a Lineage Release ability for the cost of the written ability; only the effect of the ability of the card banished will be put onto the Effects Stack awaiting resolution.
 3. These abilities can only be activated if the card with Lineage Release is in the Inner Lineage (i.e., it is not the player’s champion).
 
@@ -254,7 +263,9 @@ E.g., Lorraine, Wandering Warrior is a Lorraine champion and would be a valid co
 
 #### Link
 
-1. Link is a static ability of objects that can confer type changes, value or stat modifications, or grant abilities to the Linked object.
+1. Link is a static ability of objects which means "This object enters the field linked to a target object. If the link is broken, sacrifice this object."
+   1. The link will designate a linked object that is the target (or, sometimes, choice) of the Link.
+   2. The Link ability may be preceded by an object type. This will restrict targeting of the Link ability only to consider objects of that type as legal. This is true for choosing, as well.
 2. Objects that enter the field after resolution from the effects stack that specify a Link ability become linked to a targeted object, typically preceding the Link word.
    1. If an object with a Link ability were to enter the field from a zone other than the effects stack, the linked object is just chosen as the object enters the field. It will not target anything.
    2. If the activation or materialization of the card with the Link ability has no legal targets, it will fizzle. If the object with the Link ability enters the field from a zone other than the effects stack and has no legal choices to Link to, it will be sacrificed (See points 6 and 7).
@@ -304,7 +315,7 @@ E.g., Champion Link, Ally Link. The target object of the Link is the Linked obje
 
 #### On Charge N
 
-1. On Charge is a triggered ability condition which means "the first time this object has N charge counters on it."
+1. On Charge is a triggered ability condition which means "The first time this object has N charge counters on it."
    1. The triggered ability will only trigger once, the first time it has N charge counters. It will not trigger again regardless of whether the charge counters are removed and it regains charge counters in some way.
 2. At the beginning of a player's recollection step as a turn-based action (TBA), that player puts a charge counter on each of their objects with an untriggered On Charge ability.
 
@@ -357,7 +368,7 @@ E.g. On Hit triggers on any unit being dealt combat damage, typically through at
 3. On intents and weapons, On Kill means “When a unit is killed as a result of being dealt combat damage in an attack using this.”
 
 {% hint style="success" %}
-See [killed](game-terms.md#dies): "A unit is only considered to... have been killed if and only if it enters the graveyard directly from play." This means that On Kill will only trigger if the unit went to the graveyard directly due to the combat damage dealt, and not through any secondary effects, such as On Hit abilities that then would kill the unit.
+See [killed](game-terms.md#dies): "A unit is only considered to... have died or to have been **killed** if and only if it enters the graveyard directly from play." This means that On Kill will only trigger if the unit went to the graveyard directly due to the combat damage dealt, and not through any secondary effects, such as On Hit abilities that then would kill the unit.
 {% endhint %}
 
 
@@ -415,7 +426,7 @@ See [killed](game-terms.md#dies): "A unit is only considered to... have been kil
 
 #### Reservable
 
-1. Reservable is a static ability of objects which means “while paying for a reserve cost, you may rest this object to pay for 1 of that cost.”
+1. Reservable is a static ability of objects which means “While paying for a reserve cost, you may rest this object to pay for 1 of that cost.”
 2. Reservable can pay for any costs that require a reserve cost, including activation costs, added or extra reserve costs, or taxed reserve costs.
 3. Reservable is redundant.
 
@@ -429,7 +440,7 @@ See [killed](game-terms.md#dies): "A unit is only considered to... have been kil
 
 #### Spellshroud
 
-1. Spellshroud is a static ability which means “This object can't be targeted by spells,” where Spells are cards, effects, or sources that have or are granted the Spell subtype.
+1. Spellshroud is a static ability of objects which means “This can't be targeted by spells,” where Spells are cards, effects, or sources that have or are granted the Spell subtype.
    1. Triggers generated by a Spell object are themselves of the Spell subtype and therefore cannot target objects with Spellshroud.
 2. If an object receives Spellshroud while being targeted by a spell, that target would be considered illegal.
    1. If that target was the only specified necessary target for the spell, the spell will fizzle.
@@ -441,7 +452,7 @@ See [killed](game-terms.md#dies): "A unit is only considered to... have been kil
 
 1. Starcalling is a static ability of cards which means “As you’re looking at this card while glimpsing, you may activate it by paying this cost. If you do, put all other cards you’re looking at on the bottom of your deck in any order.”
    1. Activating a card this way can ignore the default play speed.
-2. Starcalling is an alternative cost for activating cards,
+2. Starcalling is an alternative cost for activating cards.
 3. When a player activates a card using the Starcalling cost, that player will put all other cards seen while glimpsing at the bottom of the deck in any order; they may not choose to put any cards on the top of the deck.
 4. Starcalling costs can still be modified by activation cost modifiers.
 5. Starcalling only functions from the Main Deck and cards activated by paying for Starcalling costs are considered as activated from the Main Deck and no other zones.
@@ -458,7 +469,7 @@ See [killed](game-terms.md#dies): "A unit is only considered to... have been kil
 
 #### Stealth
 
-1. Stealth is a static ability of units which means "This object can't be targeted by attacks unless permitted by True Sight."
+1. Stealth is a static ability of units which means "This can't be targeted by attacks unless permitted by True Sight."
 2. Objects that were declared as retaliating against an attack before receiving stealth will still retaliate against their retaliation target and will deal damage accordingly during the combat phase.
 3. If an object receives stealth while being the target of an attack, that target is considered illegal for the attack, and the attack is fizzled unless the attacking object has true sight. The defending object stops being a defending object and the attacking unit stops being an attacking object.
 4. Stealth is redundant.
@@ -467,19 +478,19 @@ See [killed](game-terms.md#dies): "A unit is only considered to... have been kil
 
 #### Taunt
 
-1. Taunt is a static ability.
+1. Taunt is a static ability of units which means "While awake, this must be targeted before other objects you control during your opponents' attack declarations, if able."
 2. When declaring target(s) for an attack, a player must target awake units with Taunt over other attackable objects, if able.
    1. Attacks may be redirected or changed from the ally with taunt after initial attack declarations.
 3. If multiple objects with Taunt are in play, the attacking player can choose which of those units to attack.
-4. Taunt is redundant. An object with Taunt and Taunt does not have to be attacked with higher priority over an object with a single instance of Taunt.
+4. Taunt is redundant. An object with multiple instances of Taunt does not have to be attacked with higher priority over an object with a single instance of Taunt.
 
 
 
 #### True Sight
 
 1. True Sight is a static ability.
-   1. On units, True Sight means "This unit's attacks can target objects with stealth."
-   2. On weapons, True Sight means "Attacks using this weapon can target objects with stealth."
+   1. On units, True Sight means "This unit's attacks can target units with stealth."
+   2. On weapons, True Sight means "Attacks using this weapon can target units with stealth."
 2. True Sight is redundant.
 
 
@@ -488,7 +499,7 @@ See [killed](game-terms.md#dies): "A unit is only considered to... have been kil
 
 1. Unblockable is a static ability which means "This unit's attacks can't be intercepted and ignore taunt."
 2. Attack target(s) from an unblockable unit can still be changed (See [redirect](game-terms.md#redirect).)
-3. Unblockable is redunant.
+3. Unblockable is redundant.
 
 
 

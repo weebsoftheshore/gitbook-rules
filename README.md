@@ -13,6 +13,15 @@ To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~
 To check out the rulebook and the full list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).\
 
 
+September 26th, 2025
+
+* Slightly expanded rules under [Copying](game-mechanics/game-mechanics-copy.md) regarding classification type of copied cards (they are also cards for the purpose of the copying). While this was true before and could be interpreted as such by the rules, it should now be explicit. No functional changes.
+* Cleaned up [Effects](game-mechanics/game-mechanics-miscellaneous-topics/effects.md), [Abilities](game-mechanics/game-mechanics-abilities/), [Masteries](game-mechanics/game-mechanics-mastery.md), and many other sections
+* Continued to reorganize/reserialize the rulebook for consistency and indexed/addressed rulings.
+* Correctly added missing Commanded Will ability entry.
+
+
+
 August 8th, 2025
 
 * Fixed inconsistency in rules with Ciel's mastery. Matches Index entry now. This isn't a functional change but rather fixing entry errors in the rules.

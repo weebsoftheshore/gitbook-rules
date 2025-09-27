@@ -1,6 +1,6 @@
 # Card Types - Domain
 
-General Rules
+General Rules:
 
 1. Domain is also an object type; after a domain resolves, it will enter the field as a domain object.
 2. Domains may only be played at slow speed.

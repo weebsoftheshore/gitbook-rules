@@ -1,16 +1,14 @@
 # Game Mechanics - Counters
 
-Counters are a special attribute of an object that holds both a type and numeric value.&#x20;
+#### General Rules:
 
-Depending on the type, counters will have various effects or enable certain abilities.
-
-Counters can be tracked by using tokens, dice, or an agreed method by players in a game to denote the number and type of each counter on an object.
-
-The quantity of a type of counter can be positively modified by gaining and negatively modified by spending to pay for a cost, or by loss/removal as a result of an effect.
-
-Counters persist on an object or card in a zone as long as that card or object does not change zones. Cards being moved to another zone will cause its counters to be lost.
-
-Counters can be subdivided into generic or special counters. Special counters have specific rules associated with the counter itself whereas generic counters do not grant or have inherent abilities/effects associated with them. Counters are considered generic if they are not listed below:
+1. Counters are a special attribute of an object that holds both a type and numeric value.
+2. Depending on the type, counters will have various effects or enable certain abilities.
+3. Counters can be tracked by using tokens, dice, or an agreed method by players in a game to denote the number and type of each counter on an object.
+4. The quantity of a type of counter can be positively modified by gaining and negatively modified by spending to pay for a cost, or by loss/removal as a result of an effect.
+5. Counters persist on an object or card in a zone as long as that card or object does not change zones. Cards being moved to another zone will cause its counters to be lost.
+6. Counters can be subdivided into generic or special counters. Special counters have specific rules associated with the counter itself whereas generic counters do not grant or have inherent abilities/effects associated with them.&#x20;
+7. Counters are considered generic if they are not listed in the sections below:
 
 #### Buff
 

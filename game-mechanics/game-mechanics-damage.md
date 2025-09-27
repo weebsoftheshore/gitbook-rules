@@ -1,5 +1,7 @@
 # Game Mechanics - Damage
 
+#### General Rules:
+
 1. Damage dealt is always calculated at the resolution of an event and is calculated based on all damage-modifying factors.
 2. Damage is classified as Combat damage and non-Combat damage. Any damage dealt during the resolution of the damage step of the combat phase is dealt as Combat damage. Non-Combat damage includes most other instances of damage being dealt, such as by action cards or by abilities.
 3. Damage can also be characterized as unpreventable damage. This indicates that prevention effects will not be able to prevent that damage.
@@ -25,7 +27,7 @@ Champions with Immortality will not die from having damage counters equal to or 
 14. The element typing of a damage source is considered the element of the source.
 
 {% hint style="info" %}
-E.g. If a Luxem, Fire, and Norm element champion attacks with a Water attack card, the damage source typing is only Luxem, Fire, and Norm.
+E.g., if a Luxem, Fire, and Norm element champion attacks with a Water attack card, the damage source typing is only Luxem, Fire, and Norm.
 {% endhint %}
 
 15. Negative amounts of damage can’t be dealt; if less than 0 damage would be dealt, no damage (0 damage) is dealt instead.
@@ -34,6 +36,6 @@ E.g. If a Luxem, Fire, and Norm element champion attacks with a Water attack car
 {% hint style="danger" %}
 <img src="../.gitbook/assets/purge-in-flames-doa-alter.png" alt="" data-size="original"><img src="../.gitbook/assets/slime-eruption-rec-slm.png" alt="" data-size="original">\
 \
-E.g. Purge in Flames would be considered to deal damage only once while Slime Eruption would be seen as having as many damage instances as the number of times a unit was chosen, even if it was the same unit.
+E.g., Purge in Flames would be considered to deal damage only once while Slime Eruption would be seen as having as many damage instances as the number of times a unit was chosen, even if it was the same unit.
 {% endhint %}
 

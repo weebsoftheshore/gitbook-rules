@@ -1,19 +1,27 @@
-# Properties and States
+# Game Mechanics - Properties and States
 
-Properties are characteristics of a card or object relating to its individual information or certain mutable or temporary characteristics. Some cards or effects may reference or depend upon these properties. A state is a mode of a property or a way in which that property can be set.
+#### General Rules:
 
-If a state of a property were to try to be set to the state it already is in, the state will not change.
+1. Properties are characteristics of a card or object relating to its individual information or certain mutable or temporary characteristics.
+2. Some cards or effects may reference or depend upon these properties. A state is a mode of a property or a way in which that property can be set.
+3. If a state of a property were to try to be set to the state it already is in, the state will not change.
 
 {% hint style="info" %}
-E.g. If an object or card were in the "rested" state, resting that card or object will not cause that card to "become rested" — it will simply be rested and the game will not observe a change in the card's state.
+E.g., if an object or card were in the "rested" state, resting that card or object will not cause that card to "become rested" — it will simply be rested, and the game will not observe a change in the card's state.
 {% endhint %}
 
-General Card Properties
 
-1. Facing: The facing of a card is a property with states of being either face-up or face-down. This property is used to determine whether its information is considered public or private.
+
+#### Facing
+
+1. The facing of a card is a property with states of being either face-up or face-down. This property is used to determine whether its information is considered public or private.
    1. Face-down cards in all zones except for the field have no properties except for being a card with set properties or characteristics defined by effects.
    2. If a private card is set face down in a specific zone after having been selected for certain characteristics or properties, that card must be revealed at the end of the game.
-2. Orientation: The orientation of a card is a property with states of being either Awake or Rested. This property is typically used to determine whether an object can be rested to pay for costs, attack, or retaliate.
+
+#### Orientation
+
+1. The orientation of a card is a property with states of being either Awake or Rested.&#x20;
+2. This property is typically used to determine whether an object can be rested to pay for costs, attack, or retaliate.
 
 
 

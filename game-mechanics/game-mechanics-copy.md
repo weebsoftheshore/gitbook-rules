@@ -5,14 +5,17 @@ Some cards or abilities can become a copy of a card, object, or ability, or may 
 General Rules:
 
 1. Anything copied will assume the properties and characteristics inherited as a result of the zone in which it was copied.
-   1. A copied activation of a card or ability is still considered an activation. A copied triggered ability is still considered an ability. This is true for all types of interactable objects.
+   1. A copied activation of a card or ability is still considered an activation. The same is true for an activation of a copied card. A copied triggered ability is still considered a triggered ability. This is true for all types of interactable objects.
+      1. If the activation of the original card would require additional costs, those additional costs are also required for the copy. The copy is treated as a card, per rule 1.e. in this section.
    2. A card copied from the hand will cause the copy to behave as if it were in the hand. The same is true for other zones.
    3. Only copies of cards on the field (i.e., the objects the cards represent) will become permanent.
    4. Copies of cards that are not on the field will only persist as long as the effect that created the copy persists. However, a copy of a card with a corresponding object type will cause a token of that object to be summoned as it resolves (the original card copy itself still ceases to exist).
       1. A copy of an intent will remain in the intent until the end of combat.
+   5. Copies of cards (not objects) are treated as cards themselves for the duration of the copy effect. The same is true for any other type of copying.
+      1. Any effects or other rules text referencing "this" on the original card that was copied will apply to the copy itself, as it is also treated as a card under rule 1.e.
 
 {% hint style="success" %}
-E.g., For 1.a., a copied intent is also an intent, a copied object is copied into the field, a copied activation is copied into the effects stack, etc.
+For 1.a., a copied intent is also an intent, a copied object is copied into the field, a copied activation is copied into the effects stack, etc.
 {% endhint %}
 
 2. Copied card activations and copied objects are under the control of the player who created the copy.

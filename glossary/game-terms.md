@@ -2,7 +2,7 @@
 
 #### Activate/Activating
 
-1. To activate a card is to take the card from the zone it is currently in (usually the hand), pay its costs, and put it onto the Effects Stacks for resolution. A player may activate a card if they have Opportunity and are legally allowed to activate the card.
+1. To activate a card is to take the card from the zone it is currently in (usually the hand), pay its costs, and put it onto the Effects Stack for resolution. A player may activate a card if they have Opportunity and are legally allowed to activate the card.
 2. To activate an ability is to indicate the ability being activated, pay the costs, and put the ability onto the Effects Stack for resolution. A player may activate a given ability if they have Opportunity and are legally allowed to activate the ability.
 
 
@@ -10,14 +10,14 @@
 #### Awake
 
 1. A card on the field is considered awake if it is in an upright position.
-2. Abilities of that card that require resting such as attacking or as a cost of activation can only be activated if that card is awake.
+2. Abilities of that card that require resting, such as attacking or as a cost of activation, can only be activated if that card is awake.
 3. Cards enter the field awake.
 
 
 
 #### Banish
 
-1. To banish a card is to take a card from the zone it is currently in and put that card in its owner’s Banishment zone.
+1. To banish a card is to take a card from the zone it is currently in and put that card into its owner’s Banishment zone.
 2. A banished card is a card that has been put into the Banishment zone.
 3. An object banished is not considered to have been destroyed or to have died when leaving the field this way.
 
@@ -34,7 +34,7 @@
 
 1. Control of an object or card activation is given to the player who activated the corresponding card by default.
 2. The player that controls a specified object is referred to as that object’s controller.
-3. If control of a card, object, effect, or ability is not specified, control defaults to the owner. E.g. If an ally is [suppressed](game-terms.md#suppress), the new object ally will be under the control of the owner of that ally card.
+3. If control of a card, object, effect, or ability is not specified, control defaults to the owner. E.g., if an ally is [suppressed](game-terms.md#suppress), the new object ally will be under the control of the owner of that ally card.
 4. If a triggered ability is placed onto the Effects Stack from a card or object, control of that ability is granted to the controller of that card or object as the ability was placed onto the Effects Stack; changes in control of that object will not retroactively change the player in control of that ability.
 5. The owner of the card does not necessarily always control the card.
 6. Ownership of a card (within a game of Grand Archive) is designated to the player that began the game with that card in their main deck, material deck, or sideboard.
@@ -47,7 +47,7 @@
 
 1. Copy can refer to both the effect of copying an object or card activation or the copied object or card.
 2. When an object is copied, the copy object becomes a clone of the printed face of the card disregarding any modifiers such as extra counters or status conditions (awake/rested, will not wake up, etc).
-3. When a card activation is copied, the copy activation becomes a copy of the card in the Effects Stacks with all modes, activation choices, and otherwise modified activation attributes being identical to the original.
+3. When a card activation is copied, the copy activation becomes a copy of the card in the Effects Stack with all modes, activation choices, and otherwise modified activation attributes being identical to the original.
 4. If an effect is copied, it is effectively put onto the Effects Stack a second time with any relevant modes or activation choices and parameters copied from the original.
 
 
@@ -84,10 +84,10 @@ Banishment as a result of a destruction effect does not allow effects dependent 
    2. Non-units do not die but they are still considered destroyed.
 
 {% hint style="warning" %}
-E.g., A destruction or destroy effect kills an ally and that ally is considered to have died. A siegeable domain being destroyed as a result of falling to 0 durability counters does not die. This means effects like On Kill will not trigger when it comes to non-units.
+E.g., a destruction or destroy effect kills an ally and that ally is considered to have died. A siegeable domain being destroyed as a result of falling to 0 durability counters does not die. This means effects like On Kill will not trigger when it comes to non-units.
 {% endhint %}
 
-2. A unit is only considered to have died or to have been killed if, and only if, it enters the graveyard directly from play.
+2. A unit is only considered to have died or to have been killed if and only if it enters the graveyard directly from play.
 
 {% hint style="danger" %}
 If it would be banished instead of being sent to the graveyard, the card is, by definition, not considered to have died.
@@ -123,10 +123,11 @@ If it would be banished instead of being sent to the graveyard, the card is, by 
 
 1. The element of a card is represented by a name and symbol on the top right of its card face.
 2. Elements apply a restriction on players from playing cards unless that element is within the element identity of one of their champions.
-3. Elements fall under three categories: Norm, Basic, and Advanced.
+3. Elements fall under three categories: Norm, Basic, a d Advanced.
    1. Norm is a default element without any restrictions; players always have access to playing cards of this element.
-   2. Basic elements are Water, Fire, and Wind, and are typically unlocked by the Level 0 champion that is put into play during the start of a game. Other effects can enable these elements, as well.
+   2. Basic elements are Water, Fire, and Wind, and are typically unlocked by the Level 0 champion that is put into play during the start of a game. Other effects can enable these elements as well.
    3. Advanced elements are any elements that do not fall under either Norm or the Basic element categories. These elements are typically unlocked either after a champion reaches level 3 in its lineage or under special circumstances.
+      1. Exalted is a special advanced element that is enabled by default for a player as long as they control a champion that enables another advanced element for them.
 
 
 
@@ -231,7 +232,7 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 #### Label Keywords
 
-1. Label keywords exist as bolded and italicized text followed by a long hyphen on cards that does not function as a normal keyword. Rather, they will refer to a broad class of similar mechanics with individual cards differing in the wording or conditions of the keyword.
+1. Label keywords exist as bolded and italicized text followed by a long hyphen on cards that do not function as normal keywords. Rather, they will refer to a broad class of similar mechanics with individual cards differing in the wording or conditions of the keyword.
 2. Label keywords can be referenced by abilities or effects and do count as a characteristic of the card.
 3. List of Label keywords:
 
@@ -360,7 +361,7 @@ A negated Crux sight for which the additional 2 was paid will cause it to be ban
 
 #### Player Action
 
-1. Player actions are distinct actions in the game a player can take. E.g. activating or materializing cards, attacking, activating abilities, etc.
+1. Player actions are distinct actions in the game a player can take. E.g., activating or materializing cards, attacking, activating abilities, etc.
 2. Player action order is the order in which players may take actions during a turn when they would receive Opportunity. After a player action is taken or Opportunity is granted, it is first given to the turn player. The turn player may act first, after which non-turn players may each take a turn performing player actions as allowed by the game. This can be called the Turn Player / Non-turn Player order.
 
 
@@ -374,7 +375,7 @@ A negated Crux sight for which the additional 2 was paid will cause it to be ban
 #### Preparation Counters
 
 1. Preparation counters are a type of counter that may be placed on a champion.
-2. Preparation counters may be paid as an additional cost when activating a card with the keyword Prepare
+2. Preparation counters may be paid as an additional cost when activating a card with the keyword Prepare.
 
 
 
@@ -400,7 +401,7 @@ E.g. For a card that says, "As an additional cost to activate this card, Recover
 
 #### Reflexive Trigger
 
-1. A reflexive trigger is a trigger found within an effect or ability that is placed onto the effects stack only if the condition for that trigger is fulfilled and after the initial part of the ability or effect is fully resolved.
+1. A reflexive trigger is a trigger found within an effect or ability that is placed onto the Effects Stack only if the condition for that trigger is fulfilled and after the initial part of the ability or effect is fully resolved.
 2. The source of a reflexive trigger is considered the original source of the effect or ability that generated the reflexive trigger.
 
 {% hint style="info" %}
@@ -436,7 +437,7 @@ E.g., Umbra Sight optionally allows a player to draw a card into their memory an
 4. When retaliation is declared, the retaliating unit causes the attacking unit to become the retaliation target, which is maintained even if the attacking unit stops attacking during the combat phase.
 5. Units without a power stat or have a power of 0 cannot retaliate.
 6. Retaliation is the act of a defending unit resting to deal damage according to its power against a unit attacking it.
-7. A unit can only retaliate if it was an object on the field “before retaliation” (See Retaliation Step of combat).
+7. A unit can only retaliate if it was an object on the field “before retaliation” (see [Retaliation Step](../game-mechanics/game-mechanics-turn-order/turn-order-combat-phase/combat-phase-retaliation-step.md) of combat).
 8. A unit that gains stealth after being declared as retaliating during the combat phase will still retaliate against its attacker during the damage step and deal damage accordingly.
 
 
@@ -445,7 +446,7 @@ E.g., Umbra Sight optionally allows a player to draw a card into their memory an
 
 1. An ability, effect, or game rule may tell a player to reveal a card or a group of cards in a game zone.
 2. To reveal a card, a player takes the specified card(s) in that zone and presents them to all players in the game face-up as public information.
-3. Cards remain revealed until the next discrete game state/until a player takes a player action, or until the next time state-based effects are checked.
+3. Cards remain revealed until the next discrete game state, until a player takes a player action, or until the next time state-based effects are checked.
 4. Revealed cards may be written down or recorded however a player wishes to do so but may not ask that the revealed cards stay revealed; the information state of the revealed card (private vs public) reverts to the original state before it was revealed after the card stops being revealed.
 5. Cards revealed from a private zone ought to be shuffled or randomized among the other cards in the zone after those cards stop being revealed.
 6. A card that is already public information or already known can be revealed any number of times.
@@ -474,7 +475,7 @@ E.g., Umbra Sight optionally allows a player to draw a card into their memory an
 #### Shuffling
 
 1. Shuffling a set of cards is to make that set of cards sufficiently randomized such that any player in a game cannot uniquely identify any one card and has no reasonable knowledge as to the location of any of those cards from among the set.
-2. Effects may instruct a player or players to shuffle a set of card. If this is done, those players must take the specified cards or set of cards and mix them in a random manner suitable for them until those cards are sufficiently randomized.
+2. Effects may instruct a player or players to shuffle a set of cards. If this is done, those players must take the specified cards or set of cards and mix them in a random manner suitable for them until those cards are sufficiently randomized.
 
 
 
@@ -502,7 +503,7 @@ E.g., Umbra Sight optionally allows a player to draw a card into their memory an
 
 1. Summon defines the player action of summoning objects into play.
 2. A summoned object is treated as a token that only exists while it is on the field.
-3. Summoned objects (tokens) can be represented by any outside game object such that it is easy to distinguish tokens apart from other objects and such that the characteristics of that token is easily tracked or referenceable.
+3. Summoned objects (tokens) can be represented by any outside game object such that it is easy to distinguish tokens apart from other objects and such that the characteristics of that token are easily tracked or referenceable.
 
 
 
@@ -523,7 +524,7 @@ E.g., Umbra Sight optionally allows a player to draw a card into their memory an
 
 #### Transform
 
-1. Transform defines the player action of flipping a double-faced card (as an object) over to its other face. Only card that have valid side to transform into may transform.
+1. Transform defines the player action of flipping a double-faced card (as an object) over to its other face. Only cards that have a valid side to transform into may transform.
    1. If a player attempts to transform a card that cannot be transformed, nothing will happen. This includes any attempts at having a card enter the field transformed if the card is not a double-faced card.
 2. Transforming a card will retain any counters that were initially placed on the object. It will also retain any applied continuous effects, such as Links, if legal.
 
