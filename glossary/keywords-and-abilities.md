@@ -131,7 +131,7 @@ Damage will be dealt by a unit according to its damage stat and the damage stats
 1. Element Bonus is a restriction ability that defines a bonus effect or replacement effect for a card that is enabled if and only if the player’s champion’s element(s) matches the element of the card or object.
 2. Element Bonus functions in all zones.
 
-ability
+
 
 #### Empower N
 
@@ -276,7 +276,7 @@ E.g., Champion Link, Ally Link. The target object of the Link is the Linked obje
 
 3. Cards with Link abilities must specify the Link target when they are put onto the Effects Stack. If that object is no longer legal, it will fizzle.
 4. A Link ability is broken when either the object with the Link ability or the Linked object leaves the field. The Link is also broken if it becomes illegal at any time, such as through type-changing or type-setting.
-5. If the Link is destroyed as a result of the Linked object leaving the field in any way, the object with the Link ability is sacrificed as a state-based action (players must sacrifice it before any Opportunity is passed and any further player actions are taken).
+5. If the object with a Link ability has no Link with an object during state-based checks, the object with the Link ability is sacrificed as a state-based action (players must sacrifice it before any Opportunity is passed and any further player actions are taken). This considers if the link is broken or did not exist when the object with the Link ability entered the field.
 6. An object can be under the effect of any number of Link abilities.
 7. A Link only exists when at least one of the Linked objects has a legal Link.
 
@@ -491,6 +491,7 @@ See [killed](game-terms.md#dies): "A unit is only considered to... have died or 
 1. True Sight is a static ability.
    1. On units, True Sight means "This unit's attacks can target units with stealth."
    2. On weapons, True Sight means "Attacks using this weapon can target units with stealth."
+   3. On attacks, True Sight means "This attack can target units with stealth."
 2. True Sight is redundant.
 
 

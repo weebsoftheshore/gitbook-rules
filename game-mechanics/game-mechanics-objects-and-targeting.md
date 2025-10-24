@@ -5,6 +5,8 @@
 1. Objects are defined as instanced representations of cards on the field, which include champions, allies, weapons, items, domains, phantasias, as well as any tokens.
 2. Units are a subset of objects that only include allies and champions. These objects are interactable by effects that specify "target ally," "target champion," or "target unit" (for both). "Choose" may also be used instead of target, but will select a target as part of effects rather than as an activation requirement.
 3. Innate stats tied to card characteristics (e.g., written Life and Power values, etc.) stay on objects even if they change to an object type that may not necessarily use or interact with that stat.
+4. When effects of cards or abilities use a card type or subtype descriptor and do not refer to a card, activation, materialization, or source, these effects refer to the object with the described type or subtype on the field.
+5. Effects that reference the source from which the effect originated (self-referential rules), the name of the card will be used as "this card" or "this object," depending on the context. The rules will use \[CARDNAME] for self references.
 
 {% hint style="success" %}
 ![](https://api.gatcg.com/cards/images/fracturize-ftc.jpg)![](https://api.gatcg.com/cards/images/warriors-longsword-doa-alter.jpg)\
@@ -55,4 +57,3 @@ E.g., the card Creative Shock instructs the player to choose a unit and deal 2 d
 ![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/creative-shock-doa-alter.jpg)
 {% endhint %}
 
-5. When effects of cards or abilities use a card type or subtype descriptor and do not refer to a card, activation, materialization, or source, these effects refer to the object with the described type or subtype on the field.

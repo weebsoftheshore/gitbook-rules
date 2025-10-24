@@ -1,5 +1,7 @@
 # Game Zones - Intent
 
+#### General Rules:
+
 1. The Intent zone is a public zone, and each champion has an Intent zone owned by the champion’s controlling player that exists during the Combat Phase.
 
 {% hint style="info" %}

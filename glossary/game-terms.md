@@ -133,8 +133,8 @@ If it would be banished instead of being sent to the graveyard, the card is, by 
 
 #### Enlighten Counters
 
-1. Enlighten counters confer the following ability to champions: “Remove 3 enlighten counters from \[CARDNAME]: Draw a card.”
-2. Enlighten counters persist through level-ups of a player’s champion.\
+1. Enlighten counters confer the following ability to objects they're placed on: “Remove 3 enlighten counters from \[CARDNAME]: Draw a card.”
+2. Enlighten counters placed on champions persist through level-ups of a player’s champion.\
 
 
 

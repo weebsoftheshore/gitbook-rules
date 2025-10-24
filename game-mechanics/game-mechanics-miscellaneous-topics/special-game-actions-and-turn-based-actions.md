@@ -1,12 +1,11 @@
 # Special Game Actions and Turn-based Actions
 
-Special and turn-based game actions are events that either a player takes or which the game will perform that cannot be responded to by any players in any circumstances.
+#### General Rules:
 
-No players are considered the source for turn-based actions.
-
-Opportunity is never given nor are players able to obtain Opportunity during special and turn-based actions being completed.
-
-Special game actions are excluded from modifications to game rules by rules text of cards and effects.
+1. Special and turn-based game actions are events that either a player takes or which the game will perform that cannot be responded to by any players in any circumstances.
+2. No players are considered the source for turn-based actions.
+3. Opportunity is never given nor are players able to obtain Opportunity during special and turn-based actions being completed.
+4. Special game actions are excluded from modifications to game rules by rules text of cards and effects.
 
 {% hint style="warning" %}
 <img src="https://ga-index-public.s3.us-west-2.amazonaws.com/cards/eternal-magistrate-mrc.jpg" alt="" data-size="original">

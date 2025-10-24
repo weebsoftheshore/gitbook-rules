@@ -33,6 +33,6 @@ Effects and abilities can modify costs to be paid.
 6. Costs cannot be reduced below 0; If a cost would be numerically reduced to a number below 0, that cost is set to 0 instead.
 7. If a card has a variable cost represented by X, X is treated as 0 while the card is not on the Effects Stack. Otherwise, X is treated as whichever number was chosen as X as it was placed on the Effects Stack.
    1. If a card with a variable cost is allowed to be played without paying for its reserve or memory cost, X must be chosen as 0; players may not choose any other values for X in this case.
-   2. References to the value X as part of the effects of a card or object will be treated as the previously chosen value of X.
+   2. References to the value X as part of the effects for a given card or object will be treated as the previously chosen value of X for that card.
    3. If a card with a variable cost in the Effects Stack is [copied](../../game-mechanics/game-mechanics-copy.md), the copied instance will assume the value of X chosen for the original card.
    4. If an effect copies an object on the field with any values of X among its costs or of a previously set value for X, the copy will be made with those values of X set to 0.

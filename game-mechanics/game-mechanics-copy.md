@@ -2,9 +2,9 @@
 
 Some cards or abilities can become a copy of a card, object, or ability, or may create an object that is a copy of a card, object, or ability. Copying can refer to the effect of copying an object or card activation. A copy can refer to the copied card, object, or ability.&#x20;
 
-General Rules:
+#### General Rules:
 
-1. Anything copied will assume the properties and characteristics inherited as a result of the zone in which it was copied.
+1. Anything copied will assume the properties and characteristics it inherits as a result of the zone in which it was copied.
    1. A copied activation of a card or ability is still considered an activation. The same is true for an activation of a copied card. A copied triggered ability is still considered a triggered ability. This is true for all types of interactable objects.
       1. If the activation of the original card would require additional costs, those additional costs are also required for the copy. The copy is treated as a card, per rule 1.e. in this section.
    2. A card copied from the hand will cause the copy to behave as if it were in the hand. The same is true for other zones.
@@ -19,17 +19,17 @@ For 1.a., a copied intent is also an intent, a copied object is copied into the 
 {% endhint %}
 
 2. Copied card activations and copied objects are under the control of the player who created the copy.
-3. A copied ability has the same source as the original ability activation or trigger, and references by name will refer to the source of the original ability.
+3. A copied ability will have the same source as the original ability activation or trigger, and references by name will refer to the source of the original ability.
 4. Copy effects that state a player may choose new targets or modes for the copied ability or card activation allow the player to choose new targets or modes.
    1. This will not allow the player to modify any choices made in activating the original copy.
-5. Copying a card is not the same as generating a card. A copied card will cease to exist after the duration of the effect that created.
+5. Copying a card is not the same as generating a card. A copied card will cease to exist after the duration of the effect that created it.
 
 
 
 #### Copying Objects
 
 1. When an object is copied, the new copy has all characteristics of the base printing of the current face of that card without any modifiers such as counters, rested/awake statuses, or other continuous one-shot effects applied to the card.
-   1. Some properties that affect the card (as opposed to just the object the card has become) can be copied, such as: Imbued.
+   1. Some properties that affect the card (as opposed to just the object the card has become) can be copied, such as Imbued.
 2. Any choices or modes made while the original was on the field do not count as copiable information or characteristics for the new object. If any abilities ask that a player choose an effect, this choice is not impacted by nor will it impact the original object’s choice.
 
 {% hint style="warning" %}
@@ -39,13 +39,13 @@ E.g., If a copy was made of Nia, Mistveiled Scout, the copy’s controller may c
 {% endhint %}
 
 3. Copies of any intent will also be copied into the intent zone. Those copies will cease to exist at the end of combat.
-4. Any subsequent changes to the original copy will not cause any changes in characteristics to any of the copies of the original.
+4. Any subsequent changes to the original object will not cause any changes in characteristics to any of the copies.
 5. When an object is copied, the copied object is solely used to reference characteristics, regardless of whether or not the copied object is itself a copy.
 6. Copying a transformable card will cause the copy to have only the characteristics of the face-up side. This copy will not be able to transform unless it has a valid corresponding side.
 
 #### Static Copying
 
-1. Some objects may enter the field as a copy of another object. If it does, the copied object will act as if it enters as the original card with any On Enter abilities being placed onto the Effects Stack, if able. Otherwise, it will copy all other characteristics as point 1 made above.
+1. Some objects may enter the field as a copy of another object. If it does, the copied object will act as if it enters as the original card with any On Enter abilities being placed onto the Effects Stack if able. Otherwise, it will copy all other characteristics as point 1 made above.
 2. Entering as a copy is not a triggered ability like On Enter.
 
 #### Copying Abilities, Card Activations, and Materializations

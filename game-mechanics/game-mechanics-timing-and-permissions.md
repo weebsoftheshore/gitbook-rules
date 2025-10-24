@@ -41,6 +41,7 @@ Situations in which Opportunity arises:
 * At the beginning of the retaliation step and damage step of the combat phase
 * At the beginning of the main phase (turn player receives Opportunity and can perform Slow player actions)
 * After an activation, trigger, or materialization resolves and there is another effect on the Effects Stack or a pending turn-based action
+* After the turn player moves to the end of the turn, the opponent(s) will receive Opportunity before the end step
 
 #### Special Play Permissions
 

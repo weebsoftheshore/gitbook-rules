@@ -20,4 +20,4 @@ General Rules:
 2. Deckbuilding restrictions for cards in the material deck apply to regalia as well; a player may only have up to one copy of a specific regalia in their material deck at the start of a game.
 3. All regalia have a memory cost.
 4. If a regalia card would be put into a graveyard from anywhere, it is instead banished.
-5. If an effect specifies that a regalia would be sent to the hand, main deck, or memory, it returns to its owner’s material deck when it leaves the field instead.
+5. If an effect specifies that a regalia would be sent to the hand, main deck, or memory, it returns to its owner’s material deck.

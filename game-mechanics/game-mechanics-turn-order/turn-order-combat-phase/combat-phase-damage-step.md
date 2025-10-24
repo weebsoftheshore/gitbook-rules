@@ -1,5 +1,7 @@
 # Combat Phase - Damage Step
 
+#### General Rules:
+
 1. First, the turn player receives opportunity. This point at which players are granted Opportunity during this phase is considered “before damage” and is the only time players may act before the game progresses until the conclusion combat phase.
 2. Second, if there are multiple units retaliating against the attacker, the attacking player chooses the order in which the retaliating units will deal damage to the attacking unit. Damage will be done simultaneously, however the order determines how damage will interact with any replacement effects such as damage prevention and for On Hit and On Kill triggers.
    1. For each attacker, the only On Kill abilities from a retaliating source that will trigger are those from the damage source marking lethal damage and that would send the attacking unit to the graveyard as a result of combat damage

@@ -10,7 +10,15 @@ IMPORTANT LINKS:
 \
 To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~gitbook/pdf?limit=150).
 
-To check out the rulebook and the full list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).\
+To check out the rulebook and the full list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).
+
+\
+\
+October 24th, 2025
+
+* Non-functional changes
+* Various fixes, consistency changes, organizational changes, etc. Completed remainder of rules formatting according to earlier sections.
+* Slight fix for reorganizing timing of state-based checks during combat to cleanup role and card-based permanence for correctly determining result of combat effects. \
 
 
 September 26th, 2025
