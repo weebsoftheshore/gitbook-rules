@@ -17,3 +17,5 @@ The ability is considered activated when all steps listed above have been comple
 6. Activated abilities use fast speed by default.
 7. Activated abilities can’t retroactively affect costs for activations in the Effects Stack nor any modes chosen for the activation.
 8. Activated abilities of attack cards can only be used from the intent by default.
+9. Some abilities can give a player who does not control the source of the activated ability permission to activate it. The specified player(s) will be able to activate the ability as if they are the controlling player for the purpose of activating that ability.
+   1. Control of the source and/or object does not change if an ability is activated this way.

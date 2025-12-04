@@ -4,11 +4,12 @@
 
 1. A Counter is a special attribute of an object that holds both a type and numeric value.
 2. Depending on the type, counters will have various effects or enable certain abilities.
-3. Counters can be tracked by using tokens, dice, or an agreed method by players in a game to denote the number and type of each counter on an object.
+3. Counters can be tracked by using tokens, dice, or an agreed method by players in a game to denote the number and type of each counter on a card or mastery.
 4. The quantity of a type of counter can be positively modified by gaining and negatively modified by spending to pay for a cost, or by loss/removal as a result of an effect.
 5. Counters persist on an object or card in a zone as long as that card or object does not change zones. A card being moved to another zone will cause its counters to be lost.
-6. Counters can be subdivided into generic or special counters. Special counters have specific rules associated with the counter itself, whereas generic counters do not grant or have inherent abilities/effects associated with them.&#x20;
-7. Counters are considered generic if they are not listed in the sections below:
+   1. Masteries can also gain persistent counters in some circumstances. Counters will remain on a mastery until the mastery is removed or the counters themselves are removed.
+6. Counters can be subdivided into generic or special counters. Special counters have specific rules associated with the counter itself, whereas generic counters do not grant or have inherent abilities/effects associated with them.
+   1. Counters are considered generic unless they are listed in the sections below:
 
 #### Buff
 

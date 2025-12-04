@@ -148,9 +148,10 @@ Damage will be dealt by a unit according to its damage stat and the damage stats
 1. Ephemerate is a static ability which means "You may activate this card from the graveyard by paying its ephemerate cost."
    1. The ephemerate cost is separated by an "—". Any modifiers to this cost or ability are listed after this cost.
    2. As ephemerate counts as an alternative activation that is not given any special permissions or timing windows (unlike Starcalling), the activation must follow the default speed of the card.
-2. Allies played using the this ability become Ephemeral as they enter the field.
-   1. Ephemeral is a property which specifies that ephemeral objects are banished whenever they would leave the field.
-   2. Ephemeral (as a property applied to objects) will not be applied to the card that object represents. If the card would move zones, the card does not retain "ephemeral" and any subsequent objects represented by that card (unless otherwise specified) will not be ephemeral.
+   3. Card activations that would become objects as they resolve become Ephemeral as they enter the field, if the card was activated via the Ephemeral ability cost.
+      1. Ephemeral, as an object property, modifies objects such that the objects are banished whenever they would leave the field. The ephemeral property placed on the object will not be applied to the card that object represents. If the card would move zones, the card does not retain the "ephemeral" property and any subsequent objects represented by that card (unless otherwise specified) will not be ephemeral.
+   4. Cards activations that would not become an object, such as Actions, become Ephemeral on the effects stack when activated via the Ephemeral ability cost.
+      1. Ephemeral, as a property applied to cards in the effects stack, modifies the cards such that they will be banished as they resolve or if they were to be moved from the effects stack.
 
 {% hint style="success" %}
 If an effect would banish an ephemeral card, that card will still be able to track that object as its destination has not changed. E.g., any form of temporary banishing and then returning to the field, such as suppressing, would allow the card to return to the field. If it is returned this way, it is considered a new object and will not "remember" that it was ephemeral; the new object is not ephemeral.
@@ -187,6 +188,13 @@ If an effect would banish an ephemeral card, that card will still be able to tra
 2. Hindered is redundant.
 
 
+
+#### Interdiction
+
+1. Interdiction is a static ability of cards which means, "As long as this card's activation is on the effects stack, players can't have opportunity."
+2. When a card with Interdiction is activated, it will remove any Opportunity that a player has and Opportunity will not be transferred or granted to any other player. This means that no players may play any cards, declare attacks, activate abilities, or perform any other player action that would require Opportunity for the sake of timing conventions.
+   1. Triggered abilityies may still be placed on the effects stack.
+3. After a card activation with Interdiction resolves, the turn player will gain Opportunity.
 
 #### Imbue N
 

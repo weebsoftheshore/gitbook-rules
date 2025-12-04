@@ -12,14 +12,25 @@ To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~
 
 To check out the rulebook and the full list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).
 
+
+
+December 4th, 2025
+
+* Entries added for Phantom Monarchs Release
+  * Fractured Memories and Phantasmagoria added as Masteries
+  * Interdiction is added to Keywords
+  * MAJOR RULE CHANGE!!! - Each player now begins the game with their starting Lv 0 champion in play and resolves each of the On Enter abilities in turn order before the first turn player takes their turn. Read more in [Starting the Game](general-rules/general-rules-starting-the-game.md) and [Turn Order](game-mechanics/game-mechanics-turn-order/). This rule change is effective on December 5th, 2025 with the launch of Phantom Monarchs.
+    * (This rule change also cleans up the Eternal Magistrate issue \*whew\*)
+  * Masteries can get counters (kind of implied, but rules are a little more explicit now)
+  * Broadened language regarding the Ephemeral property (applies to card activations as well as objects; activations that would become objects are only ephemeral when they hit the field, whilst Actions (or non-object) and like card activations become ephemeral on the stack.
+
 \
 \
 October 24th, 2025
 
 * Non-functional changes
 * Various fixes, consistency changes, organizational changes, etc. Completed remainder of rules formatting according to earlier sections.
-* Slight fix for reorganizing timing of state-based checks during combat to cleanup role and card-based permanence for correctly determining result of combat effects. \
-
+* Slight fix for reorganizing timing of state-based checks during combat to cleanup role and card-based permanence for correctly determining result of combat effects. <br>
 
 September 26th, 2025
 
@@ -103,8 +114,7 @@ March 14th, 2025
 * Added missing sub-layers to layer E regarding power/life modification orders ([sorry](https://tenor.com/view/sprinkle-chef-chris-cho-onion-cooking-dancing-gif-22681225)).
 * Moved siegeable to [Functional Subtypes](general-rules/general-rules-card-types/card-types-functional-subtypes.md) and reorganized this section.
 * Cleaned up the language consistency for double-faced cards.
-* Other minor fixes...\
-
+* Other minor fixes...<br>
 
 March 5th, 2025
 

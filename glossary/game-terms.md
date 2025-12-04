@@ -134,15 +134,16 @@ If it would be banished instead of being sent to the graveyard, the card is, by 
 #### Enlighten Counters
 
 1. Enlighten counters confer the following ability to objects they're placed on: “Remove 3 enlighten counters from \[CARDNAME]: Draw a card.”
-2. Enlighten counters placed on champions persist through level-ups of a player’s champion.\
-
+2. Enlighten counters placed on champions persist through level-ups of a player’s champion.<br>
 
 
 
 #### Ephemeral
 
-1. Ephemeral is a property that can modify objects on the field.
+1. Ephemeral is a property that can modify card activations in the effects stack or objects on the field.
    1. Ephemeral objects will be banished if they were to leave the field.
+   2. Ephemeral card activations will be banished when they resolve or leave the effects stack.
+      1. If an ephemeral card activation is negated or fizzles, it will be banished instead of going to the graveyard.
 
 
 

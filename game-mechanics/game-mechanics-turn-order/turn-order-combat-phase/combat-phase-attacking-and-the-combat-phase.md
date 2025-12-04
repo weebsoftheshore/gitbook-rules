@@ -11,6 +11,7 @@
    6. Attacking is a player action that begins a Combat phase.
    7. Only one combat phase will be initiated per attack declaration and only one combat phase may resolve at a time. No player receives Opportunity during attack declarations.
       1. If an attack card resolves during combat and a new attack declaration is attempted, it will fizzle and combat will continue as normal.
+   8. Players can't declare attacks on their first turn unless they are the last player in the first turn cycle. E.g., in a 4-player game, only the 4th player may declare attacks on their first turn of the game.
 2. Attacking has steps involving attack activation (if it is an attack card), declaration of the attack, and initiation of a Combat phase involving a Retaliation step, then a Damage step.
    1. Attack cards can still be activated without a legal target in play, however, the attack will immediately fizzle when a target declaration can’t occur.
    2. Attack declarations from allies and champions must specify the attack target during declaration. If there is no valid target, the attack cannot be declared.

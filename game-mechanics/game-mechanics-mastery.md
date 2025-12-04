@@ -16,9 +16,32 @@ Masteries are special non-object player functions and are typically granted by v
 
 #### Masteries:
 
+
+
+#### Fractured Memories
+
+&#x20;                                            ![](https://api.gatcg.com/cards/images/fractured-memories-rec-brv.jpg)
+
+1. Fractured memories is an Assassin Skill mastery with two static abilities:
+   1. The first ability is a "Merlin Bonus" restriction static ability that says, "Your champion has 'On Ally Kill: Put X sheen counters onto your Fractured Memories, where X is the amount of sheen counters that were on the killed ally.'"
+   2. The second ability is a "Merlin Bonus" restriction static ability that says, "Your champion has "On Champion Hit: You may move all sheen counters from the hit champion onto your Fractured Memories. When three or more counters are moved this way, deal 3 damage to that champion.'"
+2. Certain cards and abilities may have a "Sheen X+" restriction. This restriction ability statically checks the number of sheen counters present on the Fractured Memories mastery. If a sufficient number of sheen counters is present, the restricted ability becomes unlocked.
+   1. On Enter abilities with a "Sheen" restriction can't trigger unless the requisite number of sheen counters are present when the On Enter ability would trigger.
+
+#### Phantasmagoria
+
+&#x20;                                            ![](https://api.gatcg.com/cards/images/phantasmagoria-ptm.jpg)               &#x20;
+
+1. Phantasmagoria is a Cleric Spell mastery that has three different abilities:
+   1. The first ability is a static ability that says, "Non-Specter cards in your graveyard lose all abilities."
+   2. The second ability is an "Alice Bonus" restriction static ability that says, "Whenever a Specter ally you control dies, put a haunt counter on Phantasmagoria."
+      1. Haunt counters have no intrinsic abilities and do not confer any abilities themselves.
+   3. The third ability is an "Alice Bonus" restriction triggered ability which says "At the beginning of your end phase, you may put all cards from your graveyard on the bottom of your deck in any order. If you do, put the top X cards from your deck into your graveyard, where X is the amount of haunt counters on Phantasmagoria."
+      1. If you opt to move cards from the graveyard, moving zero cards is valid to trigger the second part of the ability, which generates a reflexive trigger that is then put on the stack.
+
 #### Servile Possessions
 
-<figure><img src="https://api.gatcg.com/cards/images/servile-possessions-dtrsd.jpg" alt=""><figcaption></figcaption></figure>
+&#x20;                                             ![](https://api.gatcg.com/cards/images/servile-possessions-dtrsd.jpg)
 
 1. Servile Possessions is a Guardian Skill mastery has a modal triggered ability behind the "Ciel Bonus" restriction ability that says, "Whenever your champion attacks, depending on the number of Omens you have" has different resulting effects:
 
