@@ -40,3 +40,10 @@ E.g., If a player under the effect of an opponent's Tariff Ring must attack with
          1. Players are not required to pay these costs; if a player refuses the pay the cost, the attack will be considered illegal.
          2. Any restrictions that are imposed, such as targeting restrictions via Taunt abilities, must be fulfilled.
          3. If one or more necessary conditions or restrictions on the attack declaration are not fulfilled, the attack is considered illegal and all steps taken to attempt to declare the attack are reversed; players must fulfill all mandatory restrictions to have a legal attack. The game will resume at the point in time prior to the attack declaration.
+
+{% hint style="success" %}
+<img src="https://api.gatcg.com/cards/images/Wu0qJd2ZYr.jpg" alt="" data-size="original">![](https://api.gatcg.com/cards/images/153bnn23aq.jpg)\
+\
+E.g., Both Tariff Ring and Bulwark Sword invoke extra costs to declare attacks. Tariff Ring is not an "additional cost" needed to declare and thus must be opted for in 2.e. Bulwark Sword, on the other hand, is an explicit additional cost and must be paid in step 2.c. after it is selected to be used in the attack.
+{% endhint %}
+
