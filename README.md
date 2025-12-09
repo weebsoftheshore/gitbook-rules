@@ -27,7 +27,7 @@ December 4th, 2025
     * Correctly added Anomaly under master type list
     * Ammended Attack Declarations to be more explicit with a breakdown of timings for payments and options associated with attack declarations
     * Corrected slight bug with Turn One under start of game procedures
-    * Corrected slight bug with X cost verbiage. X costs for objects are counted as 0 for effects like Unbroken Mustang and, value-wise, still counts as 0 when under a non-discrete set (e.g., "less than 3") but will need to match "X" when part of a discrete set. E.g., specified as "card with cost X" is valid. Finding a "card with cost 0" will not allow selecting a card with X cost while "cards with cost 2 or less" and "cards with cost 0 or X" will be valid for finding an X cost card).
+    * Corrected slight bug with X cost verbiage. X costs for objects are counted as 0 for effects like Unbroken Mustang. For cards (not objects, not on the effects stack) value-wise, still counts as 0 when under a non-discrete set (e.g., "less than 3") but will need to match "X" when part of a discrete set. E.g., specified as "card with cost X" is valid. Finding a "card with cost 0" will not allow selecting a card with X cost while "cards with cost 2 or less" and "cards with cost 0 or X" will be valid for finding an X cost card). (edited)
 
 \
 \
