@@ -30,12 +30,12 @@ E.g., If a player under the effect of an opponent's Tariff Ring must attack with
    1. A player first selects the object they wish to declare an attack with.
       1. The object must be able to attack (either granted permission due to an effect, or, if an ally or champion, must be awake).
          1. Awake allies and champions that are chosen under 2.a. must be rested as a cost to attack.
-         2. Additional costs to declare attacks must be paid during this step.
    2. Second, the attacking player may choose, if able, any additional weapons or objects they may add to the attack, such as weapons.
       1. The selected objects will be treated as part of the combat phase after declarations but will not receive attacker roles (only the attacking unit/object is treated as an attacker).
-   3. Third, the attacking player must choose an attack target (i.e., what becomes the defending unit).
+   3. Third, after all objects involved in combat are selected, any calculated costs (including additional costs) to declare attacks must be paid during this step.
+   4. Fourth, the attacking player must choose an attack target (i.e., what becomes the defending unit).
       1. If the attacker is granted Cleave by either an ability it possesses or due to a Cleave ability of an object they are using in conjunction with the attack declaration in step 2.b., the attacking player will instead choose a player whose units will become defending units. The defending units will not be treated as attack targets.
-   4. Fourth, the player must acknowledge and reconcile any restrictions that may alter costs to be paid to declare the attack or that may modify the legality of the attack.
+   5. Fifth, the player must acknowledge and reconcile any restrictions that may alter costs to be paid to declare the attack or that may modify the legality of the attack.
       1. Any extra costs imposed that are not explicitly declared as "additional costs" to declare the attack must be paid during this step.
          1. Players are not required to pay these costs; if a player refuses the pay the cost, the attack will be considered illegal.
          2. Any restrictions that are imposed, such as targeting restrictions via Taunt abilities, must be fulfilled.
