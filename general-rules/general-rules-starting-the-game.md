@@ -32,6 +32,6 @@ E.g., Cards like The Looking Glass have abilities that allow players to begin th
 
 ### Turn One
 
-1. Each player’s first turn follows a modified turn order: The turn player skips their Wake Up, Materialize, and Recollection phases, and places a Level 0 champion from the Material Deck onto the field.
+1. Each player’s first turn follows a modified turn order: The turn player skips their Wake Up, Materialize, and Recollection phases.
    1. Unless the turn player is the last one in the first turn cycle, they may not attack. E.g., in a two-player game, the second player is the last player in that first turn cycle and therefore may declare attacks.
 2. In two-player game, the first turn player also skips their Draw Phase.
