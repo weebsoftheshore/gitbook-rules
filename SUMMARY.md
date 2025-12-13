@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Changelog](README.md)
+* [Changelog\`](README.md)
 * [Table of Contents](table-of-contents.md)
 * [General Rules](general-rules/README.md)
   * [General Rules - Objectives](general-rules/general-rules-objectives.md)

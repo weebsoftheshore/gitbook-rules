@@ -61,4 +61,4 @@ E.g., For 8.a, Cordelia gives your tokens Reservable. You would be able to rest 
 5. Activating a card will still follow the aforementioned method of paying for memory costs as well as placing the card into the Effects Stack to resolve.
 6. Activating a card is not dependent upon whether a player has or has not materialized for this turn; players may still activate cards with memory costs if that player has materialized a card and vice versa.
 
-\
+<br>

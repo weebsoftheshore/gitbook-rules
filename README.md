@@ -1,4 +1,4 @@
-# Changelog
+# Changelog\`
 
 IMPORTANT LINKS:
 
@@ -23,7 +23,7 @@ December 4th, 2025
     * (This rule change also cleans up the Eternal Magistrate issue \*whew\*)
   * Masteries can get counters (kind of implied, but rules are a little more explicit now)
   * Broadened language regarding the Ephemeral property (applies to card activations as well as objects; activations that would become objects are only ephemeral when they hit the field, whilst Actions (or non-object) and like card activations become ephemeral on the stack.
-  * Addendum 12/8/25
+  * Addendum 12/12/25
     * Correctly added Anomaly under master type list
     * Ammended Attack Declarations to be more explicit with a breakdown of timings for payments and options associated with attack declarations
     * Corrected slight bug with Turn One under start of game procedures
