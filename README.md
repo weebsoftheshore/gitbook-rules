@@ -1,4 +1,4 @@
-# Changelog\`
+# Changelog
 
 IMPORTANT LINKS:
 
@@ -11,6 +11,15 @@ IMPORTANT LINKS:
 To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~gitbook/pdf?limit=150).
 
 To check out the rulebook and the full list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).
+
+
+
+January 22nd, 2026
+
+* Revised Turn Orders for consistency. Highlighted breakdowns of phase steps, mostly in categories of "Turn-based Action," "Opportunity," or "State-based checks."
+  * This revision has no significant bearing on the game except for one difference; triggered abilities generated from the act of recollecting will be handled during the recollection phase as opposed to being put on the Effects Stack in the phase and resolved during the Draw Phase.
+  * This breakdown should help communicate when players are receiving opportunity and when state-based checks happen for the generation of triggers or other effects.
+* Addressed the implied hole regarding resolution of champion materializations: An N+1 champion materialization that becomes an N+2 champion (due to deleveling while the champion card is pending resolution) fizzles, however, this was not explicitly stated. This is not a functional change.
 
 
 

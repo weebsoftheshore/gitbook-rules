@@ -157,6 +157,7 @@ If it would be banished instead of being sent to the graveyard, the card is, by 
 #### Fizzle
 
 1. Fizzle can refer to cards or abilities failing to resolve as a result of a game state where targets or game conditions made the activation illegal and the card or effect will not resolve.
+   1. For champion materializations, a champion card can fizzle if lineage or leveling requirements that were initially valid to materialize the card become illegal as it is pending resolution, such as through deleveling the champion card.
 2. A card or ability that has fizzled is not considered to have been negated.
 
 

@@ -1,6 +1,6 @@
 # Card Types - Champion
 
-General Rules:
+#### General Rules
 
 1. Champion is also an object type; a champion is placed on the field as a champion object. A champion object is also an champion unit.
 2. Champion cards start in the material deck.
@@ -12,7 +12,9 @@ General Rules:
    3. Champions with a power stat may declare an attack without an attack card or weapon, just as allies can.
 5. Champions statically enable non-norm elements for the controlling player. Champion cards in a lineage will grant a player access to all elements included among their element types.
 6. Champion names for lineages will typically be considered without prefixes, suffixes, titles, epithets, or any other naming ornamentation for the card.
-7. If a Champion card would be put into a graveyard from anywhere, it is instead banished.
+7. Champions can be materialized from the material deck as long as they have a legal lineage requirement and are level N+1, where N is the current level of a champion on the field under that player's control.
+   1. If the materialized champion becomes N+2 with respect to the champion in play, the materialization becomes illegal and fizzles.
+8. If a Champion card would be put into a graveyard from anywhere, it is instead banished.
 
 
 

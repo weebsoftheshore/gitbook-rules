@@ -16,7 +16,7 @@ E.g., Eternal Magistrate can't prevent Lv 0 Spirit champions from being placed o
 
 
 
-Special game actions:
+**Special game actions:**
 
 * Putting into play a Level 0 champion at the start of the game. This also does not count as a materialization.
 * Player concession
@@ -29,7 +29,7 @@ Special game actions:
 
 
 
-Turn-based actions:
+**Turn-based actions:**
 
 * Waking up objects as part of the Wake Up phase
 * Players returning cards from their memory to their hands as part of recollection
