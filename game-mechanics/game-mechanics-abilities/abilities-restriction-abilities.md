@@ -27,7 +27,7 @@ List of Restriction Abilities:
 
 #### Level Restrictions
 
-1. A card or ability might specify that an effect can only to happen if the level of a champion is sufficient to match the restriction.
+1. A card or ability might specify that an effect can only happen if the level of a champion is sufficient to match the restriction.
    1. This considers any positive or negative level modifications for calculating the level for the requirement and not just the level printed on the champion card in play.
 
 {% hint style="info" %}
@@ -36,7 +36,7 @@ E.g., a restriction of 2+ required the champion’s LV to be 2 or higher.
 
 #### Class Restrictions
 
-1. A card or ability might specify that an effect can only to happen if one or more classes of a champion matches the the one or more classes on the card which is the source of the ability.
+1. A card or ability might specify that an effect can only happen if one or more classes of a champion matches one or more classes on the card which is the source of the ability.
 
 
 
