@@ -14,6 +14,24 @@ To check out the rulebook and the full list of changes via GitHub, [click here](
 
 
 
+March 28th, 2026
+
+* Rulebook updated in anticipation of Radiant Origins:
+  * Added section on [Boons](general-rules/general-rules-card-types/card-types-boons.md) and how to [Bestow](game-mechanics/game-mechanics-playing-cards/playing-cards-bestowing-boons.md) Boons.
+  * Added Pantheon rules in [Starting the Game](general-rules/general-rules-starting-the-game.md#pantheon-games)
+  * Added [Pantheon](game-mechanics/game-mechanics-game-zones/game-zones-pantheon.md) to Zones
+  * Included Pantheon tag in border information
+  * Added section on [Statuses](game-mechanics/game-mechanics-statuses.md)
+  * Added section on [Dice Results / D Effects](game-mechanics/game-mechanics-miscellaneous-topics/die-results-d-effects.md) for "D6" rolls.
+  * Added ruling for Recovering while having 0 damage counters. E.g., Recover 1 while having 0 damage counters will still trigger "whenever you recover" abilities.
+  * Added note that counters can be placed on card activations.
+  * Modified [Names](general-rules/general-rules-parts-of-a-card/parts-of-a-card-name.md) section for clarity regarding restrictions, lineages, and conventions of champion names
+  * Reorganized [Imbue](glossary/keywords-and-abilities.md#imbue) keyword to be more comprehensive/combine Imbue types
+  * Added [First Boon](glossary/keywords-and-abilities.md#first-boon) as a keyword, as well as [Level Locked](glossary/keywords-and-abilities.md#level-locked-n), and [Class Locked](glossary/keywords-and-abilities.md#class-locked).
+  * Updated type masterlist
+
+
+
 January 22nd, 2026
 
 * Revised Turn Orders for consistency. Highlighted breakdowns of phase steps, mostly in categories of "Turn-based Action," "Opportunity," or "State-based checks."

@@ -6,6 +6,7 @@ The following pages cover these topics:
 * [Ally](card-types-ally.md)
 * [Action](card-types-action.md)
 * [Attack](card-types-attack.md)
+* [Boons](card-types-boons.md)
 * [Item](card-types-item.md)
 * [Weapon](card-types-weapon.md)
 * [Domain](card-types-domain.md)

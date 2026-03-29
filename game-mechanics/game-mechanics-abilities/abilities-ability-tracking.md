@@ -10,6 +10,5 @@ Some abilities ask players to remember previously selected modes or options for 
 {% hint style="info" %}
 E.g., Tonoris, Genesis Aegis says “At the beginning of your recollection phase, choose one that hasn’t been chosen —” followed by a list of options for summoning tokens. If this Tonoris were to be deleted into a level 2 champion and then the player levels back into Tonoris, Genesis Aegis, a new “version” of the champion card is seen as entering play and will re-instance the triggered ability without any memory of which options were previously chosen. This means a re-leveled champion will be able to select “previously selected” options.
 
-![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/tonoris-genesis-aegis-alc.jpg)\
-
+![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/tonoris-genesis-aegis-alc.jpg)<br>
 {% endhint %}

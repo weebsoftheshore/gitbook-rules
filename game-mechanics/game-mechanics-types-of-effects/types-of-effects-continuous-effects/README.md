@@ -12,7 +12,7 @@
 
 #### Instanced Effects
 
-1. If the resolution of a card activation, materialization, or ability creates a continuous effect that modifies the [characteristics ](broken-reference)of objects or cards, that effect will only take into consideration the set of objects at the time that effect resolved. These are also known as "One-Shot effects." These effects typically use the words "get," "gain," or "become."&#x20;
+1. If the resolution of a card activation, materialization, or ability creates a continuous effect that modifies the [characteristics ](/broken/pages/d5fQPRV40fjs6PztDRCI)of objects or cards, that effect will only take into consideration the set of objects at the time that effect resolved. These are also known as "One-Shot effects." These effects typically use the words "get," "gain," or "become."&#x20;
 2. The set of objects will not change for the duration of that effect; any new objects that enter play after these continuous effects begin will not be affected.&#x20;
 
 

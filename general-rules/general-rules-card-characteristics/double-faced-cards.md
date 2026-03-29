@@ -16,8 +16,7 @@ General Rules:&#x20;
 {% hint style="info" %}
 E.g., If Seiryuu, an ally with a reserve cost is destroyed by any effect, the default side of the card, Fabled Azurite Fatestone, is examined when determining which zone the card would be placed in. In this context, "Seiryuu" would be placed in Banishment, flipped back to its default side as the Fatestone. Similarly, if an effect attempts to move Seiryuu to the hand, memory, or main deck, it will instead be returned to the material deck as Fabled Azurite Fatestone, a regalia item.\
 \
-<img src="../../.gitbook/assets/fabled-azurite-fatestone-rec-hvf.jpg" alt="" data-size="original"><img src="../../.gitbook/assets/seiryuu-azure-dragon-rec-hvf.jpg" alt="" data-size="original">\
-
+<img src="../../.gitbook/assets/fabled-azurite-fatestone-rec-hvf.jpg" alt="" data-size="original"><img src="../../.gitbook/assets/seiryuu-azure-dragon-rec-hvf.jpg" alt="" data-size="original"><br>
 {% endhint %}
 
 5. If a player has knowledge permissions associated with a double-faced card (i.e., that card is either public or private to that player), they may examine either side of the card by flipping it.

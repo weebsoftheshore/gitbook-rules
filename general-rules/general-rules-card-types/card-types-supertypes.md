@@ -1,6 +1,6 @@
 # Card Types - Supertypes
 
-General Rules:
+#### General Rules
 
 1. Cards have a supertype that may sometimes be listed that modifies rules for the card.
 2. Supertypes are dependent on the card type; if the card type is changed, the supertype will also be changed, either to the default of having no supertype or to whatever it is being set to.

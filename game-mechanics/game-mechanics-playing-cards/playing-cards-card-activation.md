@@ -1,6 +1,6 @@
 # Playing Cards - Card Activation
 
-#### General Rules:
+#### General Rules
 
 1. In activating a card, a player takes the card from the zone it currently is in, puts it onto the Effects Stack, and pays its associated activation costs. Activating a card has the following steps in order: Announcing the Activation, Checking Elements, Declaring Costs, Selecting Modes, Declaring Targets, Checking Legality, Calculating Reserve Cost, Paying Costs, and Activation, as follows:
 
@@ -55,10 +55,10 @@ E.g., For 8.a, Cordelia gives your tokens Reservable. You would be able to rest 
 
 **1.9 Activation**: Then, the card is considered activated, and the player who activated the card gains opportunity.
 
-2. Cards can only be activated from hand unless otherwise stated.
-3. Cards that enter the Effects Stack as a result of that card having been activated will cause that card to be considered an activation while it is in the Effects Stack.
-4. Some effects will specify that you may activate a card with a memory cost as opposed to materializing it.&#x20;
-5. Activating a card will still follow the aforementioned method of paying for memory costs as well as placing the card into the Effects Stack to resolve.
-6. Activating a card is not dependent upon whether a player has or has not materialized for this turn; players may still activate cards with memory costs if that player has materialized a card and vice versa.
+1. Cards can only be activated from hand unless otherwise stated.
+2. Cards that enter the Effects Stack as a result of that card having been activated will cause that card to be considered an activation while it is in the Effects Stack.
+3. Some effects will specify that you may activate a card with a memory cost as opposed to materializing it.&#x20;
+4. Activating a card will still follow the aforementioned method of paying for memory costs as well as placing the card into the Effects Stack to resolve.
+5. Activating a card is not dependent upon whether a player has or has not materialized for this turn; players may still activate cards with memory costs if that player has materialized a card and vice versa.
 
 <br>

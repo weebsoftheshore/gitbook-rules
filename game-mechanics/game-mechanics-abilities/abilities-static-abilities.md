@@ -11,4 +11,4 @@
 E.g., a card with a reserve cost of 7 and Efficiency with the champion’s level equal to 3 will require that the player pay 4 reserve for activating the card, however, if a card were to negate the activation of cards with reserve cost of 6 or higher, the card would still be negated.
 {% endhint %}
 
-\
+<br>

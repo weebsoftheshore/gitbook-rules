@@ -1,6 +1,6 @@
 # General Rules - Card Characteristics
 
-General Rules:
+#### General Rules
 
 1. A characteristic of a card or object is any part of the card that can be referenced by effect text or the game. Characteristics can include:
 

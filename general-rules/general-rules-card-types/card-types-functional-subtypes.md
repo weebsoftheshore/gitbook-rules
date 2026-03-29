@@ -43,6 +43,5 @@ Some subtypes of cards are functional. That is, they might have specific rules t
 See [Loaded Cards](../../game-mechanics/game-mechanics-game-zones/game-zones-object-specific-zones.md#loaded-cards); an object that has been Loaded will put all of its Loaded Cards into the Intent when it is used during attack declarations.
 {% endhint %}
 
-\
-
+<br>
 

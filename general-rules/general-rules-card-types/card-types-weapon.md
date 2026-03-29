@@ -1,6 +1,6 @@
 # Card Types - Weapon
 
-General Rules:
+#### General Rules
 
 1. Weapon is also an object type; After a weapon resolves, it will enter the field as a weapon object.
 2. Weapons have reserve costs in the main deck. If they are in the material deck, weapon cards have the regalia supertype and will have memory costs instead of reserve costs.

@@ -2,7 +2,8 @@
 
 #### General Rules:
 
-1. A Counter is a special attribute of an object that holds both a type and numeric value.
+1. A Counter is a special attribute of an object or card that holds both a type and numeric value.
+   1. Counters may be placed on activations in some circumstances.
 2. Depending on the type, counters will have various effects or enable certain abilities.
 3. Counters can be tracked by using tokens, dice, or an agreed method by players in a game to denote the number and type of each counter on a card or mastery.
 4. The quantity of a type of counter can be positively modified by gaining and negatively modified by spending to pay for a cost, or by loss/removal as a result of an effect.
@@ -17,6 +18,17 @@
 2. If the object does not have a power or life stat, that stat will not be generated due to a buff counter being placed on that object.
 3. Modifications from buff counters will be applied before any other changes to the base power and life stats of an ally.&#x20;
 4. If buff counters are placed on an object with debuff counters, each buff counter will remove itself and a corresponding debuff counter.&#x20;
+
+
+
+#### Bulwark
+
+1. Bulwark counters can be placed on units and act like a continuous effect on that object that will prevent an instance of combat damage that would be dealt to it.
+   1. Since Bulwark counters work as a damage prevention effect, it functions simultaneously with other damage replacement effects. As such, the owner of the objects receiving damage may select the order in which simultaneous effects apply.
+2. If a unit has a bulwark counter on it, the next time damage would be dealt to that unit, the damage is prevented and a bulwark counter is removed.
+3. Bulwark counters preventing instances of damage is not optional; if the unit were to take a non-zero amount of damage, the damage prevention and removal of the bulwark counter must occur.
+
+
 
 #### Damage
 

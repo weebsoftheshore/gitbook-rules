@@ -2,7 +2,7 @@
 
 Each standard constructed game of Grand Archive is played between two players, each with their own main deck and material decks. The same is true for draft formats, including sealed draft or traditional draft.
 
-General Rules:
+#### General Rules
 
 1. Card names, costs, and their elements must exactly match a corresponding card in the Grand Archive Index to be considered legal for deck building.
 2. Tournament formats, which include structured matches, sideboarding rules, round time limits, etc., are not covered in the GA comprehensive rules and are discussed in a [separate document](https://trg.gatcg.com).
@@ -11,7 +11,7 @@ General Rules:
 
 
 
-Standard Constructed General Rules:
+#### Standard Constructed Rules
 
 1. Main decks can have a minimum of 60 cards and a maximum of four copies of a card with the same name.
 2. Material decks can have a maximum of 12 cards and a maximum of one copy of a card with the same name.
@@ -20,9 +20,17 @@ Standard Constructed General Rules:
 
 
 
-Draft General Rules:
+#### Draft Rules
 
 1. Main decks can have a minimum 30-count main deck. Maximum limits on copies of cards are draft format-specific.
 2. Material decks are limited to a deck size of 10 and must contain at least one Level 0 champion.
 3. Your sideboard consists of all cards in your pool.
 
+
+
+#### Pantheon Rules
+
+1. Main decks must consist of 60 cards of which there can be no more than one copy of each card.
+2. Material decks must consist of 12 cards of whcih there can be no more than one copy of each card and contains at least one Level 0 Champion Card.
+3. Players must each present two Boons face down at the start of the game: one Lesser Boon and one Greater Boon.
+4. There is no sideboard for Pantheon.

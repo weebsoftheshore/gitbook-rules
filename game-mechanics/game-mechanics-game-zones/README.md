@@ -2,7 +2,7 @@
 
 #### General Rules:
 
-1. A game zone is a physical zone in the play area where cards are placed. There are 9 total zones in Grand Archive: [Main Deck](game-zones-main-deck.md), [Material Deck](game-zones-material-deck.md), [Hand](game-zones-hand.md), [Memory](game-zones-memory.md), [Field](game-zones-field.md), [Graveyard](game-zones-graveyard.md), [Banishment](game-zones-banishment.md), [Intent](game-zones-intent.md), and the [Effects Stack](game-zones-effects-stack.md).
+1. A game zone is a physical zone in the play area where cards are placed. There are 9 total zones in Grand Archive: [Main Deck](game-zones-main-deck.md), [Material Deck](game-zones-material-deck.md), [Hand](game-zones-hand.md), [Memory](game-zones-memory.md), [Field](game-zones-field.md), [Graveyard](game-zones-graveyard.md), [Banishment](game-zones-banishment.md), [Intent](game-zones-intent.md), [Pantheon Zone](game-zones-pantheon.md), and the [Effects Stack](game-zones-effects-stack.md).
 2. The Field and Effects stack are the only zones shared by all players and control of specific cards and objects in these zones are specified while in these zones.
 3. Cards in zones can have one of two visibility states: face-up or face-down. Face-up cards present their card front up towards all players whereas face-down cards present their card back up towards all players. Face-down cards typically have hidden information from some or all players in the game.
 4. Cards can only exist in one zone at a time and will always be in a zone during a game. If a card is not in a zone, it is not considered part of the game.
@@ -38,4 +38,5 @@ The following pages discuss these topics:
 * [Hand](game-zones-hand.md)
 * [Effects Stack](game-zones-effects-stack.md)
 * [Intent](game-zones-intent.md)
+* [Pantheon](game-zones-pantheon.md)
 * [Object-Specific Zones](game-zones-object-specific-zones.md)

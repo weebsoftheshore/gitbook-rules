@@ -26,7 +26,5 @@
 
 **3.4 Materialization**: Then, the card is considered materialized, and the player who materialized the card gains opportunity.
 
-
-
-4. Cards that enter the Effects Stack as a result of that card having been materialized will cause that card to be considered a materialization while it is in the Effects Stack.
-5. Cards without Memory Costs cannot be materialized.
+1. Cards that enter the Effects Stack as a result of that card having been materialized will cause that card to be considered a materialization while it is in the Effects Stack.
+2. Cards without Memory Costs cannot be materialized.

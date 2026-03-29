@@ -40,6 +40,13 @@ Reminder text for abilities on card printings may not exactly reflect the entry 
 
 
 
+#### Bulwark
+
+1. Bulwark is a static ability of objects which means "This object enters the field with a [bulwark](../game-mechanics/game-mechanics-counters.md#bulwark) counter."
+2. If a card has multiple instances of the Bulwark ability, each ability will cause a bulwark counter to be placed on that object.
+
+
+
 #### Champion Bonus
 
 1. Champion bonuses are restriction abilities that define a bonus effect or replacement effect for a card that is enabled if and only if the player’s champion’s lineage name matches the specified champion name of the restriction ability.
@@ -60,6 +67,17 @@ E.g., Merlin, Memory Thief banishing a Flame-Rune Swordsman from the graveyard o
 
 ![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/merlin-memory-thief-doa-alter.jpg)![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/flame-rune-swordsman-doa-alter.jpg)
 {% endhint %}
+
+
+
+#### Class Locked
+
+1. Class Locked is a restriction ability that disallows the player from playing that card unless that player’s champion’s class matches the class of the card.
+2. To unlock the card, a player’s champion must match at least one of the classes on the card with class bonus that player controls.
+3. Class Locked functions in all zones.
+4. If a card that is class locked and a champion differ such that the class condition is not met, that card can't be played.
+   1. If a card has multiple Class Locked abilities that define different classes, each restriction must be met simultaneously for the card to be allowed to be played.
+5. Unlike Class Bonus or other ability-tied restriction abilities, Class Locked does not disable rules text on a card.
 
 
 
@@ -159,18 +177,27 @@ If an effect would banish an ephemeral card, that card will still be able to tra
 
 
 
-#### Floating Memory
-
-1. Floating Memory is a static ability which means “While paying for a memory cost, you may banish this card from your graveyard to pay for 1 of that cost.”
-2. When paying a memory cost, the part of the cost paid with floating memory must be declared before determining the number of cards that are randomly banished as part of paying for memory costs.
-3. Floating memory is redundant.
-
 
 
 #### Fast Activation
 
 1. Fast Activation is a static ability which means “You may activate this card at fast speed.”
 2. Fast Activation is redundant.
+
+
+
+#### First Boon
+
+1. First Boon is a static ability of Boons which means "Bestow this boon at the beginning of the game, before Spirits enter."
+2. Bestowing a boon using the First Boon ability is a pre-game action.
+
+
+
+#### Floating Memory
+
+1. Floating Memory is a static ability which means “While paying for a memory cost, you may banish this card from your graveyard to pay for 1 of that cost.”
+2. When paying a memory cost, the part of the cost paid with floating memory must be declared before determining the number of cards that are randomly banished as part of paying for memory costs.
+3. Floating memory is redundant.
 
 
 
@@ -196,13 +223,18 @@ If an effect would banish an ephemeral card, that card will still be able to tra
    1. Triggered abilityies may still be placed on the effects stack.
 3. After a card activation with Interdiction resolves, the turn player will gain Opportunity.
 
-#### Imbue N
+#### Imbue
 
-1. Imbue is an static ability which means, “You may reserve all cards revealed as you activate this card. If at least N of them are \<element matching the card>, this card becomes imbued."
+1. Imbue is an static ability which means, “You may reserve all cards revealed as you activate this card. If at least N of them are \<cards matching the defined characteristic>, this card becomes imbued."
 2. Fulfilling the condition of the imbue ability will cause the card that resolves or the object the card would become to be imbued.
 3. Cards that are set in the memory zone revealed are not revealed from the memory zone. They are just placed face-up in the memory zone. This means it will not trigger off of cards being revealed from memory.
 4. Cards revealed for Imbue will be turned face down after the card is successfully activated and placed on the effects stack.
 5. If a card has multiple instances of Imbue, only the smallest value of N needs to be met for a card to be imbued.
+6. If a card has Imbue abilities that define different characteristics, the player may choose which characteristic to imbue for.
+7. Imbue can exist in the following variations:
+   1. Imbue N: To Imbue N, the defined characteristic defaults to N cards that match the imbued card's element identity.
+   2. Advanced Imbue N: For Advanced Imbue N, the defined characteristic is set to N cards that are of advanced element. These do not have to match the card's element.
+   3. \[Element] Imbue N: These abilities define an element where N cards need to match the defined element.
 
 
 
@@ -239,6 +271,17 @@ If an effect would banish an ephemeral card, that card will still be able to tra
 
 1. Kindle is a static ability which means "You may banish up to N fire element cards fromyour graveyard as you activate this card. Each one pays for 1 reserve of this card's cost."
 2. Kindle does not modify a card's cost characteristics regardless of how its payment is opted for.
+
+
+
+#### Level Locked N
+
+1. Level Locked is a restriction ability that disallows the player from playing that card unless that player’s champion's base (written) level is at least N or higher.
+2. To unlock the card, a player’s champion card must present a level of N or higher; level modifiers from continuous effects will not contribute to changing a champion's base level.
+3. Level Locked functions in all zones.
+4. If a card that is level locked and a champion's level is insufficient to reach the requisite N, that card can't be played.
+   1. If a card has multiple Level Locked abilities, the highest restriction must be met for the card to be allowed to be played.
+5. Unlike Class Bonus or other ability-tied restriction abilities, Level Locked does not disable rules text on a card.
 
 
 

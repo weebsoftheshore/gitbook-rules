@@ -1,6 +1,6 @@
 # Card Types - Action
 
-General Rules:
+#### General Rules
 
 1. An action card can be activated according to the speed stat specified on the card.&#x20;
 2. Targets of an action card must be specified when the card is activated.

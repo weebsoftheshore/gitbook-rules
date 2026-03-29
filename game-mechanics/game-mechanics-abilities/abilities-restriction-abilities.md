@@ -60,6 +60,5 @@ E.g., a restriction of 2+ required the champion’s LV to be 2 or higher.
 
 
 
-\
-
+<br>
 

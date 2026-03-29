@@ -23,4 +23,4 @@ E.g., a player controls a Quicksilver Grail and has banished a non-champion card
 
 {% endhint %}
 
-\
+<br>

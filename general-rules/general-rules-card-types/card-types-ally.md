@@ -1,6 +1,6 @@
 # Card Types - Ally
 
-General Rules:
+#### General Rules
 
 1. Ally is also an object type; after an ally resolves, it will enter the field as an ally object. An ally object is also an ally unit.
    1. They may [attack](../../game-mechanics/game-mechanics-turn-order/turn-order-combat-phase/combat-phase-attack-declaration.md) (if awake), can be attacked, may [retaliate](../../game-mechanics/game-mechanics-turn-order/turn-order-combat-phase/combat-phase-retaliation-step.md) (if awake), and can be the target or choice for effects as a "target unit" or "target ally."

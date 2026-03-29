@@ -1,6 +1,6 @@
 # Card Types - Attack
 
-General Rules:
+#### General Rules
 
 1. Attack is also an intent type and may be targeted while in the Intent as a "target intent."
 2. Attack cards can only be played at slow speed and rest the champion as an additional playing cost.

@@ -386,10 +386,11 @@ A negated Crux sight for which the additional 2 was paid will cause it to be ban
 1. Recover defines the player action of recovering damage, usually worded as recover N.
 2. To recover N, a player removes N damage counters from their champion.
    1. If a player attempts to recover more than the number of damage counters on their champion, they instead remove all damage counters from the champion.
+      1. A player that is instructed to recover a non-zero amount while their champion(s) have no damage counters on them will still trigger abilities whose condition is "whenever you recover."
    2. A player can’t remove more than the number of damage counters present on a champion, e.g. if a champion has two damage counters and the player recovers 3, only 2 damage counters are removed.
 
 {% hint style="warning" %}
-E.g. For a card that says, "As an additional cost to activate this card, Recover 10," a player activating that card must have a champion with at least 10 damage counters that must be removed.
+E.g., For a card that says, "As an additional cost to activate this card, Recover 10," a player activating that card must have a champion with at least 10 damage counters that must be removed.
 {% endhint %}
 
 
