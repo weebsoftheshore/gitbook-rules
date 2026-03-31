@@ -11,7 +11,7 @@
 {% hint style="success" %}
 ![](https://api.gatcg.com/cards/images/fracturize-ftc.jpg)![](https://api.gatcg.com/cards/images/warriors-longsword-doa-alter.jpg)\
 \
-E.g., If a Warrior champion attacks with Warrior's Longsword and the sword were to have its type changed to a&#x20;
+E.g., If a Warrior champion attacks with Warrior's Longsword and the sword were to have its type changed to a Cleric Fractal Phantasia, it still retains its power stat, though it would lose its static ability.
 {% endhint %}
 
 
