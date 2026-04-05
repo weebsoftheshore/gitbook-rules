@@ -30,7 +30,7 @@ Each standard constructed game of Grand Archive is played between two players, e
 
 #### Pantheon Rules
 
-1. Main decks must consist of 60 cards of which there can be no more than one copy of each card.
-2. Material decks must consist of 12 cards of whcih there can be no more than one copy of each card and contains at least one Level 0 Champion Card.
+1. Main decks must consist of, at minimum, 60 cards of which there can be no more than one copy of each card.
+2. Material decks must consist of 12 cards of which there is at least one Level 0 Champion Card.
 3. Players must each present two Boons face down at the start of the game: one Lesser Boon and one Greater Boon.
 4. There is no sideboard for Pantheon.
