@@ -14,6 +14,16 @@ To check out the rulebook and the full list of changes via GitHub, [click here](
 
 
 
+April 4th, 2026
+
+* Rulebook cleanups:
+  * Fixed pantheon format rules issue
+  * Added [Ordering and Tracking](game-mechanics/game-mechanics-miscellaneous-topics/ordering-and-tracking.md) section. This applies to card ordering, typically for the main deck, and applies to effects like Glimpse, as well.
+  * Various QOL, "implied mechanics" clarifications
+  * Other fixes
+
+
+
 March 28th, 2026
 
 * Rulebook updated in anticipation of Radiant Origins:

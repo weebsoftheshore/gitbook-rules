@@ -140,10 +140,12 @@ If it would be banished instead of being sent to the graveyard, the card is, by 
 
 #### Ephemeral
 
-1. Ephemeral is a property that can modify card activations in the effects stack or objects on the field.
+1. Ephemeral is a property that can modify card activations in the effects stack, objects on the field, or intents.
    1. Ephemeral objects will be banished if they were to leave the field.
    2. Ephemeral card activations will be banished when they resolve or leave the effects stack.
       1. If an ephemeral card activation is negated or fizzles, it will be banished instead of going to the graveyard.
+   3. Ephemeral intents are banished during the end of combat.
+      1. Any On Hit abilities will reference the source of the ability in Banishment according to last-known information of the Intent.
 
 
 
@@ -498,7 +500,9 @@ E.g., Umbra Sight optionally allows a player to draw a card into their memory an
 #### Suppress
 
 1. Suppress is a keyworded action that can target an object which means for its controlling player to “banish it and return it to the field under its owner’s control at the beginning of the next end phase.” The return of the object is caused by a delayed trigger created by Suppress.
+   1. The owner of the card from the suppressed object will control the trigger. If simultaneous triggers are instanced, the owner may choose the order in which the triggers are placed onto the Effects Stack.
 2. If a card banished with suppress were to leave banishment before the delayed trigger were to resolve, the delayed trigger will not return that card to the field from wherever it currently is; the card in banishment must be the same card that was initially banished.
+3. If more than one object is simultaneously suppressed, an indepedent delayed trigger will be instance for each object, separate of the others. If one suppress trigger is negated, it will not negate any of the other suppress triggers.
 
 
 

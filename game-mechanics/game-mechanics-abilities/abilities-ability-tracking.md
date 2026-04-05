@@ -12,3 +12,13 @@ E.g., Tonoris, Genesis Aegis says “At the beginning of your recollection phase
 
 ![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/tonoris-genesis-aegis-alc.jpg)<br>
 {% endhint %}
+
+3. Abilities that trigger from the Intent zone will follow and apply their effects according to the [last-known information](../game-mechanics-card-and-object-information.md#last-known-information) of their source, similar to how objects' On Death triggers will apply while their source is in the graveyard.
+   1. If the ability references the source card, it may only do so through the immediate change in zone. If it is moved from the zone it was expected to be in for the sake of resolving an effect related to the presence of the source card, it will not function if the card is positioned to another zone.
+
+{% hint style="success" %}
+![](<../../.gitbook/assets/image (2).png>)&#x20;
+
+E.g., Seafletched Serpent can't be loaded if it is banished from the graveyard after its On Hit ability has triggered but not resolved.
+{% endhint %}
+

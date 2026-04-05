@@ -25,7 +25,7 @@
 
 1. Bulwark counters can be placed on units and act like a continuous effect on that object that will prevent an instance of combat damage that would be dealt to it.
    1. Since Bulwark counters work as a damage prevention effect, it functions simultaneously with other damage replacement effects. As such, the owner of the objects receiving damage may select the order in which simultaneous effects apply.
-2. If a unit has a bulwark counter on it, the next time damage would be dealt to that unit, the damage is prevented and a bulwark counter is removed.
+2. If a unit has a bulwark counter on it, the next time combat damage would be dealt to that unit, the damage is prevented and a bulwark counter is removed.
 3. Bulwark counters preventing instances of damage is not optional; if the unit were to take a non-zero amount of damage, the damage prevention and removal of the bulwark counter must occur.
 
 

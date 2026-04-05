@@ -20,6 +20,7 @@ Reminder text for abilities on card printings may not exactly reflect the entry 
 #### Agility N
 
 1. Agility N is a triggered ability that means "Return N cards from your memory to your hand at the beginning of the end phase."
+   1. If the end phase has already begun and an Agility ability triggers, it will be placed on the Effects Stack at the beginning of that player's next end phase; it will not apply during the current end phase.
 2. You get to pick which cards are returned to your hand.
 3. If you have less cards in your memory than you can return to your hand from Agility, you return as many cards to your hand as you can.
 4. Multiple instances of Agility on a card will generate separate triggers during the end phase.
@@ -168,8 +169,9 @@ Damage will be dealt by a unit according to its damage stat and the damage stats
    2. As ephemerate counts as an alternative activation that is not given any special permissions or timing windows (unlike Starcalling), the activation must follow the default speed of the card.
    3. Card activations that would become objects as they resolve become Ephemeral as they enter the field, if the card was activated via the Ephemeral ability cost.
       1. Ephemeral, as an object property, modifies objects such that the objects are banished whenever they would leave the field. The ephemeral property placed on the object will not be applied to the card that object represents. If the card would move zones, the card does not retain the "ephemeral" property and any subsequent objects represented by that card (unless otherwise specified) will not be ephemeral.
-   4. Cards activations that would not become an object, such as Actions, become Ephemeral on the effects stack when activated via the Ephemeral ability cost.
+   4. Cards activations that would not become an object or an intent, such as Actions, become Ephemeral on the effects stack when activated via the Ephemeral ability cost.
       1. Ephemeral, as a property applied to cards in the effects stack, modifies the cards such that they will be banished as they resolve or if they were to be moved from the effects stack.
+   5. Activations of attacks via ephemerate will resolve and become an Intent. They are considered ephemeral in the Intent zone and will be banished during the end of combat.
 
 {% hint style="success" %}
 If an effect would banish an ephemeral card, that card will still be able to track that object as its destination has not changed. E.g., any form of temporary banishing and then returning to the field, such as suppressing, would allow the card to return to the field. If it is returned this way, it is considered a new object and will not "remember" that it was ephemeral; the new object is not ephemeral.
@@ -339,14 +341,6 @@ E.g., Champion Link, Ally Link. The target object of the Link is the Linked obje
 
 
 
-#### On Attack
-
-1. On Attack is a triggered ability condition.
-2. On units, On Attack means “When this unit attacks.”
-3. On cards in the intent and weapons, On Attack means "when this is used in an attack."
-
-
-
 #### Omnishroud
 
 1. Omnishroud is a static ability of objects which means “This can’t be targeted by activations, materializations, or triggered abilities.”
@@ -354,7 +348,15 @@ E.g., Champion Link, Ally Link. The target object of the Link is the Linked obje
 2. If an object receives Omnishroud while being targeted by an activation, materialization, or triggered ability, that target would be considered illegal.
    1. If that target was the only specified necessary target for the spell, the spell will fizzle.
 3. Omnishroud is redundant.
-   1. Spellshroud may still be applied to objects with Omnishroud, but will defer targeting permissions to those set by Omnishroud since Omnishroud is more restrictive.
+   1. Spellshroud may still be applied to objects with Omnishroud, but will defer targeting permissions to those set by Omnishroud since Omnishroud is more restrictive.<br>
+
+#### On Attack
+
+1. On Attack is a triggered ability condition.
+2. On units, On Attack means “When this unit attacks.”
+3. On cards in the intent and weapons, On Attack means "when this is used in an attack."
+
+
 
 #### On Banish
 
