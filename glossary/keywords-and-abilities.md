@@ -116,6 +116,7 @@ E.g., For 1.b., a player chosen for a Cleave attack activates and resolves Blanc
 1. Command is a static ability on Command Attacks which means "An ally you control performs this attack."
    1. Commands have a replaced additional cost of resting an awake ally rather than a champion. The command ability may include a subtype that specifies which ally type must be rested. This replacement cost removes the cost of resting a champion to activate an attack card.
    2. You do not rest your champion to activate attacks with the command ability.
+   3. A command that was played with its additional cost of resting ally waived in some form, such as by effects that specify to "activate without paying its costs," the attack must still select a valid attacker to resolve properly; the controller must have an ally. This will not rest the ally during the attack if it is awake, and the controller may also choose a rested ally for a command activated this way.
 2. After an attack with command resolves, a combat phase will begin with the rested ally as the attacker rather than a chosen champion. The attack card added to the rested ally's intent for the combat phase.
    1. Commands that resolve without a valid target will not create a combat phase; the rested ally will not enter combat.
    2. The ally must still obey its controller to attack. This means if a condition such as Pride is not met, the attack will fail to begin, no combat phase will start, and the attack card will enter the graveyard. The ally would remain rested.
