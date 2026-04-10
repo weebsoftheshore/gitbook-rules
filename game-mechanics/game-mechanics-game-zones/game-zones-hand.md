@@ -2,7 +2,7 @@
 
 #### General Rules:
 
-1. The Hand is a private zoned owned by a player. Each player has their Hand zone.
+1. The Hand is a private zone owned by a player. Each player has their Hand zone.
 
 {% hint style="info" %}
 The Hand zone is referred to by the term “hand.”

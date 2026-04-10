@@ -9,6 +9,7 @@
    3. Tokens serve as representative proxies of objects instanced in the game.
 2. A token is physically represented on the field, usually by a tangible object as a game piece.
 3. Tokens can't exist in the Graveyard, Banishment, Main Deck, Material Deck, Hand, Memory, Intent, etc; A token ceases to exist if it (or rather, the object it represents) is moved to any zone other than the field.
+   1. Tokens cannot undergo any further zone changes when they cease to exist.
 4. Copies of objects are tokens; copies created on the Effects Stack or Intent are not tokens.
 5. Control of a token uses the same rules as when an object enters the field; ownership defaults to the controller of the effect that created the token.
 

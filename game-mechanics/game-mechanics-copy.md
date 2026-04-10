@@ -29,7 +29,7 @@ For 1.a., a copied intent is also an intent, a copied object is copied into the 
 #### Copying Objects
 
 1. When an object is copied, the new copy has all characteristics of the base printing of the current face of that card without any modifiers such as counters, rested/awake statuses, or other continuous one-shot effects applied to the card.
-   1. Some properties that affect the card (as opposed to just the object the card has become) can be copied, such as Imbued.
+   1. Some properties that affect the card (as opposed to just the object the card has become) can be copied, such as Imbued, Prepared, or Brewed.
 2. Any choices or modes made while the original was on the field do not count as copiable information or characteristics for the new object. If any abilities ask that a player choose an effect, this choice is not impacted by nor will it impact the original object’s choice.
 
 {% hint style="warning" %}

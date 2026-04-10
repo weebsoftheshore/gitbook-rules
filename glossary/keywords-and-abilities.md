@@ -19,8 +19,11 @@ Reminder text for abilities on card printings may not exactly reflect the entry 
 
 #### Agility N
 
-1. Agility N is a triggered ability that means "Return N cards from your memory to your hand at the beginning of the end phase."
-   1. If the end phase has already begun and an Agility ability triggers, it will be placed on the Effects Stack at the beginning of that player's next end phase; it will not apply during the current end phase.
+1. Agility N is a delayed triggered ability that means "Return N cards from your memory to your hand at the beginning of the end phase."
+   1. An ability that grants agility to a player means that the player gains the agility property for a characterized duration. The default duration is a turn.
+      1. A player can gain multiple instances of an agility trigger.
+      2. A player's agility property is lost as a state-based action during the Clean-Up Phase.
+   2. At the beginning of their end phase, if the player has agility, the ability will trigger for each instance of agility they possess. The player may order the resolution of the agility triggers if multiple triggers were placed on the stack simultaneously.
 2. You get to pick which cards are returned to your hand.
 3. If you have less cards in your memory than you can return to your hand from Agility, you return as many cards to your hand as you can.
 4. Multiple instances of Agility on a card will generate separate triggers during the end phase.
@@ -28,6 +31,10 @@ Reminder text for abilities on card printings may not exactly reflect the entry 
 #### Ambush
 
 1. Ambush is a static ability of units which means "This unit may retaliate against attackers while it isn't defending."
+   1. Ambush allows a player to retaliate with that unit when:
+      1. Another unit they control is being attacked by an opponent.
+      2. An opponent is attacking a unit that another opponent controls.
+   2. Ambush will not function when your unit is attacking another object you control.
 2. The unit must still be awake to retaliate against attackers.
 
 
@@ -223,7 +230,7 @@ If an effect would banish an ephemeral card, that card will still be able to tra
 
 1. Interdiction is a static ability of cards which means, "As long as this card's activation is on the effects stack, players can't have opportunity."
 2. When a card with Interdiction is activated, it will remove any Opportunity that a player has and Opportunity will not be transferred or granted to any other player. This means that no players may play any cards, declare attacks, activate abilities, or perform any other player action that would require Opportunity for the sake of timing conventions.
-   1. Triggered abilityies may still be placed on the effects stack.
+   1. Triggered abilities may still be placed on the effects stack.
 3. After a card activation with Interdiction resolves, the turn player will gain Opportunity.
 
 #### Imbue
@@ -525,7 +532,7 @@ See [killed](game-terms.md#dies): "A unit is only considered to... have died or 
 
 1. Stealth is a static ability of units which means "This can't be targeted by attacks unless permitted by True Sight."
 2. Objects that were declared as retaliating against an attack before receiving stealth will still retaliate against their retaliation target and will deal damage accordingly during the combat phase.
-3. If an object receives stealth while being the target of an attack, that target is considered illegal for the attack, and the attack is fizzled unless the attacking object has true sight. The defending object stops being a defending object and the attacking unit stops being an attacking object.
+3. If an object receives stealth while being the target of an attack, that target is considered illegal for the attack, and the attack is fizzled unless the attacking object has true sight. The defending object stops being a defending object.
 4. Stealth is redundant.
 
 

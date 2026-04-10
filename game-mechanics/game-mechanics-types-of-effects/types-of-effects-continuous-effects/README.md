@@ -64,13 +64,11 @@ Simultaneous continuous effects that modify the same property, characteristic, v
    1. For objects that have static abilities that create continuous effects, the timestamp for that effect is tied to when that object entered play.
    2. For cards and triggered or activated abilities that produce a continuous effect, the timestamp is tied to when that card or ability is resolved.
 2. If the modified attribute happens in a mutually exclusive fashion, the newest static ability will override the older one; If they are not mutually exclusive, they will both be in effect according to the timestamping of the effects.
-3.  For champions, the champion object and cards within the lineage will each follow specific timestamp rules.&#x20;
-
-    1. The champion object, which is represented by the top-most card in the lineage, has its timestamp set as when the first champion card in that lineage entered the field (usually this is the Lv 0 Spirit Champion).
-       1. Leveling up so that a new champion card represents the object is not considered a gain of abilities due to continuous effects and will not use Layers. That card's rules text is treated as the object's base rules text.
-    2. Any cards that enter the lineage will have a timestamp for when that card entered the lineage. This is separate from the timestamp of the champion object and is used to track any abilities or continuous effects from the cards in the lineage.
-
-
+3. For champions, the champion object and cards within the lineage will each follow specific timestamp rules.&#x20;
+   1. The champion object, which is represented by the top-most card in the lineage, has its timestamp set as when the first champion card in that lineage entered the field (usually this is the Lv 0 Spirit Champion).
+      1. Leveling up so that a new champion card represents the object is not considered a gain of abilities due to continuous effects and will not use Layers. That card's rules text is treated as the object's base rules text.
+   2. Any cards that enter the lineage will have a timestamp for when that card entered the lineage. This is separate from the timestamp of the champion object and is used to track any abilities or continuous effects from the cards in the lineage.
+4. For objects that enter the field simultaneously, timestamps are established via the order in which they were sequenced to enter the field. If multiple players control the assignment order in the same timing instance, the assignment will follow player turn order, starting with the turn player. The earliest time stamp is assigned by the turn player first, while the latest timestamp for the objects are assigned by the last player.
 
 #### Dependencies
 

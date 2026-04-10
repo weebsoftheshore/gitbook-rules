@@ -13,3 +13,13 @@
 E.g., For Advent of the Stormcaller, even though the top **LV** cards are revealed to all players in a game, only the controlling player will see the way the cards get ordered into the deck. The other players may only know how many cards were positioned to either the top or the bottom, but they are not allowed information as to which cards were placed where and in what order. Similarly, for Angelic Channeling, even though the cards were public in Banishment, opponents will not know the order of the cards (if it was two or more).
 {% endhint %}
 
+4. If an effect instructs a player to place a card into an undefined location in an ordered set of cards, the card should be placed into a default position in that zone by assigning non-existent locations with a null value to place the card.
+   1. If the zone does not exist, the card will not move from its current location.<br>
+
+{% hint style="info" %}
+<img src="../../.gitbook/assets/image0.jpg" alt="" data-size="original">\
+\
+E.g., Cosmic Focus instructs the owner to put it into their deck in the fourth position from the top. If the deck has insufficient cards for there to be a 4th position, it should be placed by assigning a null space in positions where a card can't be found. The result is that the card is placed at the bottom of the deck.&#x20;
+{% endhint %}
+
+<br>

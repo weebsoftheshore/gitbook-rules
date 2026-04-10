@@ -499,10 +499,10 @@ E.g., Umbra Sight optionally allows a player to draw a card into their memory an
 
 #### Suppress
 
-1. Suppress is a keyworded action that can target an object which means for its controlling player to “banish it and return it to the field under its owner’s control at the beginning of the next end phase.” The return of the object is caused by a delayed trigger created by Suppress.
-   1. The owner of the card from the suppressed object will control the trigger. If simultaneous triggers are instanced, the owner may choose the order in which the triggers are placed onto the Effects Stack.
+1. Suppress is a keyworded action that can target an object which means for the controller of the ability to “banish it and return it to the field under its owner’s control at the beginning of the next end phase.” The return of the object is caused by a delayed trigger created by Suppress.
+   1. The controller of the source that suppressed the object(s) controls the trigger. If simultaneous triggers are instanced, the controller may choose the order in which the triggers are placed onto the Effects Stack.
 2. If a card banished with suppress were to leave banishment before the delayed trigger were to resolve, the delayed trigger will not return that card to the field from wherever it currently is; the card in banishment must be the same card that was initially banished.
-3. If more than one object is simultaneously suppressed, an indepedent delayed trigger will be instance for each object, separate of the others. If one suppress trigger is negated, it will not negate any of the other suppress triggers.
+3. If more than one object is simultaneously suppressed, an independent delayed trigger will be instance for each object, separate of the others. If one suppress trigger is negated, it will not negate any of the other suppress triggers.
 
 
 

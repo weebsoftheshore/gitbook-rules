@@ -14,6 +14,15 @@ To check out the rulebook and the full list of changes via GitHub, [click here](
 
 
 
+April 9th, 2026
+
+* Further spring cleaning for the rulebook...
+  * Mainly QOL, edge-case conflicts and rules, typos, etc.
+  * Suppress written to explicitly be under the control of the trigger's controller for discerning resolution and order in the case of multiple resolving suppress triggers.
+  * Agility now is also a given to a player as a property that expires during Clean-Up. Recollecting cards with agility does not remove "having agility" until the turn ends.
+
+
+
 April 4th, 2026
 
 * Rulebook cleanups:

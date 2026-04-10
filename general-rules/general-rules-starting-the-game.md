@@ -21,7 +21,7 @@ description: Steps taken to start a game of Grand Archive, including Turn One
 
 
 
-E.g., Cards like The Looking Glass have abilities that allow players to begin the game with it on the field. Before a player would take their first turn, they would be allowed to acknowledge the ability as a special game action and place this card on the field. When the game begins, it will treat this card as having been in play before the first turn.
+E.g., Cards like The Looking Glass have abilities that allow players to begin the game with it on the field. During step 5, they would be allowed to acknowledge the ability as a special game action and place this card on the field. When the game begins, it will treat this card as having been in play before the first turn.
 {% endhint %}
 
 

@@ -55,3 +55,10 @@ For activation properties, the default state is the null version for each of the
 {% hint style="info" %}
 Objects will default to being Awake. For all other state pairs among the listed properties, the property will be "off" (or non- / un- ) by default.
 {% endhint %}
+
+
+
+#### Properties and States of Players
+
+* Agility (having vs. not having Agility)
+

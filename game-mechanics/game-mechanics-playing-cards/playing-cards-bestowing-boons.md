@@ -5,7 +5,7 @@
 1. In bestowing a Boon card, a player pays the reserve and any additional costs of the boon card and put its onto the Effects Stack. After it is bestowed, it is returned to the Pantheon zone face up.
 2. After a player bestows a boon, that players gains that boon.&#x20;
 3. Bestowing a boon card has the following steps in order: Announcing Bestowment, Checking Elements, Declaring Costs, Selecting Modes, Declaring Targets, Checking Legality, Calculating Reserve Costs, Paying Costs, and Bestowment.
-4. Bestowing a Boo card follows the same initial steps as listed in Card Activation Steps 1.1 through 1.5, with the exception that the card is announced for bestowment rather than activation, and then follows with 3.1:
+4. Bestowing a boon follows the same initial steps as listed in Card Activation Steps 1.1 through 1.5, with the exception that the card is announced for bestowment rather than activation, and then follows with 3.1:
 
 
 
