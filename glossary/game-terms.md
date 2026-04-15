@@ -471,6 +471,12 @@ E.g., Umbra Sight optionally allows a player to draw a card into their memory an
 
 
 
+#### Scavenge N
+
+1. Scavenge N is a instructional word that means to reveal cards from the top of the deck until either the card with a described characteristic or until N cards have been revealed. The card that is found that fits the criteria of the scavenge is referred to as the scavenged card. After the player reveals the scavenged card, they put it into their hand. The rest of the revealed cards will be put to the bottom of the deck in a random order. If no card is scavenged after N cards are revealed, the player will take all of the revealed cards and put them to the bottom of the deck in a random order.
+
+
+
 #### Search
 
 1. Search is an instructional word in some effects that tell a player to look through a set of cards in a zone, typically with the intended result of choosing one or more cards out of that set to perform an action on them, such as moving them to another zone.
