@@ -22,7 +22,7 @@ E.g., Lorraine, Wandering Warrior has “On Enter: Materialize a weapon card wit
 
 5. **Triggers With Modes:** Some triggers have different modes that can be selected for how it would resolve. These kinds of triggers are divided into the two classes of "choose one" vs "depending on" effects.
    1. "Choose one" effects will ask that a player choose a mode or option from a list. That mode selection must be made as the ability enters the Effects Stack and can’t be changed while it is there. If there are no legal modes that can be chosen, the ability will fizzle. Similarly, if a triggered ability requires a target, that target must be selected as it is placed onto the effects stack. If no legal targets are available or made illegal while it is pending resolution, the ability will fizzle.
-   2. "Depending on" effects describes modes that are dependent upon the game state or a certain condition. The valid mode of that ability will occur as the ability resolves, rather than when it is placed onto the Effects Stack. Unlike a "choose one" effect, the player does not get to decide which mode resolves; this is determined by the game state.
+   2. "Depending on" effects describe modes that are dependent upon the game state or a certain condition. The valid mode of that ability will occur as the ability resolves, rather than when it is placed onto the Effects Stack. Unlike a "choose one" effect, the player does not get to decide which mode resolves; this is determined by the game state.
 
 {% hint style="info" %}
 ![](../../.gitbook/assets/serve.jpg)\
