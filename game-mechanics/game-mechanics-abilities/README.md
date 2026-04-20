@@ -44,6 +44,9 @@ E.g., If an ally with an On Death trigger has an effect based upon that ally’s
 14. An ability placed in the Effects Stack exists independently of its source and will not be negated or fizzled if its source ceases to exist or is itself negated. If the source of the ability has left the zone it was in or changed control, the last known information under its controller at that time is used.
 15. All abilities in the Effects Stack are controlled by the player who controlled the source generating that ability.
 16. Face-down cards or cards in any non-public zones will have all abilities, intrinsic or otherwise, concealed from each player. They are considered as just cards without any other characteristics until they are revealed or their characteristics are checked in some manner.
+17. Abilities that use "as a spell" in their rules text will confer the "Spell" subtyping to the ability while it is on the Effects Stack.
+    1. If it is an activated ability, this means that it will count as activating a spell.
+    2. When selecting targets, units with Spellshroud can't be targeted by abilities triggered or activated "as a spell" due to having the Spell subtyping.
 
 
 

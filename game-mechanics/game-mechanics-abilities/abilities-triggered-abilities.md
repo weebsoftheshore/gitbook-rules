@@ -21,17 +21,24 @@ E.g., Lorraine, Wandering Warrior has “On Enter: Materialize a weapon card wit
 
 
 5. If a triggered ability asks that a player choose a mode, that mode is chosen as the ability enters the Effects Stack and can’t be changed while it is there. If there are no legal modes that can be chosen, the ability will fizzle. Similarly, if a triggered ability requires a target, that target must be selected as it is placed onto the effects stack. If no legal targets are available, the ability will fizzle.
-6. Some triggered abilities are delayed trigger abilities, which can generate delayed triggers that cause the ability to enter the Effects Stack at a later time, such as at the end of a turn. They may also use words such as “At” or “When,” but may not necessarily start with those words.
+6. If a triggered ability describes modes that are chosen dependent upon the game state or a certain condition, that mode will be set or selected as the triggered ability resolves, rather than when it is placed onto the Effects Stack.
+
+{% hint style="info" %}
+![](../../.gitbook/assets/serve.jpg)\
+\
+E.g., Ciel's mastery, Servile Possessions, has a triggered ability that describes separate modes that resolve depending on the game state. The trigger is placed onto the Effects Stack after the champion attacks, and the ability's option/mode is determined as it resolves.
+{% endhint %}
+
+7. Some triggered abilities are delayed trigger abilities, which can generate delayed triggers that cause the ability to enter the Effects Stack at a later time, such as at the end of a turn. They may also use words such as “At” or “When,” but may not necessarily start with those words.
    1. Delayed triggers are generated as a result of the resolution of another ability. If the original ability that would generate the delayed trigger is negated or fizzles, the delayed trigger will not be generated.
    2. Delayed triggers only happen once, like normal triggered abilities. If the trigger fails at the next possible opportunity, it will not generate another delayed trigger to attempt resolving again.
    3. Delayed triggered abilities are still considered abilities and may be negated or fizzled.
-7. When multiple triggered abilities enter the Effects Stack simultaneously, they will be stacked in turn order starting with the abilities that belong to the turn player. Each player will be able to select which order their own abilities will enter the Effects Stack when it is their turn to place their abilities into the Effects Stack. Only after each triggered ability is placed into the Effects Stack this way will the turn player be granted Opportunity and the triggered abilities will have a chance to resolve after the sequential passing of Opportunity.
-8. If a trigger is generated while another effect or activation is resolving, the trigger will be placed onto the Effects Stack only after that effect/activation is completely resolved. If a card generates its own trigger as it resolves or while it is resolving due to a condition, this is known as a [reflexive trigger](../../glossary/game-terms.md#reflexive-trigger).
-9. Triggered abilities will have the same typing, element, and other relevant characteristics as their source.
+8. When multiple triggered abilities enter the Effects Stack simultaneously, they will be stacked in turn order starting with the abilities that belong to the turn player. Each player will be able to select which order their own abilities will enter the Effects Stack when it is their turn to place their abilities into the Effects Stack. Only after each triggered ability is placed into the Effects Stack this way will the turn player be granted Opportunity and the triggered abilities will have a chance to resolve after the sequential passing of Opportunity.
+9. If a trigger is generated while another effect or activation is resolving, the trigger will be placed onto the Effects Stack only after that effect/activation is completely resolved. If a card generates its own trigger as it resolves or while it is resolving due to a condition, this is known as a [reflexive trigger](../../glossary/game-terms.md#reflexive-trigger).
+10. Triggered abilities will have the same typing, element, and other relevant characteristics as their source.
 
 {% hint style="warning" %}
 <img src="../../.gitbook/assets/strategem-of-myriad-ice-amb.jpg" alt="" data-size="original"> \
 \
 The triggers sourced from Stratagem of Myriad Ice are also considered of the Water element and of a Mage Spell typing. These triggers will not be able to target any objects with Spellshroud.
 {% endhint %}
-

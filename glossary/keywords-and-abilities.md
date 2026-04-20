@@ -164,8 +164,8 @@ Damage will be dealt by a unit according to its damage stat and the damage stats
 
 1. Empower is a static ability which means "The next Spell card you activate this turn activates and resolves as if your champion got +N level(s)."
    1. Empower must take a value greater than 0 to happen; a spell will not be empowered if an effect gave Empower 0.
-2. Empower is granted to the player that controls the card or effect granting Empower. It is applied as a continuous effect that is used and applied as soon as the Empowered player activates their next Spell card.
-   1. Empower is not applied as an effect to the activated card, but the card can check if it is being empowered by the player.
+2. Empower is statically granted to a card in the Effects Stack the next time it would apply.
+   1. When the next Spell card is activated, it is added to the Effects Stack with the "Empowered" property, and all of its activations (including copies) will treat the resolving activation as being empowered.
 3. Multiple instances of Empower stack additively.
 
 

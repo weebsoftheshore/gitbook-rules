@@ -2,8 +2,8 @@
 
 #### General Rules:
 
-1. In bestowing a Boon card, a player pays the reserve and any additional costs of the boon card and put its onto the Effects Stack. After it is bestowed, it is returned to the Pantheon zone face up.
-2. After a player bestows a boon, that players gains that boon.&#x20;
+1. In bestowing a Boon card, a player pays the reserve and any additional costs of the boon card and put its onto the Effects Stack. It is timestamped according to when it entered the effects stack. After it is bestowed, it is returned to the Pantheon zone face up.
+2. After a player resolves the bestowment of a boon, that players gains that boon.&#x20;
 3. Bestowing a boon card has the following steps in order: Announcing Bestowment, Checking Elements, Declaring Costs, Selecting Modes, Declaring Targets, Checking Legality, Calculating Reserve Costs, Paying Costs, and Bestowment.
 4. Bestowing a boon follows the same initial steps as listed in Card Activation Steps 1.1 through 1.5, with the exception that the card is announced for bestowment rather than activation, and then follows with 3.1:
 
@@ -31,7 +31,7 @@
 
 
 
-**3.4 Bestowment**: Then, the card is considered bestowed and it enters the Effects Stack.
+**3.4 Bestowment**: Then, the card is considered bestowed and it enters the Effects Stack. The card bestowment is placed at the top-most index of the Effects Stack (following first-in-last-out resolution ordering). Any additional instances beyond the originally instanced materialization are given the "copy" property.
 
 1. Only boons in the Pantheon zone may be bestowed.
 2. Players can't have Opportunity while a boon is being bestowed (they may not activate or materialize cards, and can't activate abilities).

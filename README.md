@@ -14,6 +14,26 @@ To check out the rulebook and the full list of changes via GitHub, [click here](
 
 
 
+April 20th, 2026
+
+* Functional rewrite/rework regarding card activations/materializations/bestowments.
+  * This rework affects the structure of the Effect Stack (kind of) as well as how activations/materializations/bestowments are placed on the stack. The "old" effects stack treated each played card as a uniquely defined instance from which all information to resolve effects, create objects, or instance further copies of that activation was sourced. This meant that any properties of that activation were identically copied but treated as separate instances, so restriction abilities were applied independently in each instance of an activation copy. This was also true for creating copies of objects on the field, which copied over activation-linked properties, but did not do the same for other effects (e.g., copying a rested object did not also make the new object rested).
+  * The updated system for the effects stack will function like so: When there is a card activation, materialization, etc., placed on the effects stack, the card source is given a timestamp for when it enters the stack, and its activation is placed at a new index created at the top-most part of the effects stack (treated as an empty placeholder for new cards and effects).&#x20;
+    * This card source is treated as a template for the activation of the card, which is its own instance and refers to the card source.&#x20;
+    * For ability activations, the card source is treated as wherever the card currently is (it isn't moved to the effects stack), and last-known information rules will apply for resolving effects. The "activation" is one of the instances where, in essence, the game is given instructions to read off the template source card to generate effects, objects, or copies.
+  * This way, any effects ascribed to the card, such as Imbued, Brewed, or Prepared will still be copied over. This also has the effect of allowing instances to copy over the state of restriction abilities from the controller of that card source. E.g., if my opponent activates a card with a restriction ability that says Level 10+ and meets this requirement, a copy of that card activation I create (and control) will _also_ have that restriction ability unlocked, even if I do not meet the Level 10+ requirement. This will apply to class bonuses, champion bonuses, etc. The change will also now apply to things such as Empower and also track additional cost payment information.
+    * This change also specifically affects Empower, which we've changed to reflect the functional changes and moved it to a property of cards on the effects stack. Copies of activations of empowered cards will thereby also be empowered.
+  * The second effect this change will have is the following: Regarding negation effects, negations that target a card activation target specifically an activation instance, not the card itself. The card remains in the effect stack and is removed as a state-based check for when the last activation instance is resolved, fizzles, or is removed from the stack. If the card itself is removed, then all above or pending activations will fizzles due to not having the card reference for the card activation. E.g., Frostbind will banish the card of the activation, moving it from the Effects Stack to Banishment. Any remaining activations of that card fizzle since there is no card to "read" and activate.
+  * While the cards that are added to the effects stack are naturally timestamped, the cards themselves don't follow a specific ordering or placement in the stack. The activations, however, do, and will still follow the structured first-in-last-out ordering for resolution, regardless of what time point their corresponding card was given.
+  * The wording in the [Copy](game-mechanics/game-mechanics-copy.md) section has been slightly reworded with these changes in mind.
+* Other:
+  * Bug regarding play permissions fixed
+  * Split ability resolution and card resolution sections to allow us greater ability to be specific and explicit when discussing one or the other, since "activation" can be ascribed to both cards and abilities. There are no functional changes pertaining to how abilities are activated, tracked, and represented in this update.
+  * "As a spell" now counts as a spell subtype for abilities. E.g., Everflame Staff will trigger if a triggered or activated ability does damage "as a spell." This is covered as rule 17 in [Abilities](game-mechanics/game-mechanics-abilities/).
+  * Regarding "modal" triggers: To cover any ambiguities and accommodate future design space, modal triggers will have the mode be determined during resolution, rather than when they are placed on the effects stack. This will clear up interactions with Ciel's Servile Possessions mastery, where, after the triggered ability is added to the Effects Stack during combat, players will be given Opportunity to affect the amount of Omens in banishment before the ability resolves. See [Triggered Abilities](game-mechanics/game-mechanics-abilities/abilities-triggered-abilities.md), rule 6.
+
+
+
 April 9th, 2026
 
 * Further spring cleaning for the rulebook...

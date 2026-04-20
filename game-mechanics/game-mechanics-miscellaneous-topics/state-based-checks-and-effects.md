@@ -19,3 +19,11 @@ State-based effects occur as a result of conditions in the state of the game bei
 5. Copy: If a copy of a card activation is sent to a zone other than the Effects Stack, it will cease to exist unless it has a corresponding card. If a copy of an object is sent to a zone other than the field, it will cease to exist unless the copy has a corresponding card.
 6. Clean-Up: The game will remove all ally damage counters, “until end of turn” or one-shot effects, and other temporary conditions at the end of each turn, such as a player's Agility. If any limitations are placed on players, such as maximum hand sizes, the active player must take the necessary actions to fulfill such limitations before the game continues.
 7. Combat Roles:  A defending unit is no longer a defender/defending unit as soon as it is no longer an attack target. A retaliating unit stops being a retaliating unit when it no longer has a valid retaliation target.
+8. Resolution: As a card activation/materialization/bestowment resolves, it will check to see if the source of that resolving instance has any other instances (copies or a non-copy) pending resolution. If there are no remaining instances, the card will be removed from the Effects Stack and moved to its corresponding zone. If the final resolving instance of an object-based card type is the non-copied instance, the card will be moved to the field to represent that object.
+9. Activations/Materializations/Bestowments: While an activation/materialization/bestowment is pending resolution, the game will check legality for its resolution, including the presence of its source card in the effects stack. If that activation/materialization/bestowment doesn't have its corresponding source card, it will fizzle.
+
+{% hint style="info" %}
+<img src="../../.gitbook/assets/froistbind.jpg" alt="" data-size="original">\
+\
+E.g., If Frostbind banishes the card that is a source for one or more card activations that are pending resolution, each of those instances will Fizzle as a result of the state-based checks that occur after Frostbind resolves and banishes that card.
+{% endhint %}

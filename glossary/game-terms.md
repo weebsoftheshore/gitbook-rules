@@ -158,9 +158,10 @@ If it would be banished instead of being sent to the graveyard, the card is, by 
 
 #### Fizzle
 
-1. Fizzle can refer to cards or abilities failing to resolve as a result of a game state where targets or game conditions made the activation illegal and the card or effect will not resolve.
+1. Fizzle can refer to card activations/materializations or abilities failing to resolve as a result of a game state where targets or game conditions made the activation illegal and the card or effect will not resolve.
    1. For champion materializations, a champion card can fizzle if lineage or leveling requirements that were initially valid to materialize the card become illegal as it is pending resolution, such as through deleveling the champion card.
-2. A card or ability that has fizzled is not considered to have been negated.
+   2. If a source card for activations/materializations is removed from the Effects Stack while there are still instances of those activations/materializations pending resolution, those instances will fizzle as a result of not having the source card to activate/materialize from.
+2. A card activations/materialization or ability being fizzles is not the same as being negated.
 
 
 
@@ -319,9 +320,9 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 #### Negate
 
-1.  Some effects may specify to "negate" a certain card, game action, or effect. "Negate" is a player action which means to remove a card from the effects stack and put it in the graveyard. The removed card is considered "negated." It does not resolve; it does not happen. Any effects that would otherwise have occurred as a result of the resolution of the negated card/action/effect do not occur.
-
-    1. Paid costs are not refunded when something is negated.
+1. Some effects may specify to "negate" a certain card activation/materialization, game action, or effect. "Negate" is a player action which means to remove that instance of the described negate target from the effects stack and put it in the graveyard. The removed card instance is considered "negated." It does not resolve; it does not happen. Any effects that would otherwise have occurred as a result of the resolution of the negated card/action/effect do not occur.
+   1. A card activation that has been negated does not remove the source card of that activation from the effects stack; a card that is in the effects stack is not directly removed via negation.
+   2.  Paid costs are not refunded when something is negated. E.g. If a card activation is negated, the costs paid to activate a card and move it to the effects stack do not undo those costs paid, and the card will remain in the Effects Stack until state-based checks remove it from that zone.
 
 
 

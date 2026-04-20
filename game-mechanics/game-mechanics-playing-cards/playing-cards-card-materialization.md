@@ -2,7 +2,7 @@
 
 #### General Rules:
 
-1. In materializing a card, a player takes the card from the zone it currently is in, puts it onto the Effects Stack, and pays its associated materialization costs. Materializing a card has the following steps in order: Announcing the Materialization, Checking Elements, Declaring Costs, Selecting Modes, Declaring Targets, Checking Legality, Calculating Memory Costs, Paying Costs, and Materialization.
+1. In materializing a card, a player takes the card from the zone it currently is in, puts it onto the Effects Stack, and pays its associated materialization costs. It is timestamped according to when it entered the effects stack. Materializing a card has the following steps in order: Announcing the Materialization, Checking Elements, Declaring Costs, Selecting Modes, Declaring Targets, Checking Legality, Calculating Memory Costs, Paying Costs, and Materialization.
 2. A player may only materialize a card once per materialize phase or if an effect gives a player permission to materialize a card.
 3. Materializing a card follows the same initial steps as listed in Card Activation Steps 1.1 through 1.5, with the exception that the card is announced for materialization rather than activation, and then follows with 3.1:
 
@@ -22,9 +22,9 @@
 **3.3 Paying Costs**: Next, the player pays the memory cost and any additional or alternative costs of the card. If the costs cannot be paid, then the materialization is illegal and the game state is reversed before materialization was initiated.
 
 1. Costs may be paid through replacement effects.
-2. Unlike Activation, Materialization costs have to follow some order. If any [Floating Memory](../../glossary/keywords-and-abilities.md#floating-memory) abilities are used to pay for a memory cost, those must be used first before any other costs.
+2. Unlike Activation, Materialization costs have to follow a specific order: if any [Floating Memory](../../glossary/keywords-and-abilities.md#floating-memory) abilities are used to pay for a memory cost, those must be used first before any other costs and rendered and paid.
 
-**3.4 Materialization**: Then, the card is considered materialized, and the player who materialized the card gains opportunity.
+**3.4 Materialization**: Then, the card is considered materialized, and the player who materialized the card gains opportunity. The card materialization is placed at the top-most index of the Effects Stack (following first-in-last-out resolution ordering). Any additional instances beyond the originally instanced materialization are given the "copy" property.
 
 1. Cards that enter the Effects Stack as a result of that card having been materialized will cause that card to be considered a materialization while it is in the Effects Stack.
 2. Cards without Memory Costs cannot be materialized.

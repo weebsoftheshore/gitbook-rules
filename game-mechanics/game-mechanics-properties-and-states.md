@@ -25,11 +25,13 @@ E.g., if an object or card were in the "rested" state, resting that card or obje
 
 
 
-#### Activation Properties
+#### Properties of Cards in the Effects Stack
 
-* Prepared
-* Imbued
-* Brewed
+* Prepared (Activation property)
+* Imbued (Activation property)
+* Brewed (Activation property)
+* Empowered (Activation property)
+* Copy (or non-copy)
 
 {% hint style="info" %}
 For activation properties, the default state is the null version for each of these properties, i.e., "not prepared" or "not imbued," etc.

@@ -67,6 +67,7 @@
     * [Static Abilities](game-mechanics/game-mechanics-abilities/abilities-static-abilities.md)
     * [Restriction Abilities](game-mechanics/game-mechanics-abilities/abilities-restriction-abilities.md)
     * [Ability Tracking](game-mechanics/game-mechanics-abilities/abilities-ability-tracking.md)
+    * [Resolving Triggered and Activated Abilities](game-mechanics/game-mechanics-abilities/abilities-resolving-triggered-and-activated-abilities.md)
   * [Types of Effects](game-mechanics/game-mechanics-types-of-effects/)
     * [Game Effects](game-mechanics/game-mechanics-types-of-effects/types-of-effects-game-effects.md)
     * [Replacement Effects](game-mechanics/game-mechanics-types-of-effects/types-of-effects-replacement-effects.md)
