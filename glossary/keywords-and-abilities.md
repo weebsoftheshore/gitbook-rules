@@ -269,7 +269,7 @@ If an effect would banish an ephemeral card, that card will still be able to tra
 
 #### Intercept
 
-1. Intercept is a triggered ability which means “Whenever your champion is attacked while this ally is awake, you may redirect that attack to this ally.”
+1. Intercept is a triggered ability which means “Whenever your champion is targeted for an attack declaration while this ally is awake, you may redirect that attack to this ally.”
    1. The ally must still be a valid target for the attack to be redirected.
 2. If an ally with intercept does not obey a player, the resolution of the intercept ability will fail and that ally will not be able to intercept. The trigger still occurs and Opportunity is presented if a player has any effects that might cause that ally to obey the controlling player.
    1. Intercept will trigger, but will not allow the player to make that ally intercept if that ally does not obey that player.
