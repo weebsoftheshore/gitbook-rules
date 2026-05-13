@@ -48,7 +48,7 @@ Innervate Fury cannot choose 8 allies to split damage among and select one of th
 2. If the payment of costs results in any modifications or additional modes being added to an activation, step 4 will be repeated for any new unselected modes or options. The same will be true for step 5 and 6, however, step 7 will not be repeated. Previously chosen targets and modes that were not modified or added in this step cannot be changed.
 
 {% hint style="info" %}
-E.g., For 18, Cordelia gives your tokens Reservable. You would be able to rest four Powercell tokens to pay for the reserve cost of Overlord before sacrificing the Powercells for the additional cost.
+E.g., For 1.8, Cordelia gives your tokens Reservable. You would be able to rest four Powercell tokens to pay for the reserve cost of Overlord before sacrificing the Powercells for the additional cost.
 
 <img src="https://ga-index-public.s3.us-west-2.amazonaws.com/cards/overlord-mk-iii-mrc.jpg" alt="" data-size="original"> ![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/cordelia-aurous-kaiser-mrc.jpg)
 {% endhint %}
