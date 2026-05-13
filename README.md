@@ -28,6 +28,7 @@ May 12th, 2026
   * Added clarity to preserve objects + banishment interaction
   * Reworded Attacking 2.c. for better resolution of edge-case interactions
   * Typos and other stuff fixed, QOL
+  * Kinda functional change for Everflame Staff:  From the last update, " 'as a spell' now counts as a spell subtype for abilities. E.g., Everflame Staff will trigger if a triggered or activated ability does damage "as a spell." This is covered as rule 17 in [Abilities](game-mechanics/game-mechanics-abilities/).' -> This ruling is incorrect. While this is kind of the intention, the rules don't support a simple way to resolve this interaction, so it is being tabled for now. The changes in Abilities.17 are still valid otherwise.
 
 
 
@@ -46,7 +47,7 @@ April 20th, 2026
 * Other:
   * Bug regarding play permissions fixed
   * Split ability resolution and card resolution sections to allow us greater ability to be specific and explicit when discussing one or the other, since "activation" can be ascribed to both cards and abilities. There are no functional changes pertaining to how abilities are activated, tracked, and represented in this update.
-  * "As a spell" now counts as a spell subtype for abilities. E.g., Everflame Staff will trigger if a triggered or activated ability does damage "as a spell." This is covered as rule 17 in [Abilities](game-mechanics/game-mechanics-abilities/).
+  * ~~"As a spell" now counts as a spell subtype for abilities. E.g., Everflame Staff will trigger if a triggered or activated ability does damage "as a spell." This is covered as rule 17 in~~ [~~Abilities~~](game-mechanics/game-mechanics-abilities/)~~.~~&#x20;
   * Regarding "modal" triggers: To cover any ambiguities and accommodate future design space, modal triggers will have the mode be determined during resolution, rather than when they are placed on the effects stack. This will clear up interactions with Ciel's Servile Possessions mastery, where, after the triggered ability is added to the Effects Stack during combat, players will be given Opportunity to affect the amount of Omens in banishment before the ability resolves. See [Triggered Abilities](game-mechanics/game-mechanics-abilities/abilities-triggered-abilities.md), rule 5.b.
 
 
