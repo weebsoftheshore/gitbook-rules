@@ -18,6 +18,7 @@ E.g., If an effect says “Glimpse 2. Draw a card,” the player must first Glim
 7. All champions, allies, weapons, items, domains, tokens, and other objects will enter the field or intent under the control of the player who controlled the corresponding card or effect that would generate the object in the Effects Stack
 8. All action cards will resolve from the perspective of the player who controlled the corresponding card in the Effects Stack.
 9. As attack cards resolve, the game will check if it is legal for its controller to initiate a combat phase. If it is, the attack card will resolve and enter a player’s champion’s intent from the perspective of the player that controlled the corresponding card in the Effects Stack. If a combat phase cannot be initiated (e.g., an attack card was activated at fast speed during the opponent’s turn), the attack fizzles as a state-based action.
+10. Replacement effects do not replace any actions taken during the resolution of a card; they may only adjust the outcome of that action after it has been performed. As a result, reflexive triggers that are part of a resolution contingent upon an action being performed will see the action as completed even if the result of that action is modified through a replacement effect.
 
 
 

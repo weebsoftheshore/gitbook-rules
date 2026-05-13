@@ -314,7 +314,9 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 #### Modes
 
-1. Modes are effects that are listed on a card that require a player to make a choice as to which of the effects would take place if a card or effect were to resolve. These choices are made before a card is placed onto the Effects Stack pending resolution. Cards and abilities with these modes can be called modal.
+1. Modes are effects that are listed on a card or effect that give two or more effect options. Modes may be set or changed depending on the game state, or may require a player to choose one or more modes if a card or effect were to resolve. Cards and abilities with these modes can be called modal.
+   1. Any modes chosen or selected by a player are made before a card is placed onto the Effects Stack pending resolution.
+   2. Modes that define game-state dependencies are not selected by the player, but are selected during the resolution of the effect.
 
 
 

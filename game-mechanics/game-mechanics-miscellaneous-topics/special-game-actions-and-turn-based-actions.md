@@ -20,10 +20,6 @@ E.g., Eternal Magistrate can't prevent Lv 0 Spirit champions from being placed o
 
 * Putting into play a Level 0 champion at the start of the game. This also does not count as a materialization.
 * Player concession
-* During the end phase:
-  * Removal of temporary marked damage
-  * Ending end-of-turn effects ("until end of turn, this turn, as your turn ends," etc.)
-  * Discarding down to imposed hand size limits.
 * Loading cards using the Aethercalling ability.
 * Pre-game actions
 
@@ -36,3 +32,8 @@ E.g., Eternal Magistrate can't prevent Lv 0 Spirit champions from being placed o
 * Players drawing a card as they enter the draw phase.
 * Damage being dealt simultaneously during the damage step of the combat phase.
 * Putting charge counters on cards with On Charge abilities during recollection.
+* Declaring retaliating units during the Retaliation Step of combat.
+* During the end phase:
+  * Removal of temporary marked damage
+  * Ending end-of-turn effects ("until end of turn, this turn, as your turn ends," etc.)
+  * Discarding down to imposed hand size limits.

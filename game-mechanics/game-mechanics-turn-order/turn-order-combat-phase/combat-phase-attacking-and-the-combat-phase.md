@@ -15,7 +15,10 @@
 2. Attacking has steps involving attack activation (if it is an attack card), declaration of the attack, and initiation of a Combat phase involving a Retaliation step, then a Damage step.
    1. Attack cards can still be activated without a legal target in play, however, the attack will immediately fizzle when a target declaration can’t occur.
    2. Attack declarations from allies and champions must specify the attack target during declaration. If there is no valid target, the attack cannot be declared.
-   3. If a player activates an attack card at fast speed while the Effects Stack is not empty, they are not in a Main Phase, or it is not their turn, the attack card will fizzle as it attempts resolves; No attack will be declared, and no combat phase will begin.
+   3. While an attack attempts to resolve, it will go through some state-based checks. If any of the following are true, the attack will fizzle as it attempts to resolve.  No attack will be declared, and no combat phase will begin.
+      1. The attack is attempting to resolve while another card or ability is on the effects stack
+      2. The player who controls the attack is not in a Main Phase
+      3. It is not the controlling player's turn.
 3. Target declarations of attacks using attack cards are declared after the attack cards resolve and enter a champion’s intent zone. There is no window between an attack card resolving and entering the intent zone in which a player is given Opportunity.
 4. After an attack declaration, objects and players involved in the initiated combat phase assume certain roles: The player controlling the attacked objects is designated the defending player; the player controlling the attacking units is designated the attacking player. The unit attacking immediately is designated an attacking unit, or attacker, and gains the "attacking" property. Similarly, the target/targets of the attack also becomes/become the defending object, or defender, and gain the "defending" property.&#x20;
    1. The role of attacking and defending players remains defined until the end of the combat phase, regardless of whether any objects are currently attacking or defending.

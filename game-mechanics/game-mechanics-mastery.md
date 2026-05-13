@@ -37,7 +37,6 @@ Masteries are special non-object player functions and are typically granted by v
    2. The second ability is an "Alice Bonus" restriction static ability that says, "Whenever a Specter ally you control dies, put a haunt counter on Phantasmagoria."
       1. Haunt counters have no intrinsic abilities and do not confer any abilities themselves.
    3. The third ability is an "Alice Bonus" restriction triggered ability which says "At the beginning of your end phase, you may put all cards from your graveyard on the bottom of your deck in any order. If you do, put the top X cards from your deck into your graveyard, where X is the amount of haunt counters on Phantasmagoria."
-      1. If you opt to move cards from the graveyard, moving zero cards is valid to trigger the second part of the ability, which generates a reflexive trigger that is then put on the stack.
 
 #### Servile Possessions
 

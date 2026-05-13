@@ -14,6 +14,23 @@ To check out the rulebook and the full list of changes via GitHub, [click here](
 
 
 
+May 12th, 2026
+
+* Added a new section to better define types of player actions and explicitly added a default rule for actions with a value of 0 (E.g., glimpse 0, recover 0, empower 0).
+* Various fixes
+  * Agility bug fixed
+  * Missing text for fracturize example added (someone ate it)
+  * Imbue subnote added for clarity with exalted
+  * Phantasmagoria incorrectly specifying reflexive trigger was amended
+  * Replacement effects in a resolving player action + resolution checks (if you do, when you do, etc.) note added for clarification
+  * Timestamps for boons/masteries clarified
+  * Restructured End of Combat step to be better in line with other sections
+  * Added clarity to preserve objects + banishment interaction
+  * Reworded Attacking 2.c. for better resolution of edge-case interactions
+  * Typos and other stuff fixed, QOL
+
+
+
 April 20th, 2026
 
 * Functional rewrite/rework regarding card activations/materializations/bestowments.
@@ -101,7 +118,8 @@ October 24th, 2025
 
 * Non-functional changes
 * Various fixes, consistency changes, organizational changes, etc. Completed remainder of rules formatting according to earlier sections.
-* Slight fix for reorganizing timing of state-based checks during combat to cleanup role and card-based permanence for correctly determining result of combat effects. <br>
+* Slight fix for reorganizing timing of state-based checks during combat to cleanup role and card-based permanence for correctly determining result of combat effects.\
+  <br>
 
 September 26th, 2025
 

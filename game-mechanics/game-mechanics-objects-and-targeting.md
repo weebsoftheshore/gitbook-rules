@@ -11,7 +11,7 @@
 {% hint style="success" %}
 ![](https://api.gatcg.com/cards/images/fracturize-ftc.jpg)![](https://api.gatcg.com/cards/images/warriors-longsword-doa-alter.jpg)\
 \
-E.g., If a Warrior champion attacks with Warrior's Longsword and the sword were to have its type changed to a&#x20;
+E.g., If a Warrior champion attacks with Warrior's Longsword and the sword were to have its type changed to a Cleric Fractal Phantasia, the card still retains its power and durability stats. When damage is calculated in combat, the power of the card will contribute to damage, but will not benefit from the +1 power from its lost ability.
 {% endhint %}
 
 

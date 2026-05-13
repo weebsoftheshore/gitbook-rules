@@ -36,21 +36,19 @@ E.g., a restriction of 2+ required the champion’s LV to be 2 or higher.
 
 #### Class Restrictions
 
-1. A card or ability might specify that an effect can only to happen if one or more classes of a champion matches the the one or more classes on the card which is the source of the ability.
+1. A card or ability might specify that an effect can only happen if one or more classes of a champion matches the the one or more classes on the card which is the source of the ability.
 
+#### Damage Restrictions
 
+1. A card or ability might specify that an effect can only happen if that player's champion has a minimum number of damage counters on it.
 
 #### Memory Restrictions
 
 1. A card or ability might specify that an effect can only happen if there are the required number of cards in that player's memory.
 
-
-
 #### Element Restrictions
 
 1. A card or ability might specify that an effect can only happen if the element of the ability's source matches at least one of the elements of the ability's controller's champion.
-
-
 
 #### Champion Restrictions
 

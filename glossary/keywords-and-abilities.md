@@ -23,10 +23,11 @@ Reminder text for abilities on card printings may not exactly reflect the entry 
    1. An ability that grants agility to a player means that the player gains the agility property for a characterized duration. The default duration is a turn.
       1. A player can gain multiple instances of an agility trigger.
       2. A player's agility property is lost as a state-based action during the Clean-Up Phase.
-   2. At the beginning of their end phase, if the player has agility, the ability will trigger for each instance of agility they possess. The player may order the resolution of the agility triggers if multiple triggers were placed on the stack simultaneously.
-2. You get to pick which cards are returned to your hand.
-3. If you have less cards in your memory than you can return to your hand from Agility, you return as many cards to your hand as you can.
-4. Multiple instances of Agility on a card will generate separate triggers during the end phase.
+   2. At the beginning of each end phase, if a player has agility, the ability will trigger for each instance of agility they possess. The player may order the resolution of the agility triggers if multiple triggers were placed on the stack simultaneously.
+      1. Gaining an instance of Agility on an opponent's turn will allow it to trigger during that turn's end phase.
+2. Each player picks which cards are returned to their hand.
+3. If a player has fewer cards in their memory than they can return to their hand from Agility, you return as many cards to your hand as you can.
+4. Multiple instances of Agility on a card will generate separate triggers during the end phase.<br>
 
 #### Ambush
 
@@ -94,7 +95,7 @@ E.g., Merlin, Memory Thief banishing a Flame-Rune Swordsman from the graveyard o
 1. Cleave is a static ability of attacks, weapons, and units which means "Attack all attackable objects a chosen player controls. This attack can't be intercepted."
    1. Attackable objects include Siegeable domains.
    2. Rather than selecting an attack target during declarations, an attack with Cleave is declared by selecting a player. Defending objects are assigned based on all legal, attackable objects controlled by the chosen player. Any units that enter the field under the defending player’s control will not be designated as defenders and will not be involved in combat as defenders.
-2. Cleave attacks can’t be intercepted.
+2. Cleave attacks can’t be intercepted or redirected.
 
 {% hint style="info" %}
 E.g., For 1.b., a player chosen for a Cleave attack activates and resolves Blanche, Sheltering Saint at the beginning of the retaliation step of combat. Blanche would not be considered a defending unit and would not be able to retaliate nor would be dealt damage during the damage step.
@@ -243,6 +244,7 @@ If an effect would banish an ephemeral card, that card will still be able to tra
 6. If a card has Imbue abilities that define different characteristics, the player may choose which characteristic to imbue for.
 7. Imbue can exist in the following variations:
    1. Imbue N: To Imbue N, the defined characteristic defaults to N cards that match the imbued card's element identity.
+      1. Cards with the Exalted element will consider both its basic element and the Exalted element as valid characteristics to qualify for the Imbue condition.
    2. Advanced Imbue N: For Advanced Imbue N, the defined characteristic is set to N cards that are of advanced element. These do not have to match the card's element.
    3. \[Element] Imbue N: These abilities define an element where N cards need to match the defined element.
 
@@ -450,8 +452,9 @@ See [killed](game-terms.md#dies): "A unit is only considered to... have died or 
 
 #### Preserve/Preserved <a href="#preserve" id="preserve"></a>
 
-1. Preserve on objects means, “When \[CARDNAME] is destroyed, put it into its owner’s material deck revealed and Preserved. You may return a Preserved card from your material deck to your hand instead of materializing when you would materialize.” Objects with Preserve will have a trigger when they are destroyed which will cause the object’s card to be sent from the graveyard to the material deck “Preserved.”
-2. Preserve on non-objects means, “As \[CARDNAME] resolves and would be placed into the graveyard, instead put it into its owner’s material deck revealed and Preserved. You may return a Preserved card from your material deck to your hand instead of materializing when you would materialize.” Non-objects will have a replacement effect generated which will send the card to the material deck “Preserved” as it resolves rather than entering the graveyard.
+1. Preserve on objects is a triggered ability that means, “When \[CARDNAME] is destroyed, put it into its owner’s material deck revealed and Preserved. You may return a Preserved card from your material deck to your hand instead of materializing when you would materialize.” Objects with Preserve will have a trigger when they are destroyed which will cause the object’s card to be sent from the graveyard to the material deck “Preserved.”
+   1. If a card is banished instead of going to the graveyard, it will not be in the graveyard to trigger Preserve.
+2. Preserve on non-objects is a static ability that means, “As \[CARDNAME] resolves and would be placed into the graveyard, instead put it into its owner’s material deck revealed and Preserved. You may return a Preserved card from your material deck to your hand instead of materializing when you would materialize.” Non-objects will have a replacement effect generated which will send the card to the material deck “Preserved” as it resolves rather than entering the graveyard.
    1. If a non-object card with Preserve would be banished instead of going to the graveyard as it resolves, the card’s controller may choose whether the card is Preserved or is banished.
 3. Every card that is Preserved is added to the material deck face-up and remains face-up until it moves to the hand, memory, or other zone considered as private information.
 4.  “Preserved” is a card property that allows the card to be added back to a player’s hand when they would materialize instead of materializing a card.

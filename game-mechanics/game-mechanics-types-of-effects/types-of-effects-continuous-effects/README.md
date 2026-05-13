@@ -63,6 +63,8 @@ Simultaneous continuous effects that modify the same property, characteristic, v
 1. A timestamp can be tracked as a chronological marker where objects and their effects can be categorized as older or newer relative to when that effect began.
    1. For objects that have static abilities that create continuous effects, the timestamp for that effect is tied to when that object entered play.
    2. For cards and triggered or activated abilities that produce a continuous effect, the timestamp is tied to when that card or ability is resolved.
+   3. Masteries (and their abilities) are given a timestamp when they are gained.
+   4. Boons will be timestamped according to when they are bestowed.
 2. If the modified attribute happens in a mutually exclusive fashion, the newest static ability will override the older one; If they are not mutually exclusive, they will both be in effect according to the timestamping of the effects.
 3. For champions, the champion object and cards within the lineage will each follow specific timestamp rules.&#x20;
    1. The champion object, which is represented by the top-most card in the lineage, has its timestamp set as when the first champion card in that lineage entered the field (usually this is the Lv 0 Spirit Champion).

@@ -10,7 +10,7 @@
 6. A champion can declare an attack with more than 0 power. The attack still happens if the power is reduced to 0 or less after the attack was declared and durability from a weapon is removed normally during the damage step.
 7. If an effect were to prevent damage, that damage does not happen; it is not simply reduced.
 8. No player actions may be taken during the time damage is dealt to units and the time in which those units are determined to be destroyed or banished as a result.
-9. Damage is only considered dealt and objects are only considered hit whenever the value of damage taken is greater than 0.
+9. Damage is only considered dealt whenever the value of damage taken is greater than 0; if prevention effects or replacement effects would reduce damage to 0, the event of dealing damage won't happen.&#x20;
 10. The designated object for a damage source will always be the object dealing damage.
     1. For attacks, the damage source is considered to be the attacking unit.
        1. Whenever a champion deals combat damage, it will be considered the sole source of damage regardless of whether it used an attack card, a weapon, or both for the attack.
