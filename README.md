@@ -14,6 +14,15 @@ To check out the rulebook and the full list of changes via GitHub, [click here](
 
 
 
+May 21st, 2026
+
+* Everflame (and et. al.) ability tracking for Spell sources is now correctly supported within the rules. Rule 17 in Abilities has been expanded to support the intended design. While there were a couple of potential solutions for resolving this bug, including an errata to Everflame, we opted for the more persistent fix that extends to "as a Spell" interactions across the board.
+  * In brief, the Everflame will trigger if a non-Spell source deals damage "as a Spell." This is the intended design, but was not supported by the then-justification within the rules. With some (poor) judgement, the example for "as a Spell" rules for Everflame was removed, with an explanation that a fix would be instated at a later time. This update covers the fix.
+  * The fix: Borrowing from the example of Spirit Blade: Ensoul that allows Weapons to temporarily function as Allies without the "downside" of having an Ally type, "as a Spell" abilities allow a non-Spell source of the ability to act as if it were a Spell for the duration of the ability's resolution. This allows Spell source-dependent conditions to be fulfilled without any hardcoding of type-changing that may cause issues with subtype-based interactions around state-based checks and continuous/static effects. We believe this to be a cleaner fix than any other alternatives we considered. We apologize if handling the fix this way caused any apprehension among our players and judges. While the course we took to correct the fix has been standard for similar impactful cases, the temporary suspension of the example was too hasty.
+* Other: Fixed Agility's outdated "delayed" trigger specification.
+
+
+
 May 12th, 2026
 
 * Added a new section to better define types of player actions and explicitly added a default rule for actions with a value of 0 (E.g., glimpse 0, recover 0, empower 0).

@@ -44,9 +44,10 @@ E.g., If an ally with an On Death trigger has an effect based upon that ally’s
 14. An ability placed in the Effects Stack exists independently of its source and will not be negated or fizzled if its source ceases to exist or is itself negated. If the source of the ability has left the zone it was in or changed control, the last known information under its controller at that time is used.
 15. All abilities in the Effects Stack are controlled by the player who controlled the source generating that ability.
 16. Face-down cards or cards in any non-public zones will have all abilities, intrinsic or otherwise, concealed from each player. They are considered as just cards without any other characteristics until they are revealed or their characteristics are checked in some manner.
-17. Abilities that use "as a spell" in their rules text will confer the "Spell" subtyping to the ability while it is on the Effects Stack.
+17. Abilities that use "as a spell" in their rules text will confer the "Spell" subtyping to the ability while it is on the Effects Stack. Additionally, if the source of that ability is not a Spell, it will temporarily act as a Spell source during the resolution of the ability; however, it will not receive the Spell subtype as the ability does.
     1. If it is an activated ability, this means that it will count as activating a spell.
     2. When selecting targets, units with Spellshroud can't be targeted by abilities triggered or activated "as a spell" due to having the Spell subtyping.
+    3. If an object were to act as a Spell source in this way, any triggered abilities that have instanced conditions that specify some action resulting from a Spell source will count the ability's source as a Spell during state-based checks. The object only acts as a Spell source within the resolution of the ability. (This is similar to how [Spirit Blade: Ensoul allows weapons under its effect to attack as if they were allies](https://index.gatcg.com/edition/spirit-blade-ensoul-doa-alter), despite not having an ally typing, nor functionally becoming allies.)
 
 
 

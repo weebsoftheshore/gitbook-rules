@@ -19,7 +19,7 @@ Reminder text for abilities on card printings may not exactly reflect the entry 
 
 #### Agility N
 
-1. Agility N is a delayed triggered ability that means "Return N cards from your memory to your hand at the beginning of the end phase."
+1. Agility N is a triggered ability that means "Return N cards from your memory to your hand at the beginning of the end phase."
    1. An ability that grants agility to a player means that the player gains the agility property for a characterized duration. The default duration is a turn.
       1. A player can gain multiple instances of an agility trigger.
       2. A player's agility property is lost as a state-based action during the Clean-Up Phase.
