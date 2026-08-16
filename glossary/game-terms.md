@@ -113,7 +113,8 @@ If it would be banished instead of being sent to the graveyard, the card is, by 
 
 #### Durability Counters
 
-1. Weapons have durability counters that represent how many times they may be used to attack.
+1. Weapons have durability counters that represent how many times they may be successfully wielded for an attack.
+   1. A weapon being wielded will only cause it to lose durability during the [Damage Step](../game-mechanics/game-mechanics-turn-order/turn-order-combat-phase/combat-phase-damage-step.md) of combat.
 2. Durability counters can be added to exceed the durability stat of a weapon.
 3. Weapons are destroyed when durability reaches 0.
 
@@ -158,10 +159,11 @@ If it would be banished instead of being sent to the graveyard, the card is, by 
 
 #### Fizzle
 
-1. Fizzle can refer to card activations/materializations or abilities failing to resolve as a result of a game state where targets or game conditions made the activation illegal and the card or effect will not resolve.
-   1. For champion materializations, a champion card can fizzle if lineage or leveling requirements that were initially valid to materialize the card become illegal as it is pending resolution, such as through deleveling the champion card.
-   2. If a source card for activations/materializations is removed from the Effects Stack while there are still instances of those activations/materializations pending resolution, those instances will fizzle as a result of not having the source card to activate/materialize from.
-2. A card activations/materialization or ability being fizzles is not the same as being negated.
+1. Fizzle refers to card activations/materializations or abilities failing to resolve normally as a result of a game state where targets or game conditions made the activation illegal. When a card's activation or an ability (triggered or activated) fizzles, it will not resolve its effects and will cease to exist from the Effects Stack.
+   1. Cards can't fizzle; if all activations/materializations of a card either resolve or fail to resolve, the card that was activated/materialized will then resolve from the Effects Stack and be placed in its default resolution zone. (As a reminder, non-object Regalia and other Material Deck cards will resolve to Banishment, while non-object Main Deck cards with reserve costs will resolve to the Graveyard. Cards whose activations/materializations become objects will instead resolve by sending their respective card to the field where it represents the played card.)
+2. For champion materializations, a champion card's materialization can fizzle if its lineage or leveling requirements become illegal before it can resolve (e.g., deleveling the champion card while its leveled-up champion card materialization is pending resolution).
+3. If a source card for activations/materializations is removed from the Effects Stack while there are still instances of those activations/materializations pending resolution, those instances will fizzle as a result of not having the source card to activate/materialize from.
+4. A card activations/materialization or ability being fizzled is not the same as being [negated](game-terms.md#negated); fizzling is due to a result of state-based checks while negating is the action of removing it from the Effects Stack.
 
 
 
@@ -197,15 +199,6 @@ If it would be banished instead of being sent to the graveyard, the card is, by 
 
 1. Glimpse defines the player action of glimpsing, usually worded as glimpse N.
 2. To Glimpse N, a player looks at the top N cards of their deck and places any number of those cards to the top of their deck in any order and the remainder on the bottom of their deck in any order.
-
-
-
-#### Have, Gain, Get, Become/Are
-
-1. "Have" and "Gain" : "Have"/"Has" and "Gain"/"Gains" are used when an effect grants an ability or an effect to a set of described cards or objects. This effect is [static](../game-mechanics/game-mechanics-types-of-effects/types-of-effects-continuous-effects/#static-effects) for all cards or objects within the set that fit the described criteria. This will extend to any cards or objects that can be added to the described set of cards after the effect initially begins. If a card or object did not "have" the granted ability or effect before, it is considered to have gained it. "Have" does not specify a specific time when that characteristic was granted,, while "gain" confers an ability at a specific point in time.
-2. "Get" : "Get" and "Gets" are used when an effect grants a stat modification to a set of described cards or objects. This effect is applied statically to all cards or objects within the set that fit the described criteria and lasts as long as the continuous effect persists. For [one-shot effects](../game-mechanics/game-mechanics-types-of-effects/types-of-effects-continuous-effects/), this effect only considered the set present when the effect would resolve. Otherwise, conditionally static effects that use words like "as long as \[condition]" apply the effect only if the condition is fulfilled.
-3. "Become" and "Are" : "Become" and "Are" are used when an effect specifies a change of characteristics (such as typing) or properties to a set of cards or objects. All cards or objects within the described set "become" or "are" set to a property statically. "Becomes" is used for setting a property to a given state at a certain time, while "are" sets the default property of the described cards/objects to that mode, but without a specific starting point.
-   1. A state of a property is only considered changed if the state before and after a property for a card or object are different. If a card or object in a given state becomes the same state or is/are the same state, it will not be considered a change of state.
 
 
 
@@ -322,23 +315,17 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 #### Negate
 
-1. Some effects may specify to "negate" a certain card activation/materialization, game action, or effect. "Negate" is a player action which means to remove that instance of the described negate target from the effects stack and put it in the graveyard. The removed card instance is considered "negated." It does not resolve; it does not happen. Any effects that would otherwise have occurred as a result of the resolution of the negated card/action/effect do not occur.
-   1. A card activation that has been negated does not remove the source card of that activation from the effects stack; a card that is in the effects stack is not directly removed via negation.
-   2.  Paid costs are not refunded when something is negated. E.g. If a card activation is negated, the costs paid to activate a card and move it to the effects stack do not undo those costs paid, and the card will remain in the Effects Stack until state-based checks remove it from that zone.
+1. Some effects may specify to "negate" a certain card activation/materialization, game action, or effect. "Negate" is a player action which means to remove that instance of the described negate target from the Effects Stack. The removed activation/materialization or ability instance is considered "negated." It does not resolve; it does not happen. Any effects that would otherwise have occurred as a result of the resolution of the negated copy (original or otherwise) do not occur.
+   1. A card's activation that has been negated does not remove the source card of that activation from the effects stack; a card that is in the effects stack is not directly removed via negation. The card is only removed as a result of state-based checks where the card no longer has any pending activations/materializations.
+   2.  Paid costs are not refunded when something is negated. E.g., If a card activation is negated, the costs paid to activate a card and move it to the effects stack do not undo those costs paid, and the card will remain in the Effects Stack until state-based checks remove it from that zone.
 
 
 
 #### Negated&#x20;
 
-1. If a card is negated, the default zone for negated cards to be sent is the graveyard. However, if the card had rules text to modify where that card would have gone during resolution, or the destination zone were changed due to a replacement effect or other ability, the destination zone is carried over during its negation and it will not go to the graveyard. This is also true for rules set by supertypes such as Regalia.
-   1. Any triggers dependent upon activation of the negated card still occur.
-
-{% hint style="info" %}
-<img src="https://ga-index-public.s3.us-west-2.amazonaws.com/cards/crux-sight-doa-alter.jpg" alt="" data-size="original">
-
-\
-A negated Crux sight for which the additional 2 was paid will cause it to be banished as it is negated. Additionally, negated Regalia objects will be banished as a result of the Regalia supertype modifying where they would be placed.
-{% endhint %}
+1. An activation/materialization or ability is negated when a player negates it through an effect.
+2. If a card's activation is negated, it is removed from the Effects Stack.
+   1. Any triggered abilities that were put on the Effects Stack as a result of the activation will remain triggered; they are not also removed from the Effects Stack.
 
 
 
@@ -557,3 +544,13 @@ E.g., Umbra Sight optionally allows a player to draw a card into their memory an
 
 1. To wake up an object on the field, that object is turned from the horizontal (rested) orientation to the upright (awake) orientation.
 2. Objects that are already awake can’t wake up; players cannot wake up objects that are awake. If an effect attempts to wake up an object that is awake, nothing will happen.
+
+
+
+#### Wield
+
+1. Wield means to use a weapon during an attack declaration.
+2. A weapon used during an attack is said to be "wielded" and becomes wielded when it is announced as being wield in combat.
+3. Champions can wield weapons to declare attacks.
+4. Some weapons with [functional subtypes](../general-rules/general-rules-card-types/card-types-functional-subtypes.md) can't be wielded unless they are loaded.
+

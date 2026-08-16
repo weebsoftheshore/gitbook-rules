@@ -36,8 +36,8 @@ Some subtypes of cards are functional. That is, they might have specific rules t
 #### Functional Weapons
 
 1. Gun / Bow / Aetherwing
-   1. Gun, Bow, and Aetherwings are functional weapon subtypes. They must be “Loaded” to be used for an attack.&#x20;
-   2. Attacks can’t be declared with weapons of these types in conjunction with attack cards.
+   1. Gun, Bow, and Aetherwings are functional weapon subtypes. They must be “Loaded” to be wielded for an attack.&#x20;
+      1. Guns, Bows, and Aetherwing weapons can't be wielded in conjunction with attack cards.
 
 {% hint style="info" %}
 See [Loaded Cards](../../game-mechanics/game-mechanics-game-zones/game-zones-object-specific-zones.md#loaded-cards); an object that has been Loaded will put all of its Loaded Cards into the Intent when it is used during attack declarations.

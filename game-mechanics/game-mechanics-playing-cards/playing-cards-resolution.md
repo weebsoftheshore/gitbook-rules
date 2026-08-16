@@ -19,6 +19,8 @@ E.g., If an effect says “Glimpse 2. Draw a card,” the player must first Glim
 8. All action cards will resolve from the perspective of the player who controlled the corresponding card in the Effects Stack.
 9. As attack cards resolve, the game will check if it is legal for its controller to initiate a combat phase. If it is, the attack card will resolve and enter a player’s champion’s intent from the perspective of the player that controlled the corresponding card in the Effects Stack. If a combat phase cannot be initiated (e.g., an attack card was activated at fast speed during the opponent’s turn), the attack fizzles as a state-based action.
 10. Replacement effects do not replace any actions taken during the resolution of a card; they may only adjust the outcome of that action after it has been performed. As a result, reflexive triggers that are part of a resolution contingent upon an action being performed will see the action as completed even if the result of that action is modified through a replacement effect.
+11. A card is resolved when all of its materializations or activations have resolved from the Effects Stack, including the original and/or any copies. A card resolves and is removed from the Effects Stack as a result of state-based checks.&#x20;
+    1. If a card has text that modifies its resolution (such as being banished instead of going to the graveyard) or the destination zone were to be changed due to a replacement effect or other ability, the destination zone is maintained if it is ngated. This is also true for rules set by supertypes, such as Regalia.
 
 
 

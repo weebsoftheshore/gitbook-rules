@@ -4,7 +4,7 @@
 
 1. Events that result in a drawn card force the player to take the top card of their deck and place it into their hand or their memory as specified.
 2. A drawn card is a discrete event.&#x20;
-   1. The same is true for other events where a card from the deck is taken and moved to another zone, e.g. Banishing the top three cards of a deck will see each card individually banished sequentially, as one complete player action.
+   1. The same is true for other events where a card from the deck is taken and moved to another zone, e.g., Banishing the top three cards of a deck will see each card individually banished sequentially, as one complete player action.
 
 {% hint style="danger" %}
 E.g., a player drawing N cards requires that player to draw one card N times. This occurs within one effective player action and no Opportunity to act as a result of this arises.

@@ -33,10 +33,17 @@ Reminder text for abilities on card printings may not exactly reflect the entry 
 
 1. Ambush is a static ability of units which means "This unit may retaliate against attackers while it isn't defending."
    1. Ambush allows a player to retaliate with that unit when:
-      1. Another unit they control is being attacked by an opponent.
-      2. An opponent is attacking a unit that another opponent controls.
+      1. Another unit or domain they control is being attacked by an opponent.
+      2. An opponent is attacking a unit or domain that another opponent controls.
    2. Ambush will not function when your unit is attacking another object you control.
 2. The unit must still be awake to retaliate against attackers.
+
+
+
+#### Aenean Progression
+
+* Aenean Progression is a static ability of cards that says "this card costs 2 more to activate for each time you've resolved with Aenean Progression this game."
+* The cost of the card will not increase if the card was activated but not resolved.
 
 
 
@@ -51,8 +58,20 @@ Reminder text for abilities on card printings may not exactly reflect the entry 
 
 #### Bulwark
 
-1. Bulwark is a static ability of objects which means "This object enters the field with a [bulwark](../game-mechanics/game-mechanics-counters.md#bulwark) counter."
-2. If a card has multiple instances of the Bulwark ability, each ability will cause a bulwark counter to be placed on that object.
+1. Bulwark is a static ability of objects, which means "This object enters the field with a [bulwark](../game-mechanics/game-mechanics-counters.md#bulwark) counter."
+2. If a card has multiple instances of the Bulwark ability, each instance will place a bulwark counter on that object.
+
+
+
+#### Cascade
+
+1. Cascade is a keyword for modal abilities that selects a corresponding effect to place onto the effect stack depending on the number of times the ability has been either triggered or activated for triggered abilities and activated abilities, respectively.
+   1. Cascade does not use counters and only tracks the number of times the ability has been triggered/activated.
+   2. The selected effect considers the number of times activated/triggered, including the current activation/trigger. I.e., the first trigger or activation will always have cascade at 1.
+   3. Only the effect corresponding to the correct cascade effect is put onto the stack. If the effect requires any selections, such as targets, they are made as the effect is put on the stack.
+2. If that ability does not resolve for any reason, the ability is still activated, and the cascade ability will advance to the next count on the subsequent activation or trigger.
+3. Copying a cascade ability will not advance the count of times the ability has been activated or triggered and will place an additional instance of the pending effect on the Effects Stack for resolution.
+4. Cascade abilities are instanced per object; if that object were to leave the field, the new object of that card will have new cascade abilities that will not track how many times the old object had triggered or activated its cascade ability.
 
 
 
@@ -106,7 +125,7 @@ E.g., For 1.b., a player chosen for a Cleave attack activates and resolves Blanc
 5. An attack with Cleave may be retaliated against by each defending unit.&#x20;
 6. Attacks with cleave involve only one combat step; damage is done simultaneously to each assigned defending unit.
    1. Each damage calculation is done independently.
-7. Damage done as a result of an attack with Cleave only causes the loss of one durability counter on a weapon if that weapon is used with the attack.
+7. Damage done as a result of an attack with Cleave only causes the loss of one durability counter on a weapon if that weapon is wielded for the attack.
 8. Multiple instances of Cleave are redundant.
 
 
@@ -158,6 +177,17 @@ Damage will be dealt by a unit according to its damage stat and the damage stats
 
 1. Element Bonus is a restriction ability that defines a bonus effect or replacement effect for a card that is enabled if and only if the player’s champion’s element(s) matches the element of the card or object.
 2. Element Bonus functions in all zones.
+
+
+
+#### Elysian Aura
+
+1. Elysian Aura is a static ability which means "As long as you control at least one object with this ability, Aenean Spell cards you own activate and resolve as if your champion has +2 level."
+   1. This effect will not stack additively for each object with Elysian Aura; only one Elysian Aura effect will be active regardless of how many objects with Elysian Aura that player controls.
+2. Aenean Spell cards activated by a player while they control an object with Elysian Aura will calculate any costs, modes, or other level-dependent information as if that player's champion's LV is 2 higher. E.g., a Level 3 champion card whose controller is activating a card with Efficiency and controls an object with Elysian Aura would pay 5 less to activate that card.
+3. If a player gained control of an object with Elysian Aura after a card is already activated, costs that were paid, modes selected, or any other level-dependent information at the point of activation can't be changed. The same is true if a player loses control of all objects with Elysian Aura.
+   1. However, if the change in LV causes a restricted ability to become restricted, the ability or effects corresponding to that restriction will be lost. This is only considered after state-based checks are performed. If control of all objects with Elysian Aura is lost in the process of resolving a card with a restriction ability, the ability will still consider Elysian Aura as active until the effect fully resolves and state-based checks are performed again.
+   2. Resolving effects that consider LV in any calculations will consider any changes in the status of the Elysian Aura if the ability is either active or lost during resolution.
 
 
 
@@ -345,9 +375,27 @@ E.g., Champion Link, Ally Link. The target object of the Link is the Linked obje
 
 
 
+#### Link Shield
+
+1. Link Shield is a static ability of objects that inherits the same rules as Link and counts as a Link ability. Link Shield means "This object enters the field linked to a target object. If the link is broken, destroy this object. If the linked object would be destroyed, remove all temporary damage from it and destroy this object instead. If that object would be sacrificed, sacrifice this instead."
+   1. An object that is linked to another object with Link Shield will become linked.
+2. An object with the Link Shield ability will be sacrificed instead of the linked object if the linked object would be sacrificed as a result of an effect or to pay a cost.
+   1. If the linked object is sacrificed, it can't fulfill requirements for multiple sacrifices if the object with Link Shield is sacrificed in its place. E.g., an effect that would say "Target player sacrifices two allies." would need that player to pick two separate allies to sacrifice. If one of the allies has a Link Shield, the result would be the Link Shield sacrifice replacing the sacrifice of the ally it is attached to, but the other ally would still be sacrificed. The player may not elect to sacrifice the Link Shield object and the object it is attached to to meet the requirements of the effect.
+   2. If any references are made to the sacrificed or destroyed object, regardless of type mentioned (e.g., "the sacrificed ally's power"), it will instead reference the corresponding stat or information from the object with the Link Shield.
+      1. If the corresponding stat does not exist on the Link Shield, it is considered to be zero.
+
+
+
 #### Memory N+
 
 1. Memory N+ is a restriction ability that defines a bonus effect or replacement effect for a card that is enabled if and only if the player has N or more cards in their memory zone.
+
+
+
+#### Multistrike N
+
+* Multistrike N is a static keyword ability that means "As an attack is declared declaration, select up to N additional attack targets for the attack."
+* If an attack declaration with multistrike also has the Cleave keyword, the opponent receiving the cleave attack is selected first. Then, the N additional attack targets are selected.
 
 
 
@@ -363,8 +411,9 @@ E.g., Champion Link, Ally Link. The target object of the Link is the Linked obje
 #### On Attack
 
 1. On Attack is a triggered ability condition.
-2. On units, On Attack means “When this unit attacks.”
-3. On cards in the intent and weapons, On Attack means "when this is used in an attack."
+   1. On units, On Attack means “When this unit attacks.”
+   2. On cards in the intent, On Attack means "when this is used in an attack."
+   3. On weapons, On Attack means "when this is wielded."
 
 
 
@@ -468,7 +517,7 @@ See [killed](game-terms.md#dies): "A unit is only considered to... have died or 
 
 #### Pride N <a href="#pride" id="pride"></a>
 
-1. Pride is a static ability which means “This ally won’t obey you unless your champion is level N or higher.” (Refer to [Obedience](game-terms.md#obedience).)
+1. Pride is a static ability, which means “This ally won’t obey you unless your champion is level N or higher.” (Refer to [Obedience](game-terms.md#obedience).)
 2. If an object has multiple instances of pride, only the highest value is taken into consideration for obedience.
 
 

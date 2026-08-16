@@ -19,6 +19,6 @@
 1. Each object having the Loaded property placed underneath another object is a part of the Loaded Cards of that object.
    1. Cards Loaded into an object will still be Loaded as long as that object remains on the field.
 2. All loaded cards are not considered objects nor on the field and are only treated as cards.
-3. When a Loaded object attacks or is used in an attack, it places each of its Loaded Cards into the Intent.
+3. When a Loaded object attacks or is wielded for an attack, it places each of its Loaded Cards into the Intent.
 4. Each object has its own loaded cards.
 

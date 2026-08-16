@@ -32,3 +32,10 @@ If, after this, the original player re-enables the fire element permanently, the
 5. For all such contradicting effects, “can” does not overwrite “can’t” even if the permission-granting effect is more recent.
 6. Effects dependent on the destruction of an object do not produce effects if the object is instead put into Banishment.
 7. Effects that would copy cards or objects copy all characteristics of those cards or objects at the time that effect resolves.
+8. Game effects that trigger per discrete events will use "whenever \[discrete event occurs] and will consider each time that event has happened. On the other hand, if  "whenever one or more \[discrete event]" is used instead, it will group all of those events and generate only one trigger.
+
+{% hint style="warning" %}
+<img src="https://api.gatcg.com/cards/images/3wd5cj6hua.jpg" alt="" data-size="original"> ![](https://api.gatcg.com/cards/images/o1yp6dnpyk.jpg)\
+\
+E.g., Fabled Sapphire Fatestone will only trigger once, regardless of how many cards are moved from the deck to the graveyard in a single game event. On the other hand, Fabled Azurite Fatestone will trigger multiple times for each card banished from the memory in a game event.
+{% endhint %}

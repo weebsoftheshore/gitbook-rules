@@ -6,7 +6,7 @@
 2. Second, if there are multiple units retaliating against the attacker, the attacking player chooses the order in which the retaliating units will deal damage to the attacking unit. Damage will be done simultaneously, however the order determines how damage will interact with any replacement effects such as damage prevention and for On Hit and On Kill triggers.
    1. For each attacker, the only On Kill abilities from a retaliating source that will trigger are those from the damage source marking lethal damage and that would send the attacking unit to the graveyard as a result of combat damage
 3. Third, after the Effects Stack is empty, and each player has passed on Opportunity in succession, damage is dealt simultaneously between the attacking unit and its target, and, if any, the retaliating unit(s) to its/their retaliation targets.
-   1. Damage calculation from the attacker first involves summation of power stats of all Intents (all cards in the intent), weapons used by the attacker, and any additive or subtractive power modifiers. Any replacement effects or further modifiers are applied after this.
+   1. Damage calculation from the attacker first involves summation of power stats of all Intents (all cards in the intent), weapons wielded by the attacker, and any additive or subtractive power modifiers. Any replacement effects or further modifiers are applied after this.
    2. If a retaliating unit were to leave the field before the damage step, it would deal no damage and be dealt no damage.
    3. A retaliating unit will still deal damage to its retaliation target even if the attacking unit is no longer considered to be attacking.
    4. Damage dealt by a retaliating unit is considered combat damage.
@@ -14,7 +14,7 @@
    6. If any replacement effects with damage occur, the controller of the object taking damage chooses the order in which they apply sequentially and step-wise for each replacement effect.
    7. Combat damage and removal of durability counters for weapons involved in attacks are done simultaneously.
       1. Damage dependent upon the number of durability counters on a weapon is taken before any durability counters are removed.
-      2. If a weapon is used in an attack and was part of dealing damage or dealt damage, a durability counter is removed in this phase. Durability is still removed if the damage dealt is 0. No durability counters are removed if the attack was negated or fizzled, the defending object left the field or became an illegal attack target before damage was dealt, or if the weapon left the field before damage was dealt.
+      2. If a weapon is wielded in an attack and was part of dealing damage or dealt damage, a durability counter is removed in this phase. Durability is still removed if the damage dealt is 0. No durability counters are removed if the attack was negated or fizzled, the defending object left the field or became an illegal attack target before damage was dealt, or if the weapon left the field before damage was dealt.
    8. In the time that an instance of damage is being dealt, no Opportunity is given; no actions may be taken by players during this game state.
 4. Finally, after damage is calculated correctly and dealt, the game progresses to the End of Combat step.
 

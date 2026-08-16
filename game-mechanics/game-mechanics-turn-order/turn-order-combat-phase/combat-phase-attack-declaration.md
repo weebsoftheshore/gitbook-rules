@@ -3,6 +3,8 @@
 #### General Rules:
 
 1. First, a player declares an attack. After an attack declaration, the turn immediately enters the combat phase.
+   1. If an attack has cleave, the attack target is replaced with choosing a player, which will designate all of that player's units as defenders for a combat phase, if legal.
+   2. Then, if an attack has multistrike N, the attacking player can designate up to N additional targets that are not yet set as defenders in this combat phase.&#x20;
 2. Attack declarations cannot be responded to and no player receives Opportunity as a result of an attack declaration.
 3. Attack cards must first resolve and enter a champion’s intent before attack declarations can be made and combat can begin.
 4. After an attack is declared, any On Attack triggers are placed onto the Effects Stack and players will be able to respond at the beginning of the Retaliation Step of combat.
@@ -44,6 +46,6 @@ E.g., If a player under the effect of an opponent's Tariff Ring must attack with
 {% hint style="success" %}
 <img src="https://api.gatcg.com/cards/images/Wu0qJd2ZYr.jpg" alt="" data-size="original">![](https://api.gatcg.com/cards/images/153bnn23aq.jpg)\
 \
-E.g., Both Tariff Ring and Bulwark Sword invoke extra costs to declare attacks. Tariff Ring is not an "additional cost" needed to declare and thus must be opted for in 2.e. Bulwark Sword, on the other hand, is an explicit additional cost and must be paid in step 2.c. after it is selected to be used in the attack.
+E.g., Both Tariff Ring and Bulwark Sword invoke extra costs to declare attacks. Tariff Ring is not an "additional cost" needed to declare and thus must be opted for in 2.e. Bulwark Sword, on the other hand, is an explicit additional cost and must be paid in step 2.c. to be wielded.
 {% endhint %}
 

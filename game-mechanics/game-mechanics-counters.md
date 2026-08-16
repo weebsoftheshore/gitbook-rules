@@ -70,6 +70,15 @@ A player loses the game if they control no champions.
 1. Omen counters designate the card(s) in banishment on which they are placed as Omens.
 2. Rules text on cards which refers to Omens refers to the set of cards that have at least one Omen counter placed on them in banishment.
 
+
+
+#### Static
+
+1. If an Arcane element unit has at least one static counter, it has a triggered ability which says "Whenever this deals damage, you may remove a static counter from this unit and deal 1 damage to the damaged unit."
+2. This ability is not redundant; only one instance of this triggered ability will exist on a unit regardless of how many static counters it has, and the ability will trigger only once per instance of damage.
+
+
+
 #### Wither
 
 1. At the beginning of a player's main phase, if they control one or more objects with a wither counter on them, for each of those objects, they sacrifice it unless they pay 1 reserve for each wither counter in it, then remove those counters.
