@@ -56,6 +56,12 @@ E.g., a restriction of 2+ required the champion’s LV to be 2 or higher.
 
 
 
+#### Sheen X+ Restrictions
+
+1. A card or ability might specify that an effect can only happen if at least X sheen counters are on that player's champion.
+
+
+
 
 
 <br>

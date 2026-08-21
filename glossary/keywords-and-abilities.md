@@ -10,6 +10,13 @@ Reminder text for abilities on card printings may not exactly reflect the entry 
 
 
 
+#### Aenean Progression
+
+* Aenean Progression is a static ability of cards that says "this card costs 2 more to activate for each time you've resolved a card with Aenean Progression this game."
+* The cost of the card will not increase if the card was activated but not resolved.
+
+
+
 #### Aethercalling
 
 1. Aethercalling is a static ability of cards which means "As you’re looking at this card while glimpsing, you may load it into an Aetherwing weapon you control."
@@ -39,11 +46,6 @@ Reminder text for abilities on card printings may not exactly reflect the entry 
 2. The unit must still be awake to retaliate against attackers.
 
 
-
-#### Aenean Progression
-
-* Aenean Progression is a static ability of cards that says "this card costs 2 more to activate for each time you've resolved with Aenean Progression this game."
-* The cost of the card will not increase if the card was activated but not resolved.
 
 
 
@@ -142,6 +144,7 @@ E.g., For 1.b., a player chosen for a Cleave attack activates and resolves Blanc
 
 1. Command is a static ability on Command Attacks which means "An ally you control performs this attack."
    1. Commands have a replaced additional cost of resting an awake ally rather than a champion. The command ability may include a subtype that specifies which ally type must be rested. This replacement cost removes the cost of resting a champion to activate an attack card.
+      1. Allies with zero power (or less) may be selected to attack using Command cards.
    2. You do not rest your champion to activate attacks with the command ability.
    3. A command that was played with its additional cost of resting ally waived in some form, such as by effects that specify to "activate without paying its costs," the attack must still select a valid attacker to resolve properly; the controller must have an ally. This will not rest the ally during the attack if it is awake, and the controller may also choose a rested ally for a command activated this way.
 2. After an attack with command resolves, a combat phase will begin with the rested ally as the attacker rather than a chosen champion. The attack card added to the rested ally's intent for the combat phase.
@@ -303,6 +306,7 @@ If an effect would banish an ephemeral card, that card will still be able to tra
 
 1. Intercept is a triggered ability which means “Whenever your champion is attacked while this ally is awake, you may redirect that attack to this ally.”
    1. The ally must still be a valid target for the attack to be redirected.
+   2. Players can't redirect attacks to the source of the trigger if it is already defending in combat.
 2. If an ally with intercept does not obey a player, the resolution of the intercept ability will fail and that ally will not be able to intercept. The trigger still occurs and Opportunity is presented if a player has any effects that might cause that ally to obey the controlling player.
    1. Intercept will trigger, but will not allow the player to make that ally intercept if that ally does not obey that player.
 3. Intercept is redundant.
@@ -394,7 +398,7 @@ E.g., Champion Link, Ally Link. The target object of the Link is the Linked obje
 
 #### Multistrike N
 
-* Multistrike N is a static keyword ability that means "As an attack is declared declaration, select up to N additional attack targets for the attack."
+* Multistrike N is a static keyword ability that means "As an attack is declared, select up to N additional attack targets for the attack."
 * If an attack declaration with multistrike also has the Cleave keyword, the opponent receiving the cleave attack is selected first. Then, the N additional attack targets are selected.
 
 

@@ -3,9 +3,11 @@
 #### General Rules:
 
 1. An attack is an event that may be initiated by a player through an ally object or a champion object to an attackable unit or object.
-   1. All units may attack the turn they enter the field as long as they are awake
+   1. All units may attack the turn they enter the field as long as they are awake, unless that player is on their first turn and they are not the last player in the turn cycle.
    2. Attacks are declared as a slow player action during a player’s main phase.
-   3. Attacks can’t be declared by allies without a power stat or with 0 or less power. Champions can declare attacks if they either have a power greater than zero, are wielding a weapon with a power stat greater than zero, or can declare attacks with a resolving attack card.
+   3. Attacks can’t be declared by allies without a power stat or with 0 or less power. Champions can declare attacks if they either have a power greater than zero, are wielding a weapon, or can declare attacks with a resolving attack card.
+      1. Attack options for champions are not mutually exclusive.
+      2. Allies with a power stat of zero may still declare attack if they would be wielding a weapon while an attack declaration is made if that weapon were to make the attack have greater than zero power.
    4. Attacking will rest the attacking unit as a cost to declaring an attack or activating an attack card.
    5. If there are any additional costs imposed for declaring attacks, they must be paid as attacks are being declared. If they can’t be paid, the attack can’t be declared.
    6. Attacking is a player action that begins a Combat phase.

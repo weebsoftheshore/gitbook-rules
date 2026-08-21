@@ -32,20 +32,20 @@ E.g., If a player under the effect of an opponent's Tariff Ring must attack with
    1. A player first selects the object they wish to declare an attack with.
       1. The object must be able to attack (either granted permission due to an effect, or, if an ally or champion, must be awake).
          1. Awake allies and champions that are chosen under 2.a. must be rested as a cost to attack.
-   2. Second, the attacking player may choose, if able, any additional weapons or objects they may add to the attack, such as weapons.
+   2. Second, the attacking player may choose, if able, any additional weapons or objects they may wield during the attack.
       1. The selected objects will be treated as part of the combat phase after declarations but will not receive attacker roles (only the attacking unit/object is treated as an attacker).
    3. Third, the attacking player must choose an attack target (i.e., what becomes the defending unit).
       1. If the attacker is granted Cleave by either an ability it possesses or due to a Cleave ability of an object they are using in conjunction with the attack declaration in step 2.b., the attacking player will instead choose a player whose units will become defending units. The defending units will not be treated as attack targets.
    4. Fourth, after all objects involved in combat are selected and targets have been chosen, any calculated costs (including additional costs) to declare attacks must be paid during this step.
    5. Fifth, the player must acknowledge and reconcile any restrictions that may alter costs to be paid to declare the attack or that may modify the legality of the attack.
       1. Any extra costs imposed that are not explicitly declared as "additional costs" to declare the attack must be paid during this step.
-         1. Players are not required to pay these costs; if a player refuses the pay the cost, the attack will be considered illegal.
+         1. Players are not required to pay these costs; if a player refuses to pay the cost, the attack will be considered illegal.
          2. Any restrictions that are imposed, such as targeting restrictions via Taunt abilities, must be fulfilled.
          3. If one or more necessary conditions or restrictions on the attack declaration are not fulfilled, the attack is considered illegal and all steps taken to attempt to declare the attack are reversed; players must fulfill all mandatory restrictions to have a legal attack. The game will resume at the point in time prior to the attack declaration.
 
 {% hint style="success" %}
 <img src="https://api.gatcg.com/cards/images/Wu0qJd2ZYr.jpg" alt="" data-size="original">![](https://api.gatcg.com/cards/images/153bnn23aq.jpg)\
 \
-E.g., Both Tariff Ring and Bulwark Sword invoke extra costs to declare attacks. Tariff Ring is not an "additional cost" needed to declare and thus must be opted for in 2.e. Bulwark Sword, on the other hand, is an explicit additional cost and must be paid in step 2.c. to be wielded.
+E.g., Both Tariff Ring and Bulwark Sword invoke extra costs to declare attacks. Tariff Ring is not an additional cost, but rather treated as a cost restriction. Bulwark Sword, on the other hand, is an additional cost and must be paid in step 2.c. to be wielded.
 {% endhint %}
 

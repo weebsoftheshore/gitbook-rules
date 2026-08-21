@@ -12,4 +12,5 @@
    1. Tokens cannot undergo any further zone changes when they cease to exist.
 4. Copies of objects are tokens; copies created on the Effects Stack or Intent are not tokens.
 5. Control of a token uses the same rules as when an object enters the field; ownership defaults to the controller of the effect that created the token.
+6. A token object will remain a token, regardless of whether it undergoes any other changes to its properties or characteristics; "token" is not an object's classification that may be changed.
 

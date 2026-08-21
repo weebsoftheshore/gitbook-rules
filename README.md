@@ -13,11 +13,22 @@ To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~
 To check out the rulebook and the full list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).
 
 \
+August 21st, 2026
+
+* Various small fixes
+* Slight changes to attack legality on weapons (or any wielded objects) and Commands for attack legality with having 0 power.
+* Corrected Static counter ability to be only for combat damage.
+* Added missing Sheen X+ restriction ability reference
+* Added clarification rule for Tokens: an object classified as a token will always be a token, regardless of any other property/characteristic changes.
+* Intercept clarification with Multistrike, general redirect clarifications. Added a small section for [Redirect](game-mechanics/game-mechanics-objects-and-targeting.md)
+
+\
+\
 August 17th, 2026
 
-* Updated rules for .asmophel/paradise
+* Updated rules for .asphodel/paradise
   * New Keywords: [Link Shield](glossary/keywords-and-abilities.md#link-shield), [Elysian Aura](glossary/keywords-and-abilities.md#elysian-aura), [Aenean Progression](glossary/keywords-and-abilities.md#aenean-progression), [Multistrike](glossary/keywords-and-abilities.md#multistrike-n), [Cascade](glossary/keywords-and-abilities.md#cascade)
-    * For Multistrike + Cleave, combat will require that the Cleaved opponent is designated and that Multistrike additional targets pick other targets that are not or would not be defending units at the time the attack is declared. This only practically has considerations for Pantheon; the result would be one opponent is cleaved while units controlled by another opponent may be selected for additional targets.
+    * For Multistrike + Cleave, combat will require that the Cleaved opponent is designated and that Multistrike additional targets pick other targets that are not or would not be defending units at the time the attack is declared. This only practically has considerations for Pantheon; the result would be that one opponent is cleaved while units controlled by another opponent may be selected for additional targets.
   * New Counter: Static. These counters are non-generic and grant an ability.
   * Updated definition: Wield. (The rules around Wielding are not new; this is to simplify the language syntax surrounding weapons being used for attacks.) There are no functional changes as a result of this being defined; however, cards will be errata'd to match the game term.
 * Other changes:

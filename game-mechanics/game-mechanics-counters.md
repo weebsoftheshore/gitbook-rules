@@ -74,7 +74,7 @@ A player loses the game if they control no champions.
 
 #### Static
 
-1. If an Arcane element unit has at least one static counter, it has a triggered ability which says "Whenever this deals damage, you may remove a static counter from this unit and deal 1 damage to the damaged unit."
+1. If an Arcane element unit has at least one static counter, it has a triggered ability which says "Whenever this deals combat damage, you may remove a static counter from this unit and deal 1 damage to the damaged unit."
 2. This ability is not redundant; only one instance of this triggered ability will exist on a unit regardless of how many static counters it has, and the ability will trigger only once per instance of damage.
 
 

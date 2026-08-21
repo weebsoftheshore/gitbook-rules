@@ -30,8 +30,16 @@ E.g., If a Warrior champion attacks with Warrior's Longsword and the sword were 
 
 #### Target
 
-1. A "target" is a selected choice for the direction of an effect or action; the target is what those act upon. Whenever a target is specified, it can filter for and specify any of the aforementioned objects or non-object card types.&#x20;
-2. An effect, action, activation, attack, etc., can only choose or target cards and/or objects of the specified types. I.e., If an effect specifies a specific object type as a target, it can only target objects of that type.&#x20;
+1. A "target" is a selected choice for the direction of an effect or action; the target is what those act upon. Whenever a target is specified, it can filter for and specify any of the aforementioned objects or non-object card types.
+   1. Unless otherwise specified, anything that is targeted can only be targeted once for that action or effect; targets must be unique. This applies to both effects and attacks.
+
+{% hint style="warning" %}
+E.g., In combat, an ally designated as a defender can only be targeted by an attack once. If that ally has Intercept, it can't redirect additional attack targets (such as with [Multistrike](../glossary/keywords-and-abilities.md#multistrike-n)). The same is true for effects that target; unless the effect specifically mentions that the same unit or other object can be selected more than once, a player would have to select **unique** targets.
+{% endhint %}
+
+
+
+1. An effect, action, activation, attack, etc., can only choose or target cards and/or objects of the specified types. I.e., If an effect specifies a specific object type as a target, it can only target objects of that type.&#x20;
    1. If an effect specifies objects by exclusion, it can target any objects that are not excluded.
    2. If an effect specifies or targets one or more cards in a certain zone, it may only affect cards in that zone.
 
@@ -56,4 +64,12 @@ E.g., the card Creative Shock instructs the player to choose a unit and deal 2 d
 
 ![](https://ga-index-public.s3.us-west-2.amazonaws.com/cards/creative-shock-doa-alter.jpg)
 {% endhint %}
+
+
+
+#### Redirect
+
+1. Redirect is a game term that describes when the set target of an effect is modified to another (legal) target.
+2. Redirecting can't happen from one target to another object that is already being targeted by the same effect or action; the target can only be changed to another unique target.
+3. In combat, if a unit is already designated as a defender, it can't have another attack target redirected to it for that combat phase.
 
