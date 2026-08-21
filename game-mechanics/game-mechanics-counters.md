@@ -2,40 +2,37 @@
 
 #### General Rules:
 
-1. A Counter is a special attribute of an object or card that holds both a type and numeric value.
+1. A counter is a special attribute of an object or card that holds both a type and a numeric value.
    1. Counters may be placed on activations in some circumstances.
 2. Depending on the type, counters will have various effects or enable certain abilities.
-3. Counters can be tracked by using tokens, dice, or an agreed method by players in a game to denote the number and type of each counter on a card or mastery.
-4. The quantity of a type of counter can be positively modified by gaining and negatively modified by spending to pay for a cost, or by loss/removal as a result of an effect.
-5. Counters persist on an object or card in a zone as long as that card or object does not change zones. A card being moved to another zone will cause its counters to be lost.
+3. Counters can be tracked using tokens, dice, or an agreed-upon method used by players. These methods denote the number and type of each counter on a card or mastery.
+4. The quantity of a counter type can increase by gaining counters. It can decrease by spending counters to pay a cost or by losing or removing counters through an effect.
+5. Counters persist on an object or card in a zone as long as it does not change zones. Moving a card to another zone causes its counters to be lost.
    1. Masteries can also gain persistent counters in some circumstances. Counters will remain on a mastery until the mastery is removed or the counters themselves are removed.
-6. Counters can be subdivided into generic or special counters. Special counters have specific rules associated with the counter itself, whereas generic counters do not grant or have inherent abilities/effects associated with them.
-   1. Counters are considered generic unless they are listed in the sections below:
+6. Counters can be subdivided into generic or special counters. Special counters have specific rules associated with them. Generic counters do not grant or have inherent abilities or effects.
+   1. Counters are considered generic unless they are listed in the sections below.
 
 #### Buff
 
 1. Buff counters statically modify an object’s power and life stats by +1 to each of those stats for every buff counter on that object.
 2. If the object does not have a power or life stat, that stat will not be generated due to a buff counter being placed on that object.
-3. Modifications from buff counters will be applied before any other changes to the base power and life stats of an ally.&#x20;
-4. If buff counters are placed on an object with debuff counters, each buff counter will remove itself and a corresponding debuff counter.&#x20;
-
-
+3. Modifications from buff counters will be applied before any other changes to the base power and life stats of an ally.
+4. If buff counters are placed on an object with debuff counters, each buff counter will remove itself and a corresponding debuff counter.
 
 #### Bulwark
 
-1. Bulwark counters can be placed on units and act like a continuous effect on that object that will prevent an instance of combat damage that would be dealt to it.
-   1. Since Bulwark counters work as a damage prevention effect, it functions simultaneously with other damage replacement effects. As such, the owner of the objects receiving damage may select the order in which simultaneous effects apply.
+1. Bulwark counters can be placed on units. They act as a continuous effect that prevents an instance of combat damage that would be dealt to that unit.
+   1. Since Bulwark counters work as a damage prevention effect, they function simultaneously with other damage replacement effects. As such, the owner of the objects receiving damage may select the order in which simultaneous effects apply.
 2. If a unit has a bulwark counter on it, the next time combat damage would be dealt to that unit, the damage is prevented and a bulwark counter is removed.
-3. Bulwark counters preventing instances of damage is not optional; if the unit were to take a non-zero amount of damage, the damage prevention and removal of the bulwark counter must occur.
-4. Bulwark counters will collectively only apply one instance of a replacement effect to remove a bulwark counter, regardless of how many bulwark counters there are on an object; no more than 1 counter may be removed per damage instance that is attempted to be prevented.
-
-
+3. Preventing damage with Bulwark counters is not optional. If the unit would take a non-zero amount of damage, the damage prevention and removal of the Bulwark counter must occur.
+4. Bulwark counters collectively apply only one replacement effect that removes a Bulwark counter. This applies regardless of how many Bulwark counters are on an object. No more than one counter may be removed per damage instance that is prevented.
+   1. If unpreventable damage is dealt, only one Bulwark counter is removed.
 
 #### Damage
 
 1. Damage counters are permanent counters on champions that are placed whenever a champion is dealt any type of damage.
 2. Damage counters will mark damage in whole numbers starting from 0.
-3. Damage counters reaching or exceeding the life stat of a champion is a condition that causes that champion to die.
+3. Damage counters reaching or exceeding a champion's life stat cause that champion to die.
 
 {% hint style="success" %}
 A player loses the game if they control no champions.
@@ -48,7 +45,7 @@ A player loses the game if they control no champions.
 1. Debuff counters statically modify an object’s power and life stats by -1 to each of those stats for every debuff counter on that object.
 2. If the object does not have a power or life stat, that stat will not be generated due to a debuff counter being placed on that object.
 3. Modifications from debuff counters will be applied before any other changes to the base power and life stats of an ally.
-4. If debuff counters are placed on an object with buff counters, each debuff counter will remove itself and a corresponding buff counter.&#x20;
+4. If debuff counters are placed on an object with buff counters, each debuff counter will remove itself and a corresponding buff counter.
 
 #### Durability
 
@@ -68,22 +65,18 @@ A player loses the game if they control no champions.
 #### Omen
 
 1. Omen counters designate the card(s) in banishment on which they are placed as Omens.
-2. Rules text on cards which refers to Omens refers to the set of cards that have at least one Omen counter placed on them in banishment.
-
-
+2. Rules text on cards that refers to Omens refers to the set of cards that have at least one Omen counter placed on them in banishment.
 
 #### Static
 
-1. If an Arcane element unit has at least one static counter, it has a triggered ability which says "Whenever this deals combat damage, you may remove a static counter from this unit and deal 1 damage to the damaged unit."
-2. This ability is not redundant; only one instance of this triggered ability will exist on a unit regardless of how many static counters it has, and the ability will trigger only once per instance of damage.
-
-
+1. As long as at least one object a player controls has a static counter on it, whenever an arcane element unit they control deals combat damage, the player may remove a static counter from each object with a static counter. The object whose static counter was removed is considered a source that deals 1 damage to the object dealt combat damage by the arcane unit.
+   1. This is a triggered ability that triggers once for each object with a static counter, rather than a single trigger.
+   2. This ability is not redundant; only one instance of this triggered ability will exist on a unit regardless of how many static counters it has, and the ability will trigger only once per object, per instance of combat damage dealt.
 
 #### Wither
 
-1. At the beginning of a player's main phase, if they control one or more objects with a wither counter on them, for each of those objects, they sacrifice it unless they pay 1 reserve for each wither counter in it, then remove those counters.
+1. At the beginning of a player's main phase, if they control one or more objects with a wither counter on them, they sacrifice each of those objects unless they pay 1 reserve for each wither counter on it, then remove those counters.
 2. The triggered ability is sourced from the game rather than the objects on which the wither-related trigger originates.
 3. The reserve cost to be paid for each object must be paid in full. If it is not completely paid, that object is sacrificed.
 4. All wither counters are removed at the same time during the resolution of the triggered ability.
 5. There is only one main phase per turn; wither will not create another trigger after returning to the main phase after combat if any wither counters were placed in a combat phase.
-
