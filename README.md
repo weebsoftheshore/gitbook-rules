@@ -13,6 +13,12 @@ To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~
 To check out the rulebook and the full list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).
 
 \
+August 24th, 2026
+
+* Small clarification added regarding ending combat with [Break the Line](https://index.gatcg.com/edition/break-the-line-prd) at the [End fof Combat Step](game-mechanics/game-mechanics-turn-order/turn-order-combat-phase/combat-phase-end-of-combat-step.md) has been added
+
+
+
 August 21st, 2026
 
 * Various small fixes
