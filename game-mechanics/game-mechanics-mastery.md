@@ -10,11 +10,38 @@ Masteries are special non-object player functions and are typically granted by v
 2. Cards interacting with certain masteries may have symbols and icons related to that mastery on the card.
 3. Cards that track and represent masteries cannot be placed or used in any decks (Main, Material, Sideboard) and only serve to visually reflect the active Mastery.
 
+{% hint style="success" %}
+Players may use anything as a token for the mastery to visually indicate it if they don't possess the actual token card(s) for it. Do use the Index or this rules document to refer to the official Mastery text.
+{% endhint %}
 
 
 
+### Masteries:
 
-#### Masteries:
+
+
+#### Divine Comedy
+
+&#x20;                                           <img src="https://api.gatcg.com/cards/images/zHu0at9CDs.jpg" alt="" data-size="original">
+
+1. Divine Comedy is a Mage Ultimate Book mastery with a restricted activated ability that [cascades](../glossary/keywords-and-abilities.md#cascade) through the four "pages" of the book.
+2. Divine Comedy's ability is a "Dante Bonus" restriction ability that says "4: Activate this ability only once per turn, and only at slow speed. This ability costs 4 less to activate the first time you activate it. This ability's activation can't be negated. Cascade— "
+   1. 1 says: "Until the beginning of your next turn, your opponents can’t activate cards with an even reserve cost."
+      1. 0 is even.
+   2. 2 says: "As a Spell, destroy target non-champion object. When that object is destroyed this way, recover 4."
+      1. The source of the ability is Divine Comedy.
+      2. The object must go directly to the graveyard as a result of the destruction to add the trigger that recovers 4 to the Effects Stack. If the object is banished instead (typically due to a replacement effect) or is not destroyed, the recover 4 part of the ability will not trigger.
+   3. 3 says: "Until the beginning of your next turn, your opponents can’t activate cards with an even reserve cost."
+      1. 0 is even.
+   4. 4 says: "Remove all damage counters from your champion, then deal 20+X unpreventable damage to each champion your opponents control, where X is ten times the amount of damage counters removed this way."
+   5. If the ability's activation is copied, the copies may be negated.
+3. Each cascade effect is represented by a "page" of the Mastery: Inferno, Purgatorio, Paradiso, and Silenzio, as shown below.
+
+{% hint style="success" icon="book-sparkles" %}
+<img src="https://api.gatcg.com/cards/images/variants/6nVEqDroI3.jpg" alt="" data-size="original"> <img src="https://api.gatcg.com/cards/images/variants/jtTZVG6Iyo.jpg" alt="" data-size="original"> <img src="https://api.gatcg.com/cards/images/variants/95Up1SjeA0.jpg" alt="" data-size="original"> <img src="https://api.gatcg.com/cards/images/variants/aOrFveQmFB.jpg" alt="" data-size="original">
+
+_The four pages of the Divine Comedy mastery._
+{% endhint %}
 
 
 

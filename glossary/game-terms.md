@@ -285,6 +285,14 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 
 
+#### Linked / Linked to
+
+1. Linked is a game term that describes when one object has a [Link](keywords-and-abilities.md#link) to another object.
+   1. These objects are said to be _linked to_ eachother.
+2. Each link ability can only directly link one object to another. If the other object in the link also has one or more links to other objects (due to other Link abilities), those objects would not also become linked to the new linked object. E.g., If objects A and B are linked, and objects B and C are linked, objects A and C do not become linked; there is no implied link between objects A and C.
+
+
+
 #### Load
 
 1. "Load" is a player action that means to take a card from the zone it is currently in and move it underneath another card. The card on top is considered "loaded" with that card and the card that is being put underneath becomes part of the "loaded cards" underneath that card.&#x20;

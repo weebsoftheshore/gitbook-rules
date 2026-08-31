@@ -13,6 +13,14 @@ To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~
 To check out the rulebook and the full list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).
 
 \
+August 31st, 2026
+
+* Added missing Dante Mastery ([Divine Comedy](game-mechanics/game-mechanics-mastery.md#divine-comedy))
+* Added [Linked/Linked to](glossary/game-terms.md#linked-linked-to) clarification as a game term
+  * Objects can only be directly linked, not transitively linked. E.g., objects A and B are linked, objects B and C are linked, A is not linked with C.
+
+\
+\
 August 24th, 2026
 
 * Small clarification added regarding ending combat with [Break the Line](https://index.gatcg.com/edition/break-the-line-prd) at the [End fof Combat Step](game-mechanics/game-mechanics-turn-order/turn-order-combat-phase/combat-phase-end-of-combat-step.md) has been added
