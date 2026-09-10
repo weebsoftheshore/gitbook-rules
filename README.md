@@ -12,6 +12,12 @@ To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~
 
 To check out the rulebook and the full list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).
 
+
+
+September 10th, 2026
+
+* Slight clarification with [Spellshroud](glossary/keywords-and-abilities.md#spellshroud) to be consistent with the restrictions on targeting of Omnishroud.
+
 \
 August 31st, 2026
 
