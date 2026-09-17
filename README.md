@@ -10,7 +10,19 @@ IMPORTANT LINKS:
 \
 To download the full PDF of the rulebook, [click here](https://rules.gatcg.com/~gitbook/pdf?limit=150).
 
-To check out the rulebook and the full list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).
+To check out the rulebook and the exact list of changes via GitHub, [click here](https://github.com/weebsoftheshore/gitbook-rules).
+
+
+
+September 17th, 2026
+
+* Added explicit clarification regarding control of Intents
+* Moved element identity clarification to general rules in the Champion section
+* Updated Shifting Currents to state the mastery subtyping correctly
+* Corrected Taunt to generalized "object" phrasing
+* Added clarification to damage counters on allies
+* Slight fix in phrasing for enabling Exalted
+* Typos, various phrasing fixes
 
 
 

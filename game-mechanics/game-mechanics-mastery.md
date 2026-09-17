@@ -87,7 +87,7 @@ _The four pages of the Divine Comedy mastery._
 
 #### ![](../.gitbook/assets/shifting-currents-ambsd.png)![](../.gitbook/assets/bagua-of-cardinal-fate-amb.jpg)
 
-1. Shifting currents is a triggered ability that says, "At the beginning of your end phase, you may change the direction of your Shifting Currents to a different direction of your choice." This ability is behind a restriction ability of "Kongming Bonus."
+1. Shifting currents is Mage Spell mastery with a Kongming Bonus restricted triggered ability that says, "At the beginning of your end phase, you may change the direction of your Shifting Currents to a different direction of your choice."
 2. Shifting Currents has four modes that may be chosen. Each mode is represented as a "direction" of either North, South, East, or West. Shifting Currents can only be set to one mode at a time, and changing the mode will overwrite the previous mode.
    1. The starting mode is always "North."
    2. Only one mode can be chosen at a time.
