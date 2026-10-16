@@ -53,6 +53,7 @@ For activation properties, the default state is the null version for each of the
 * Prepared (or not Prepared)
 * Preserved (or not Preserved)
 * Ephemeral (or not Ephemeral)
+* Marked (or Unmarked)
 
 {% hint style="info" %}
 Objects will default to being Awake. For all other state pairs among the listed properties, the property will be "off" (or non- / un- ) by default.

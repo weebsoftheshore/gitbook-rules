@@ -313,6 +313,14 @@ Combat damage is any damage dealt directly by units during combat based on attac
 
 
 
+#### Marked
+
+1. Marked is a property of an object. Objects may be Marked by effects and are Unmarked by default.
+2. If an object is Marked, it will stop being marked as a state-based effect at the beginning of that object's controller's next turn.
+   1. Losing the Marked property is not a trigger; players will not be given Opportunity.
+
+
+
 #### Modes
 
 1. Modes are effects that are listed on a card or effect that give two or more effect options. Modes may be set or changed depending on the game state, or may require a player to choose one or more modes if a card or effect were to resolve. Cards and abilities with these modes can be called modal.

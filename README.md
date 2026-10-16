@@ -14,6 +14,12 @@ To check out the rulebook and the exact list of changes via GitHub, [click here]
 
 
 
+October 16th, 2026
+
+* Added entries for taking extra turns and the marked state for DTR Alter release.
+
+
+
 September 17th, 2026
 
 * Added explicit clarification regarding control of Intents
